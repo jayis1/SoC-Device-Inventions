@@ -18,6 +18,7 @@ Every device here is designed with these principles:
 || 1 | Neuro Sense Puck | ESP32-C6 | Wearable multi-modal environment sensor with on-device ML inference |
 || 2 | Canopy Listener | RP2040 | Solar-powered acoustic biodiversity monitor with LoRa uplink and GPS timestamping |
 || 3 | Brew Sense | STM32L476RG | Precision fermentation monitor with vibrating-tube densitometer, CO₂, pH, and BLE/Wi-Fi uplink |
+|| 4 | Scribe Nib | ESP32-S3 | Pen-clip smart handwriting digitizer with 9-axis IMU, on-device CNN recognition, and BLE HID keyboard |
 
 ## Structure
 
