@@ -20,6 +20,7 @@ Every device here is designed with these principles:
 || 3 | Brew Sense | STM32L476RG | Precision fermentation monitor with vibrating-tube densitometer, CO₂, pH, and BLE/Wi-Fi uplink |
 || 4 | Scribe Nib | ESP32-S3 | Pen-clip smart handwriting digitizer with 9-axis IMU, on-device CNN recognition, and BLE HID keyboard |
 || 5 | Flux Ring | nRF52840 | Finger-worn magnetic field explorer with haptic + LED feedback, tilt-compensated compass, and BLE spatial mapping |
+|| 6 | Tremor Tile | RP2040 | Solar-powered structural vibration monitor with ultra-low-noise accelerometer, on-device FFT analysis, anomaly detection, and LoRa uplink |
 
 ## Structure
 
