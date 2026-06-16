@@ -25,6 +25,7 @@ Every device here is designed with these principles:
 || 8 | Echo Mote | ESP32-S3 | Pocket-sized room acoustic analyzer with stereo MEMS mic array, swept-sine speaker output, on-device FFT, RT60/clarity/room-mode detection, and BLE/Wi-Fi reporting |
 || 9 | Soil Whisper | STM32WL55JC | Solar-powered agricultural soil intelligence probe with multi-depth moisture, NPK ion-selective electrodes, pH, temperature, and LoRaWAN uplink |
 || 10 | Mycelium Node | ESP32-C6-MINI-1 | Mushroom fruiting chamber environmental controller with multi-zone temp/humidity/CO₂ sensing, PID-controlled actuators, growth phase scheduling, and WiFi/BLE remote monitoring |
+|| 11 | Melody Sprite | RP2040 | Handheld 8-voice FM synthesizer with capacitive touch keyboard, real-time pot control, I2S audio output, OLED display, step sequencer, and BLE MIDI |
 
 ## Structure
 
