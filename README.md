@@ -27,6 +27,7 @@ Every device here is designed with these principles:
 || 10 | Mycelium Node | ESP32-C6-MINI-1 | Mushroom fruiting chamber environmental controller with multi-zone temp/humidity/CO₂ sensing, PID-controlled actuators, growth phase scheduling, and WiFi/BLE remote monitoring |
 || 11 | Melody Sprite | RP2040 | Handheld 8-voice FM synthesizer with capacitive touch keyboard, real-time pot control, I2S audio output, OLED display, step sequencer, and BLE MIDI |
 || 12 | Therma Weave | ESP32-C3 | Multi-zone heated textile controller with PID control, 8-channel NTC thermistor monitoring, activity-adaptive heating, BLE smartphone control, OLED display, and triple-redundant safety watchdog |
+|| 13 | Spectra Charm | STM32G491RET6 + ESP32-C3 | Pocket UV-Vis spectrophotometer with AS7343 10-channel sensor, broadband+UV LED sweep, 128-point spectral deconvolution, 200-compound library matching, Beer-Lambert quantification, and BLE/Wi-Fi reporting |
 
 ## Structure
 
