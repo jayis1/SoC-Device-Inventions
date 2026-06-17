@@ -29,6 +29,7 @@ Every device here is designed with these principles:
 || 12 | Therma Weave | ESP32-C3 | Multi-zone heated textile controller with PID control, 8-channel NTC thermistor monitoring, activity-adaptive heating, BLE smartphone control, OLED display, and triple-redundant safety watchdog |
 || 13 | Spectra Charm | STM32G491RET6 + ESP32-C3 | Pocket UV-Vis spectrophotometer with AS7343 10-channel sensor, broadband+UV LED sweep, 128-point spectral deconvolution, 200-compound library matching, Beer-Lambert quantification, and BLE/Wi-Fi reporting |
 || 14 | Phase Scope | STM32G491RET6 | Handheld 3-phase power quality analyzer with galvanically-isolated voltage/current inputs, on-device FFT harmonic analysis, transient capture, phasor diagram OLED, BLE streaming, and SD card logging |
+| 15 | Ping Caliper | STM32G474RET6 + ESP32-C3 | Pocket ultrasonic thickness gauge & flaw detector with HV GaN pulser, TGC receiver, 5 Msps A-scan capture, 60+ material velocity database, echo-to-echo through-coating mode, SD logging, and BLE/Wi-Fi streaming to a phone app |
 
 ## Structure
 
