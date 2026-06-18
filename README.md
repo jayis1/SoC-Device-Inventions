@@ -31,6 +31,7 @@ Every device here is designed with these principles:
 || 14 | Phase Scope | STM32G491RET6 | Handheld 3-phase power quality analyzer with galvanically-isolated voltage/current inputs, on-device FFT harmonic analysis, transient capture, phasor diagram OLED, BLE streaming, and SD card logging |
 | 15 | Ping Caliper | STM32G474RET6 + ESP32-C3 | Pocket ultrasonic thickness gauge & flaw detector with HV GaN pulser, TGC receiver, 5 Msps A-scan capture, 60+ material velocity database, echo-to-echo through-coating mode, SD logging, and BLE/Wi-Fi streaming to a phone app |
 | 16 | Echo Trap | ESP32-S3-WROOM-1 | Solar-powered acoustic insect trap with dual ICS-43434 MEMS mics, on-device int8 1D-CNN wingbeat species classifier (12 classes), UV LED lure, suction fan capture, LoRaWAN uplink, and field deployment for precision agriculture pest monitoring |
+| 17 | Sap Watch | STM32WL55JC | Solar-powered trunk-mounted sap-flow sensor using the heat-ratio method with 3-needle probe, 24-bit ADS122U04 ADC, wounding-corrected sap-flux computation, drought-stress anomaly detection, and LoRaWAN uplink for forestry research and irrigation scheduling |
 
 ## Structure
 
