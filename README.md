@@ -34,6 +34,7 @@ Every device here is designed with these principles:
 | 17 | Sap Watch | STM32WL55JC | Solar-powered trunk-mounted sap-flow sensor using the heat-ratio method with 3-needle probe, 24-bit ADS122U04 ADC, wounding-corrected sap-flux computation, drought-stress anomaly detection, and LoRaWAN uplink for forestry research and irrigation scheduling |
 | 18 | Pulse Hound | ESP32-S3-WROOM-1 | Pocket RF signal hunter with AD8318 1 MHz–8 GHz log detector, 28BYJ-48 motorized direction-finding antenna, geiger-counter audio feedback, OLED spectrum waterfall, signal classification, BLE streaming, and SD card logging for bug sweeping and RF interference hunting |
 | 19 | Mussel Watch | nRF52840 + SX1262 | Submersible bivalve biomonitoring sensor that clips onto a living mussel, measures valve-gape angle via DRV5053 Hall sensor + ADS1115 ADC, combines with DS18B20 water temp, Atlas DO dissolved oxygen, MS5837 depth, anomaly detection (closure events, rhythm deviation, multi-mussel stress), and LoRaWAN uplink for biological early-warning water-quality monitoring |
+| 20 | Aero Reed | ESP32-S3-WROOM-1 | Pocket-sized breath-controlled electronic wind instrument (EWI) with 14 capacitive-touch saxophone fingering pads, dual MP3V5004G breath + FSR-402 lip/bite pressure sensing, ICM-42688-P IMU tilt expression, 16-voice wavetable synth with bore resonator, I2S PCM5102A stereo audio, MAX98357A speaker, OLED display, 8 NVS-stored patches, and simultaneous BLE + USB MIDI |
 
 ## Structure
 
