@@ -33,6 +33,7 @@ Every device here is designed with these principles:
 | 16 | Echo Trap | ESP32-S3-WROOM-1 | Solar-powered acoustic insect trap with dual ICS-43434 MEMS mics, on-device int8 1D-CNN wingbeat species classifier (12 classes), UV LED lure, suction fan capture, LoRaWAN uplink, and field deployment for precision agriculture pest monitoring |
 | 17 | Sap Watch | STM32WL55JC | Solar-powered trunk-mounted sap-flow sensor using the heat-ratio method with 3-needle probe, 24-bit ADS122U04 ADC, wounding-corrected sap-flux computation, drought-stress anomaly detection, and LoRaWAN uplink for forestry research and irrigation scheduling |
 | 18 | Pulse Hound | ESP32-S3-WROOM-1 | Pocket RF signal hunter with AD8318 1 MHz–8 GHz log detector, 28BYJ-48 motorized direction-finding antenna, geiger-counter audio feedback, OLED spectrum waterfall, signal classification, BLE streaming, and SD card logging for bug sweeping and RF interference hunting |
+| 19 | Mussel Watch | nRF52840 + SX1262 | Submersible bivalve biomonitoring sensor that clips onto a living mussel, measures valve-gape angle via DRV5053 Hall sensor + ADS1115 ADC, combines with DS18B20 water temp, Atlas DO dissolved oxygen, MS5837 depth, anomaly detection (closure events, rhythm deviation, multi-mussel stress), and LoRaWAN uplink for biological early-warning water-quality monitoring |
 
 ## Structure
 
