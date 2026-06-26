@@ -693,4 +693,4 @@ MIT — build it, chase it, improve it. See repo root LICENSE.
 
 ---
 
-*Invented as device #26 in the SoC Device Inventions collection.*
+*Invented as device #28 in the SoC Device Inventions collection.*
