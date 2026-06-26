@@ -23,16 +23,17 @@
  static const int8_t W[NCLASS][NFEAT] = {
      /* CG  — rewards high slow_tail(f6,f13), sharp rise(low f4), strong
       * E sign(f9), high coherence(f7,f14), high zc/rise ratio(f11) */
-     {  0,   0,  10,   0,  -20,  12,  28,  16,  -6,  20,   0,  20,   0,  20,  16,  -4 },
-     /* IC  — rewards broad rise(high f4), low slow tail(neg f6),
-      * weak/zero E sign(neg f9), lower coherence(neg f7), high centroid(f8) */
-     {  0,   0,  -4,   0,   16,   8, -16,  -8,  12, -10,   0,  -4,   0, -12,  -8,   8 },
+     {  0,   0,  10,   0,  -20,  12,  28,  16,  -6,  20,   8,  20,   0,  20,  16,  -4 },
+     /* IC  — rewards moderate rise(f4), low-ish slow tail(neg f6),
+      * weak E sign(neg f9), lower coherence(neg f7), high centroid(f8),
+      * high peak amplitude(f10) to distinguish from weak CC */
+     {  0,   0,  -2,   0,   12,   6,  -8,  -4,  16,  -8,  16,   0,   0,  -8,  -4,  12 },
      /* CC  — rewards very low slow tail(very neg f6), very broad(high f4),
-      * zero E sign(neg f9), low coherence(neg f7) */
-     {  0,   0,  -8,   0,   24,   4, -24, -16,   6, -16,   0,  -8,   0, -20, -16,   2 },
+      * zero E sign(neg f9), low coherence(neg f7), LOW amplitude(neg f10) */
+     {  0,   0,  -8,   0,   24,   4, -24, -16,   6, -16, -16,  -8,   0, -20, -16,   2 },
  };
 
- static const int8_t bias[NCLASS] = { 4, 0, -8 };
+ static const int8_t bias[NCLASS] = { 4, 2, -4 };
 
 void classify_init(void) { /* nothing — weights are const */ }
 

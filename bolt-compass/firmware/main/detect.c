@@ -238,7 +238,7 @@ int detect_sferic(ring_t *r, sferic_t *out)
     out->feat[9]  = (float)out->e_sign;                   /* -1,0,+1 */
     out->feat[10] = sqrtf(peak_e) / 1000.0f;              /* peak amplitude */
     out->feat[11] = out->rise_us > 0 ? (out->zero_cross_us / out->rise_us) / 10.0f : 0;
-    out->feat[12] = out->peak_ew / (out->peak_ns + 1e-3f);/* tan(bearing) */
+    out->feat[12] = out->peak_ew / (out->peak_ns + 100.0f);/* tan(bearing), clamped */
     out->feat[13] = out->slow_tail_ratio * 10.0f;
     out->feat[14] = out->loop_coherence * 2.0f - 1.0f;
     out->feat[15] = out->spectral_centroid_khz / 5.0f;

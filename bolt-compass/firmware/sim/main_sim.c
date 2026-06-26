@@ -120,10 +120,12 @@ int main(void)
 
     for (int c = 0; c < ncases; c++) {
         ring_reset();
+        detect_init();   /* reset debounce + floor between cases */
         inject_sferic(cases[c].brg, cases[c].dist, cases[c].type, &model);
 
         sferic_t sf;
-        if (!detect_sferic(&g_ring, &sf)) {
+        int r = detect_sferic(&g_ring, &sf);
+        if (!r) {
             printf("case %d: MISS (no detection)\n", c);
             continue;
         }
