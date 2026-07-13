@@ -6,6 +6,8 @@
 #define RADIOMETRY_H
 
 #include <stdint.h>
+#include <stdbool.h>
+#include "stm32g474_conf.h"
 #include "detector.h"
 
 typedef struct {

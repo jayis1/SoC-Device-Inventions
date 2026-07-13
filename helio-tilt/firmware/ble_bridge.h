@@ -8,6 +8,7 @@
 #include "radiometry.h"
 #include "solar_pos.h"
 #include <stdint.h>
+#include <stdbool.h>
 
 /* Initialize UART1 to ESP32-C3 (921600 baud) */
 void ble_bridge_init(void);
