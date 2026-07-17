@@ -238,3 +238,7 @@ void ble_service_notify_status(uint8_t status, uint8_t battery) {
         ble_gatts_notify_custom(conn_handle, 0, om);
     }
 }
+
+bool ble_service_is_connected(void) {
+    return client_connected;
+}
