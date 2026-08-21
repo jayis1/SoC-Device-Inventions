@@ -2,15 +2,15 @@
 
 A curated collection of novel System-on-Chip device designs — each invented from the ground up with full schematics, firmware, and documentation. A new device drops every 24 hours.
 
-## These 57 nodes now form one greater system
+## Every invention becomes a node in one greater system
 
 > ### [Explore unified TREE →](https://github.com/jayis1/unified-TREE)
 >
-> **Every design in this repository is a node in unified TREE.** The 57 nodes interoperate through four functional roles—**Observe, Reason, Act, and Coordinate**—to become complete multi-device deployments.
+> **Every current and future design in this repository is a node in unified TREE.** The growing node fleet interoperates through four functional roles—**Observe, Reason, Act, and Coordinate**—to become complete multi-device deployments.
 
 The unified project provides:
 
-- a [registry containing all 57 SoC nodes](https://github.com/jayis1/unified-TREE/blob/main/devices.json);
+- a [growing registry containing every SoC node](https://github.com/jayis1/unified-TREE/blob/main/devices.json);
 - a [shared device protocol](https://github.com/jayis1/unified-TREE/tree/main/protocol) for telemetry, findings, commands, feedback, health, and policy;
 - a [unified node architecture and complete integration guide](https://github.com/jayis1/unified-TREE/blob/main/README.md); and
 - validation tooling that detects missing devices, broken role assignments, and disconnected node links.
