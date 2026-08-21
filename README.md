@@ -2,6 +2,21 @@
 
 A curated collection of novel System-on-Chip device designs — each invented from the ground up with full schematics, firmware, and documentation. A new device drops every 24 hours.
 
+## These inventions now form one greater system
+
+> ### [Explore the Unified Four-Node System →](https://github.com/jayis1/daily-ideas/tree/feat/four-node-platform/systems)
+>
+> The **Daily Ideas Unified System** connects every design in this repository through four cooperating roles—**Observe, Reason, Act, and Coordinate**—so individual instruments, sensors, controllers, and communication nodes can become complete multi-device deployments.
+
+The unified project provides:
+
+- a [registry containing all 57 SoC designs](https://github.com/jayis1/daily-ideas/blob/feat/four-node-platform/systems/devices.json);
+- a [shared device protocol](https://github.com/jayis1/daily-ideas/tree/feat/four-node-platform/systems/protocol) for telemetry, findings, commands, feedback, health, and policy;
+- a [four-node architecture and complete integration guide](https://github.com/jayis1/daily-ideas/blob/feat/four-node-platform/systems/README.md); and
+- validation tooling that detects missing devices, broken role assignments, and disconnected node links.
+
+This repository remains the canonical source for each device's schematics, firmware, BOM, scripts, and build documentation. The [unified-system repository](https://github.com/jayis1/daily-ideas/tree/feat/four-node-platform) is the composition layer that connects them into a larger working whole.
+
 ## Philosophy
 
 Every device here is designed with these principles:
