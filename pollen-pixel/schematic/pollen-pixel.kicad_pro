@@ -1,0 +1,57 @@
+{
+  "board": {
+    "active_layer": 0,
+    "visible_layers": "fffffff_ffffffff",
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.2,
+        "min_track_width": 0.2,
+        "min_via_diameter": 0.45,
+        "min_via_drill": 0.2
+      }
+    }
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "pollen-pixel.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.2
+      },
+      {
+        "name": "CAMERA",
+        "clearance": 0.2,
+        "track_width": 0.18,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "name": "POWER_5V",
+        "clearance": 0.25,
+        "track_width": 0.6,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      }
+    ]
+  },
+  "pcbnew": {
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "page_layout_descr_file": ""
+  }
+}

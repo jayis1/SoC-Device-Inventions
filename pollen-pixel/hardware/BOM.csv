@@ -1,0 +1,37 @@
+Item,Part Number,Description,Quantity,Unit Price (USD),Total Price (USD),Supplier,Package/Footprint
+1,ESP32-S3-WROOM-1-N8R8,Main SoC module with Wi-Fi/BLE + 8MB flash + 8MB PSRAM,1,4.90,4.90,Espressif/LCSC,Module
+2,HM0360,320x320 ultra-low-power monochrome camera sensor,1,3.10,3.10,Himax/DigiKey,WLCSP breakout or module
+3,24BYJ-BIPOLAR,Miniature bipolar stepper for adhesive tape advance,1,2.20,2.20,Generic/AliExpress,24BYJ can-stack
+4,DRV8834,Microstepping stepper driver,1,1.60,1.60,TI/DigiKey,HTSSOP-16
+5,MF50151V1,5 V radial micro blower,1,3.80,3.80,Sunon/LCSC,50x50x15 mm
+6,SDP810-500PA,Differential pressure sensor for flow estimation,1,8.50,8.50,Sensirion/DigiKey,DFN
+7,LMV358,Slit pressure front-end / blower current monitor,1,0.32,0.32,TI/LCSC,SOIC-8
+8,SH1106-1.3,128x64 OLED display,1,2.60,2.60,Generic,Module
+9,MicroSD-socket,Push-push microSD socket,1,0.60,0.60,Amphenol/LCSC,SMD
+10,PCF85063A,RTC for timestamping sample strips,1,0.55,0.55,NXP/LCSC,TSSOP-8
+11,BME280,Ambient temperature humidity pressure sensor,1,1.20,1.20,Bosch/LCSC,LGA
+12,MCP73831T-2ACI,Single-cell Li-ion charger,1,0.68,0.68,Microchip/DigiKey,SOT-23-5
+13,TPS63031,3.3 V buck-boost regulator,1,2.25,2.25,TI/DigiKey,QFN-20
+14,MT3608,5 V boost converter for blower + LEDs,1,0.24,0.24,Generic/LCSC,SOT-23-6
+15,TPS7A2033PDBV,Low-noise 3.3 V analog LDO for camera/pressure sensor,1,0.42,0.42,TI/LCSC,SOT-23-5
+16,405nm-LED-3535,UV excitation LED for sporopollenin fluorescence,2,0.48,0.96,Luminus/LCSC,3535
+17,White-LED-2835,High-CRI white illumination LED,2,0.09,0.18,Generic/LCSC,2835
+18,AO3400A,NMOS for LED/blower switching,4,0.07,0.28,AOS/LCSC,SOT-23
+19,74LVC1T45,Camera XCLK level translation / buffer,1,0.12,0.12,Nexperia/LCSC,SOT-23-6
+20,USB-C-16P,USB-C connector for charging and serial console,1,0.42,0.42,Generic/LCSC,SMD
+21,LP503562,3.7 V 2000 mAh LiPo cell,1,4.80,4.80,Generic,Pack
+22,Button-tact,Navigation buttons,3,0.08,0.24,Generic/LCSC,SMD
+23,RGB-LED-5050,Status LED,1,0.14,0.14,Generic/LCSC,5050
+24,ESD5Z5V0,USB ESD diode,2,0.06,0.12,Onsemi/LCSC,SOD-523
+25,FFC-24-0.5,24-pin camera FFC connector,1,0.35,0.35,Generic/LCSC,SMD
+26,Imaging-lens-M12,M12 4x microscope lens with 18 mm WD,1,5.50,5.50,Arducam/AliExpress,M12
+27,Quartz-32k,32.768 kHz RTC crystal,1,0.10,0.10,Generic/LCSC,3215
+28,Adhesive-tape-cassette,Replaceable impaction tape cassette (PET + silicone adhesive),1,1.20,1.20,Custom,3D printed + tape
+29,Slit-nozzle,0.8 x 8 mm stainless inlet slit,1,0.70,0.70,Custom,laser-cut
+30,0603-passives,Resistors capacitors beads pull-ups,75,0.02,1.50,Generic/LCSC,0603
+31,PCB-4layer,4-layer PCB 88 x 58 mm,5,0.75,3.75,JLCPCB,Custom
+32,Enclosure-PETG,3D printed enclosure with optical baffle and tape cassette holder,1,0.00,0.00,DIY,Custom
+33,M2-fasteners,M2 screws nuts brass inserts,20,0.03,0.60,Generic,Metric
+34,Fan-gasket,Silicone blower gasket and foam light seals,1,0.50,0.50,DIY,Custom
+35,Calibration-slide,10 um dot target + fluorescent bead reference,1,3.00,3.00,Custom,Glass slide
+,,TOTAL,,,53.18,
