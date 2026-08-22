@@ -1,0 +1,36 @@
+Item,Part Number,Description,Quantity,Unit Price (USD),Total Price (USD),Supplier,Package/Footprint
+1,ESP32-C6-WROOM-1-N8,Wi-Fi 6 + BLE SoC module,1,3.60,3.60,Espressif/LCSC,Module
+2,OPA320AIDBVR,Rail-to-rail op-amp for piezo front-end,1,0.62,0.62,TI/LCSC,SOT-23-5
+3,LIS2DW12TR,Low-power 3-axis accelerometer,1,0.78,0.78,ST/LCSC,LGA-12
+4,SHT45,Ambient temp/humidity sensor,1,3.20,3.20,Sensirion/DigiKey,DFN
+5,TMAG5273A1,3-axis Hall sensor for valve angle sensing,1,1.45,1.45,TI/DigiKey,WQFN
+6,MAX31865ATP+,RTD-to-digital converter for PT1000 #1,1,4.10,4.10,Analog Devices/DigiKey,TQFN
+7,MAX31865ATP+,RTD-to-digital converter for PT1000 #2,1,4.10,4.10,Analog Devices/DigiKey,TQFN
+8,DS3231SN,Temperature-compensated RTC,1,2.15,2.15,ADI/LCSC,SOIC-16
+9,SH1106-1.3,128x64 OLED display module,1,2.60,2.60,Generic,Module
+10,MicroSD-Socket,Push-push microSD socket,1,0.58,0.58,Amphenol/LCSC,SMD
+11,TPS62162DSG,3.3 V buck regulator,1,1.32,1.32,TI/LCSC,WSON-8
+12,MCP73871-2CCI,LiFePO4/USB power-path charger,1,2.38,2.38,Microchip/DigiKey,QFN-20
+13,TPS22918DBVR,Load switch for sensor rail,1,0.18,0.18,TI/LCSC,SOT-23-5
+14,SMFJ14A,Input TVS diode,1,0.28,0.28,Littelfuse/LCSC,DO-214AA
+15,MF-R050,Resettable input fuse,1,0.19,0.19,Bourns/LCSC,1812
+16,AO3400A,Low-side MOSFET for buzzer / status loads,3,0.06,0.18,AOS/LCSC,SOT-23
+17,PT1000-ClassB,Pipe strap RTD sensor,2,2.80,5.60,TE/Generic,Probe
+18,Piezo-Film-Strip,Clamp-on structure-borne acoustic sensor,1,2.40,2.40,Measurement Specialties/Generic,Film strip
+19,Magnet-N52-Disc,Valve handle magnet,1,0.18,0.18,Generic,6x2 mm
+20,LiFePO4-14500,3.2 V backup cell 600 mAh,1,3.90,3.90,EEMB/Generic,Cell
+21,USB-C-16P,Aux power / service connector,1,0.42,0.42,Generic/LCSC,SMD
+22,Button-tact,Tactile buttons,2,0.08,0.16,Generic/LCSC,SMD
+23,RGB-LED-5050,Tri-color status LED,1,0.12,0.12,Generic/LCSC,5050
+24,Magnetic-Buzzer-3V,Audible alarm,1,0.42,0.42,Generic/LCSC,12 mm
+25,JST-GH-4,RTD / remote sensor connectors,3,0.28,0.84,JST/LCSC,TH/SMD
+26,CR1220-Holder,RTC backup battery holder,1,0.24,0.24,Keystone/DigiKey,TH
+27,0603-passives,Resistors/capacitors/beads/pullups,85,0.02,1.70,Generic/LCSC,0603
+28,Terminal-Block-2P,12 V field power connector,1,0.22,0.22,Generic/LCSC,3.5 mm
+29,PCB-4layer,4-layer PCB 70 x 50 mm,5,0.70,3.50,JLCPCB,Custom
+30,Clamp-PETG,3D printed clamp and electronics pod,1,0.00,0.00,DIY,Custom
+31,Silicone-Pad,Thermal / contact pads for pipe coupling,2,0.35,0.70,DIY,Custom
+32,M2-Fasteners,Screws, inserts, nuts,10,0.04,0.40,Generic,Metric
+33,Thermal-Grease-Pad,RTD interface pad,2,0.20,0.40,DIY,Custom
+34,Conformal-Coat,Humidity protection for crawlspace installs,1,0.50,0.50,MG Chemicals,Consumable
+,,TOTAL,,,46.41,
