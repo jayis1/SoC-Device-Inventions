@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/pipe_halo_demo.dir/link.d CMakeFiles/pipe_halo_demo.dir/src/main.c.o CMakeFiles/pipe_halo_demo.dir/src/sensors.c.o CMakeFiles/pipe_halo_demo.dir/src/dsp.c.o CMakeFiles/pipe_halo_demo.dir/src/classifier.c.o -o pipe_halo_demo
