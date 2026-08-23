@@ -1,0 +1,37 @@
+Item,Part Number,Description,Quantity,Unit Price (USD),Total Price (USD),Supplier,Package/Footprint
+1,ESP32-S3-WROOM-1-N8R8,Main SoC module with Wi-Fi/BLE + 8MB flash + 8MB PSRAM,1,4.90,4.90,Espressif/LCSC,Module
+2,SHT45-DIS-B,Chamber humidity and temperature sensor,1,4.35,4.35,Sensirion/DigiKey,DFN
+3,SHT45-DIS-B,Ambient humidity and temperature sensor,1,4.35,4.35,Sensirion/DigiKey,DFN
+4,TMP117AIDRVR,Leaf contact temperature sensor,1,1.85,1.85,TI/DigiKey,WSON-6
+5,AS7341,11-channel spectral sensor for PAR trend proxy,1,3.65,3.65,AMS/LCSC,QFN
+6,INA219AIDCNR,High-side current/power monitor,1,0.95,0.95,TI/LCSC,SOT-23-8
+7,DRV2605L,Haptic driver,1,1.20,1.20,TI/LCSC,DFN-10
+8,SSD1306-128x64,1.3 inch OLED display module,1,2.40,2.40,Generic,Module
+9,MicroSD-socket,Push-push microSD socket,1,0.60,0.60,Amphenol/LCSC,SMD
+10,MCP73831T-2ACI,Single-cell Li-ion charger,1,0.68,0.68,Microchip/DigiKey,SOT-23-5
+11,TPS63031,3.3 V buck-boost regulator,1,2.25,2.25,TI/DigiKey,QFN-20
+12,TPS61023,5 V boost regulator for blower and servo,1,1.35,1.35,TI/LCSC,WSON-6
+13,PCF85063A,RTC for timestamped field logging,1,0.55,0.55,NXP/LCSC,TSSOP-8
+14,TCA9546A,Optional I2C mux for dual SHT45 sensors,1,0.78,0.78,TI/LCSC,TSSOP-16
+15,AO3400A,NMOS low-side blower switch,1,0.07,0.07,AOS/LCSC,SOT-23
+16,AO3407A,PMOS actuator-rail high-side switch,1,0.08,0.08,AOS/LCSC,SOT-23
+17,BSS138,Servo PWM level shifter,1,0.05,0.05,Nexperia/LCSC,SOT-23
+18,Micro-blower-5V,Mini radial blower for chamber purge,1,3.90,3.90,Sunon/Generic,Custom
+19,Micro-servo-5V,Small servo for chamber flap,1,2.20,2.20,Generic,Custom
+20,LiPo-1200mAh,Single-cell battery pack,1,4.20,4.20,Generic,Pack
+21,USB-C-16P,USB-C connector,1,0.42,0.42,Generic/LCSC,SMD
+22,ESD5Z5V0,USB ESD protection diode,2,0.06,0.12,Onsemi/LCSC,SOD-523
+23,RGB-LED-5050,Status LED,1,0.14,0.14,Generic/LCSC,5050
+24,Piezo-buzzer,Audible completion indicator,1,0.22,0.22,Generic,SMD
+25,Tact-switch,User buttons,3,0.08,0.24,Generic/LCSC,SMD
+26,Reed-switch,Clip closure detect,1,0.18,0.18,Generic,THT/SMD
+27,Leaf-switch,Leaf present detect flex switch,1,0.40,0.40,Generic,Flex
+28,Silicone-gasket,Leaf chamber seal set,1,1.20,1.20,Custom,Die cut
+29,Copper-temp-tongue,Leaf contact copper tongue for TMP117,1,0.60,0.60,Custom,FPC/copper
+30,0603-passives,Resistors capacitors ferrites pull-ups,95,0.02,1.90,Generic/LCSC,0603
+31,PCB-4layer,4-layer PCB 92 x 54 mm,5,0.82,4.10,JLCPCB,Custom
+32,Enclosure-PETG,3D printed body and clip jaws,1,0.00,0.00,DIY,Custom
+33,M2-fasteners,Screws brass inserts springs shafts,24,0.03,0.72,Generic,Metric
+34,32k-crystal,RTC crystal,1,0.10,0.10,Generic/LCSC,3215
+35,Flex-cable,Leaf tongue flex interconnect,1,0.45,0.45,Generic,FFC/FPC
+,,TOTAL,,,49.80,
