@@ -1,0 +1,37 @@
+Item,Part Number,Description,Quantity,Unit Price (USD),Total Price (USD),Supplier,Package/Footprint
+1,ESP32-S3-WROOM-1-N8,Wi-Fi + BLE SoC module,1,3.95,3.95,Espressif/LCSC,Module
+2,SDP810-500Pa,Differential pressure sensor,1,12.50,12.50,Sensirion/DigiKey,SMD module
+3,ADS1115IDGST,16-bit ADC for hot-wire bridge,1,1.85,1.85,TI/LCSC,MSOP-10
+4,OPA2388AIDR,Zero-drift dual op-amp for CTA bridge,1,1.05,1.05,TI/LCSC,SOIC-8
+5,TMP117AIDRVR,High-accuracy temperature sensor,2,2.45,4.90,TI/DigiKey,WSON-6
+6,SHT45,Ambient temperature and RH sensor,1,3.20,3.20,Sensirion/DigiKey,DFN
+7,ICS-43434,I2S MEMS microphone,1,1.68,1.68,TDK/InvenSense,DigiKey,LGA
+8,DS3231SN,RTC with crystal compensation,1,2.15,2.15,ADI/LCSC,SOIC-16
+9,SH1106-1.3,128x64 OLED display module,1,2.60,2.60,Generic,Module
+10,MicroSD-Socket,Push-push microSD socket,1,0.58,0.58,Amphenol/LCSC,SMD
+11,MCP73831T-2ACI,Single-cell Li-ion charger,1,0.54,0.54,Microchip/LCSC,SOT-23-5
+12,TPS63031DSKR,3.3 V buck-boost regulator,1,1.48,1.48,TI/LCSC,VSON-10
+13,TPS22916CYFPR,Switched sensor-rail load switch,1,0.24,0.24,TI/LCSC,DSBGA
+14,TLV3691DBVR,Nano-power comparator for probe safety cutout,1,0.48,0.48,TI/LCSC,SOT-23-5
+15,AO3400A,Low-side MOSFET for buzzer / probe cutoff,2,0.06,0.12,AOS/LCSC,SOT-23
+16,USB-C-16P,USB-C power and service connector,1,0.42,0.42,Generic/LCSC,SMD
+17,18650-Holder,Single-cell field-replaceable battery holder,1,0.78,0.78,Keystone/Generic,TH
+18,PTFE-Tubing-2mm,Pressure tubing set,1,0.90,0.90,Generic,2 mm ID
+19,Hotwire-Cartridge,Platinum-coated tungsten hot-wire probe cartridge,2,1.80,3.60,DIY/Generic,Custom
+20,Probe-Tube-SS,3 mm stainless probe tube,1,0.95,0.95,Generic,Custom
+21,Hydrophobic-Vent,PTFE pressure reference vent,1,0.65,0.65,Gore/Generic,Adhesive vent
+22,Magnetic-Buzzer-3V,Audible alarm,1,0.42,0.42,Generic/LCSC,12 mm
+23,RGB-LED-5050,Status LED,1,0.12,0.12,Generic/LCSC,5050
+24,Button-tact,Tactile user buttons,3,0.08,0.24,Generic/LCSC,SMD
+25,JST-GH-4,Probe / thermal harness connector,2,0.28,0.56,JST/LCSC,SMD
+26,CR1220-Holder,RTC backup battery holder,1,0.24,0.24,Keystone/DigiKey,TH
+27,0603-passives,Resistors/capacitors/beads/pullups,110,0.02,2.20,Generic/LCSC,0603
+28,Silicone-Pad-Caps,Thermal contact boots,2,0.30,0.60,DIY,Custom
+29,Copper-Thermal-Tongue,Spring thermal contact paddles,2,0.40,0.80,DIY,Custom
+30,Dust-Mesh,Fine acoustic/probe dust mesh,1,0.18,0.18,Generic,Custom
+31,PCB-4layer,4-layer PCB 95 x 48 mm,5,0.76,3.80,JLCPCB,Custom
+32,3D-Printed-Enclosure,Handheld shell + probe collar,1,0.00,0.00,DIY,Custom
+33,M2-Fasteners,Screws, inserts, nuts,12,0.04,0.48,Generic,Metric
+34,Kapton-Tape,Probe and pad insulation consumable,1,0.30,0.30,Generic,Consumable
+35,Conformal-Coat,Moisture and lint protection,1,0.45,0.45,MG Chemicals,Consumable
+,,TOTAL,,,47.04,

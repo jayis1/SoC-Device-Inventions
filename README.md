@@ -92,6 +92,7 @@ Every device here is designed with these principles:
 || 58 | Pollen Pixel | ESP32-S3-WROOM-1 | Pocket airborne pollen and spore imager with slit-impactor adhesive tape cassette, HM0360 macro camera, dual white + 405 nm fluorescence illumination, on-device morphology/UV-ratio classification (tree/grass/weed pollen, fungal spores, dust), flow-calibrated grains/m³ estimation, OLED + microSD logging, and BLE/Wi-Fi sync for local allergy and crop-disease monitoring |
 || 59 | Pipe Halo | ESP32-C6-WROOM-1-N8 | Clamp-on plumbing freeze and leak sentinel with dual PT1000 pipe-wall RTDs, piezo contact acoustics, LIS2DW12 vibration sensing, TMAG5273 valve-angle magnetometer, freeze/drip/hammer risk scoring, OLED + microSD logging, and BLE/Wi-Fi telemetry for retrofittable home and facility water-damage prevention |
 || 60 | Stoma Clip | ESP32-S3-WROOM-1 | Handheld clamp-on leaf porometer with dual SHT45 humidity sensors, TMP117 leaf-contact temperature tongue, AS7341 light proxy, sealed microchamber humidity-rise analysis, derived stomatal conductance + transpiration proxy + VPD-based water-stress scoring, OLED + microSD logging, and BLE/Wi-Fi sync for irrigation and plant-physiology screening |
+| 61 | Draft Ranger | ESP32-S3-WROOM-1-N8 | Handheld building-envelope air-leak mapper with SDP810 differential pressure sensing, constant-temperature hot-wire crack probe, dual TMP117 surface pads, whistle-detecting I2S MEMS mic, condensation-risk fusion, OLED + microSD logging, and BLE/Wi-Fi reporting for windows, doors, and retrofit audits |
 |
 ## Structure
 

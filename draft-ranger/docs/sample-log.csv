@@ -1,0 +1,5 @@
+mark,pressure_pa,bridge_v,draft_velocity_mps,ambient_temp_c,ambient_rh_pct,frame_temp_c,surface_temp_c,dew_point_c,condensation_margin_c,whistle_hz,whistle_score,leak_severity,seal_health,fault_class
+0,3.2,0.18,0.62,22.1,43.0,19.3,19.8,8.8,10.5,400,0.11,13.0,87.0,SEAL_OK
+1,14.5,0.74,1.73,21.8,47.5,15.1,14.2,10.1,4.1,1800,0.31,52.0,48.0,MINOR_WEATHERSTRIP_GAP
+2,29.0,1.12,2.78,20.9,51.0,11.3,10.4,10.3,0.1,2600,0.48,84.0,16.0,WARPED_FRAME_OR_SASH
+3,8.0,0.3,0.92,22.6,58.0,11.1,10.8,13.8,-3.0,800,0.16,41.0,59.0,CONDENSATION_RISK
