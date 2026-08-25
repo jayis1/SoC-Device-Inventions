@@ -1,0 +1,26 @@
+Item,Reference,Qty,Part,Description,Manufacturer,MPN,Package,Notes
+1,U1,1,ESP32-S3-WROOM-1-N8,Wi-Fi/BLE SoC module,Espressif,ESP32-S3-WROOM-1-N8,Module,Main MCU
+2,U2,1,PCM1808DB,24-bit audio ADC,Texas Instruments,PCM1808DB,SSOP-14,Ultrasonic digitizer
+3,U3,1,OPA1652AIDR,Dual low-noise audio op-amp,Texas Instruments,OPA1652AIDR,SOIC-8,Analog front end
+4,U4,1,TMP117AIDRVR,Digital temperature sensor upstream,Texas Instruments,TMP117AIDRVR,WSON-6,Pipe contact pad
+5,U5,1,TMP117AIDRVR,Digital temperature sensor downstream,Texas Instruments,TMP117AIDRVR,WSON-6,Pipe contact pad
+6,U6,1,SHT45-AD1B-R2,Humidity and temperature sensor,Sensirion,SHT45-AD1B-R2,DFN-4,Ambient compensation
+7,U7,1,DS3231SN,RTC,Analog Devices,DS3231SN,SOIC-16,Timestamp source
+8,U8,1,DRV2605L,Haptic driver,Texas Instruments,DRV2605LDSGR,WSON-8,No-look alerts
+9,U9,1,MCP73831T-2ATI/OT,Li-ion charger,Microchip,MCP73831T-2ATI/OT,SOT-23-5,USB charging
+10,U10,1,TPS63031DSKR,Buck-boost regulator,Texas Instruments,TPS63031DSKR,VSSOP-10,Main 3V3 rail
+11,U11,1,TLV75533PDBVR,Low-noise LDO,Texas Instruments,TLV75533PDBVR,SOT-23-5,Analog rail
+12,U12,1,ADS1115IDGST,16-bit ADC,Texas Instruments,ADS1115IDGST,VSSOP-10,Battery and force monitor
+13,U13,1,TLV3691IDCKR,Nano-power comparator,Texas Instruments,TLV3691IDCKR,SC70-5,AFE clip/fault detect
+14,DS1,1,SH1106 OLED 128x64,I2C OLED display,Generic,SH1106-12864,Module,Front panel UI
+15,J1,1,microSD push-push socket,Storage connector,Hirose,DM3AT-SF-PEJM5,SMD,Logging
+16,FSR1,1,FSR 402 short,Force-sensing resistor,Interlink,30-49649,Flex,Hinge clamp-force sensor
+17,X1,1,27 mm piezo contact disc,Contact ultrasonic transducer,TDK / generic,PIEZO-27MM,Disc,Jaw acoustic pickup
+18,B1,1,Li-ion pouch 2500 mAh,Battery,Generic,LP603450,Pouch,Portable power
+19,Q1,1,AO3400A,Buzzer driver,Alpha & Omega,AO3400A,SOT-23,Low-side FET
+20,Q2,1,AO3400A,Sensor rail switch,Alpha & Omega,AO3400A,SOT-23,Low-side or gate drive
+21,LS1,1,3V magnetic buzzer,Audible alarm,CUI,CMT-1203-SMT-TR,SMD,Alarm feedback
+22,SW1-SW3,3,6 mm tactile switch,Buttons,Generic,TS-1187A,SMD,Mode/mark/route
+23,D1,1,WS2812B-MINI,RGB status LED,Worldsemi,WS2812B-MINI,3535,Status indication
+24,USB1,1,USB-C receptacle,Power and service connector,HRO,TYPE-C-31-M-12,SMD,5V input
+25,MISC,1,Passives + clamp hardware,Resistors capacitors spring copper shoes,Multiple,Multiple,Mixed,See design notes
