@@ -1,0 +1,5 @@
+timestamp,leaf_id,mode,leaf_temp_c,ambient_temp_c,ambient_par_umol,fo,fm,fv_fm,fs,fm_prime,fo_prime,phi_psii,npq,qp,stress_index,diagnosis
+2026-08-26T12:00:00Z,oak-healthy-01,dark_adapted,28.4,27.1,780,118.0,781.0,0.849,428.0,671.0,156.0,0.362,0.164,0.472,13.6,HEALTHY
+2026-08-26T12:03:00Z,pepper-drought-02,rapid,34.7,31.5,1010,132.0,636.0,0.792,396.0,548.0,168.0,0.277,0.161,0.4,23.8,MILD_DROUGHT_STRESS
+2026-08-26T12:06:00Z,lettuce-heat-03,rapid,39.2,35.8,1250,146.0,446.0,0.673,332.0,428.0,184.0,0.224,0.042,0.393,41.4,HEAT_STRESS
+2026-08-26T12:09:00Z,corn-lowN-04,light_adapted,30.1,29.4,920,126.0,724.0,0.826,488.0,624.0,164.0,0.218,0.16,0.296,23.3,NITROGEN_DEFICIENCY

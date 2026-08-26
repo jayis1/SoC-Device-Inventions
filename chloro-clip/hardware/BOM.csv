@@ -1,0 +1,35 @@
+Item,Part Number,Description,Quantity,Unit Price (USD),Total Price (USD),Supplier,Package/Footprint
+1,ESP32-S3-WROOM-1-N8,Wi-Fi + BLE SoC module,1,3.95,3.95,Espressif/LCSC,Module
+2,ADS122C04IPWR,24-bit delta-sigma ADC for fluorescence readout,1,3.10,3.10,TI/LCSC,TSSOP-16
+3,OPA320AIDBVR,Low-bias op-amp for photodiode TIA,1,0.68,0.68,TI/LCSC,SOT-23-5
+4,MCP4725A0T-E/CH,I2C DAC for measuring LED current reference,1,0.74,0.74,Microchip/LCSC,SOT-23-6
+5,TMP117AIDRVR,Leaf contact temperature sensor,1,2.45,2.45,TI/DigiKey,WSON-6
+6,VEML7700,Ambient light sensor,1,1.28,1.28,Vishay/LCSC,ALS package
+7,DS3231SN,RTC with TCXO,1,2.15,2.15,ADI/LCSC,SOIC-16
+8,SH1106-1.3,128x64 OLED display module,1,2.60,2.60,Generic,Module
+9,MicroSD-Socket,Push-push microSD socket,1,0.58,0.58,Amphenol/LCSC,SMD
+10,MCP73831T-2ACI,Single-cell Li-ion charger,1,0.54,0.54,Microchip/LCSC,SOT-23-5
+11,TPS63031DSKR,3.3 V buck-boost regulator,1,1.48,1.48,TI/LCSC,VSON-10
+12,TPS22918DBVR,Quiet switched analog rail load switch,1,0.23,0.23,TI/LCSC,SOT-23-5
+13,AO3400A,Low-side MOSFET for LEDs and buzzer,3,0.06,0.18,AOS/LCSC,SOT-23
+14,XLamp-XPEBWT-L1-0000-00D01,470 nm blue measuring LED,1,1.15,1.15,Cree/DigiKey,3535
+15,NF2W757GR-V3,High-flux saturating flash LED,1,0.92,0.92,Nichia/DigiKey,3030
+16,SFH4715AS,730 nm far-red LED,1,0.96,0.96,OSRAM/DigiKey,3535
+17,BPW34,Silicon photodiode,1,0.82,0.82,Vishay/DigiKey,THT/SMD adapter
+18,Optical-LP-680,680 nm long-pass fluorescence filter,1,4.50,4.50,Edmund/Aliexpress,Custom cut
+19,A3213EUA,Hall switch for clip closure detect,1,0.44,0.44,Allegro/LCSC,SIP-3 or SOT23
+20,USB-C-16P,USB-C power and service connector,1,0.42,0.42,Generic/LCSC,SMD
+21,LiPo-1200mAh,Single-cell LiPo battery,1,5.20,5.20,Generic,Pack
+22,JST-PH-2,Battery connector,1,0.09,0.09,JST/LCSC,TH/SMD
+23,RGB-LED-5050,Status LED,1,0.12,0.12,Generic/LCSC,5050
+24,Magnetic-Buzzer-3V,Audio feedback buzzer,1,0.42,0.42,Generic/LCSC,12 mm
+25,Button-tact,User buttons,2,0.08,0.16,Generic/LCSC,SMD
+26,0603-passives,Resistors/capacitors/filter parts/pullups,96,0.02,1.92,Generic/LCSC,0603
+27,PCB-4layer,4-layer PCB 72 x 42 mm,5,0.64,3.20,JLCPCB,Custom
+28,Clip-Shell,3D-printed clip enclosure,1,0.00,0.00,DIY,Custom
+29,Silicone-Pads,Replaceable leaf pads,2,0.25,0.50,DIY,Custom
+30,Leaf-Spring,Torsion spring for clip force,1,0.38,0.38,Generic,Custom
+31,Flocking-Tape,Optical cavity blackening,1,0.35,0.35,Generic,Consumable
+32,M2-Fasteners,Screws / inserts / nuts,10,0.04,0.40,Generic,Metric
+33,Conformal-Coat,Moisture protection,1,0.45,0.45,MG Chemicals,Consumable
+,,TOTAL,,,41.56,
