@@ -1,0 +1,26 @@
+Item,Reference,Qty,Part,Description,Manufacturer,MPN,Package,Notes
+1,U1,1,STM32G474RET6,170 MHz Cortex-M4F MCU,STMicroelectronics,STM32G474RET6,LQFP-64,Main timing/measurement MCU
+2,U2,1,ESP32-C3-MINI-1,Wi-Fi/BLE companion module,Espressif,ESP32-C3-MINI-1,Module,Wireless bridge
+3,U3,1,ADG1608BRUZ,8:1 analog mux,Analog Devices,ADG1608BRUZ,TSSOP-16,Pair selection
+4,U4,1,THS3201DBVT,Wideband current-feedback op-amp,Texas Instruments,THS3201DBVT,SOT23-5,Reflection receive amp
+5,U5,1,ADCMP600BRJZ,High-speed comparator,Analog Devices,ADCMP600BRJZ,SOT23-6,Threshold timing capture
+6,U6,1,INA186A2IDDFR,Differential amplifier,Texas Instruments,INA186A2IDDFR,SOT23-8,Loop resistance measurement
+7,U7,1,MAX17260SEWL,Fuel gauge,Analog Devices,MAX17260SEWL,WLP,Battery monitoring
+8,U8,1,MCP73831T-2ATI/OT,Li-ion charger,Microchip,MCP73831T-2ATI/OT,SOT-23-5,USB charging
+9,U9,1,TPS61023DRLR,Boost converter,Texas Instruments,TPS61023DRLR,WSON-6,5V pulse-launch rail
+10,U10,1,TPS63031DSKR,Buck-boost regulator,Texas Instruments,TPS63031DSKR,VSSOP-10,Main 3V3 rail
+11,U11,1,TLV75533PDBVR,Low-noise LDO,Texas Instruments,TLV75533PDBVR,SOT-23-5,Analog rail
+12,U12,1,DS3231SN,RTC,Analog Devices,DS3231SN,SOIC-16,Timestamp source
+13,DS1,1,SH1106 OLED 128x64,I2C OLED display,Generic,SH1106-12864,Module,Front-panel UI
+14,J1,1,RJ45 connector,Unshielded 8P8C jack,Amphenol,RJHSE-5080,SMD/TH,Primary cable connector
+15,J2,1,6-way terminal block,Pluggable low-voltage cable input,Phoenix Contact,MC-1-6-G-3.5,TH,Alarm/irrigation/fence wires
+16,J3,2,4 mm banana jack,General test leads,Pomona,73099-0/2,Panel,Clip lead input
+17,J4,1,microSD push-push socket,Storage connector,Hirose,DM3AT-SF-PEJM5,SMD,Logging
+18,F1-F4,4,MF-R050,Resettable PTC fuse,Bourns,MF-R050,Radial/SMD,Per-input protection
+19,D1-D4,4,SMF05C,ESD protector,Littlefuse,SMF05C,SOT23-6,Signal-line protection
+20,D5-D8,4,SMBJ18CA,TVS diode,Bourns,SMBJ18CA,DO-214AA,Outdoor surge protection pads
+21,U13,1,74LVC2G04DC,Dual inverter,Nexperia,74LVC2G04DC,VSSOP-8,Fast pulse launch driver
+22,Q1-Q2,2,AO3400A,N-channel MOSFET,Alpha & Omega,AO3400A,SOT-23,Launch gating and rail switching
+23,B1,1,2200 mAh Li-ion pouch,Battery,Generic,LP603450,Pouch,Portable power
+24,USB1,1,USB-C receptacle,Power/service connector,HRO,TYPE-C-31-M-12,SMD,5V input
+25,MISC,1,Passives and enclosure,Resistors capacitors buttons PCB hardware,Multiple,Multiple,Mixed,See schematic notes

@@ -95,6 +95,7 @@ Every device here is designed with these principles:
 || 61 | Draft Ranger | ESP32-S3-WROOM-1-N8 | Handheld building-envelope air-leak mapper with SDP810 differential pressure sensing, constant-temperature hot-wire crack probe, dual TMP117 surface pads, whistle-detecting I2S MEMS mic, condensation-risk fusion, OLED + microSD logging, and BLE/Wi-Fi reporting for windows, doors, and retrofit audits |
 || 62 | Trap Sage | ESP32-S3-WROOM-1-N8 | Handheld clamp-on steam-trap and cavitation inspector with piezo contact ultrasonics, dual TMP117 pipe pads, clamp-force sensing, on-device burst/cycle/ΔT diagnosis, OLED + haptic alerts, microSD logging, and BLE/Wi-Fi route reporting for industrial steam maintenance |
 || 63 | Chloro Clip | ESP32-S3-WROOM-1-N8 | Pocket PAM chlorophyll fluorometer that clips onto a leaf, drives modulated blue measuring light plus saturating flash and far-red recovery pulses, reads filtered BPW34 fluorescence through an OPA320 + ADS122C04 front end, computes Fo/Fm/Fv/Fm/ΦPSII/NPQ/qP on-device, and reports drought / heat / nutrient stress over OLED, microSD, BLE, and Wi-Fi |
+|| 64 | Line Shepherd | STM32G474RET6 + ESP32-C3-MINI-1 | Pocket TDR cable fault locator and pair mapper that launches protected fast-edge pulses into Ethernet, alarm, irrigation, and fence wiring, timestamps reflections with a high-speed comparator, fuses loop resistance and capacitance balance data, detects opens/shorts/bridge taps/water ingress/split pairs, and exports OLED, microSD, BLE, and Wi-Fi maintenance reports |
 |
 ## Structure
 
