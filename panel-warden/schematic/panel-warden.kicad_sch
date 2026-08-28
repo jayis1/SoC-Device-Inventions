@@ -1,0 +1,42 @@
+kicad_sch (version 20230121) (generator "Hermes Agent")
+
+(uuid 8f8898d2-dc5d-4e70-b76b-0c2eb3f8d4e1)
+(paper "A3")
+(title_block
+  (title "Panel Warden")
+  (company "SoC Device Inventions")
+  (comment 1 "Magnetic partial-discharge and thermal sentinel")
+  (comment 2 "Main SoC: ESP32-S3-WROOM-1-N8")
+)
+
+(text "SHEET 1 — POWER" (at 20 20 0))
+(text "USB-C 5V -> MCP73831 charger -> Li-ion cell -> TPS63070 SYS_3V3" (at 20 28 0))
+(text "SYS_3V3 -> ESP32-S3, OLED, MLX90640, SHT45, TMP117, microSD" (at 20 34 0))
+(text "SYS_3V3 -> AP7333 ANA_3V3 -> ADS131M04, AD8318, OPA356 analog front end" (at 20 40 0))
+(text "MAX17048 fuel gauge on battery rail via I2C" (at 20 46 0))
+
+(text "SHEET 2 — DIGITAL CORE" (at 20 60 0))
+(text "U1 ESP32-S3-WROOM-1-N8" (at 20 68 0))
+(text "GPIO1/2 = I2C SCL/SDA shared by MLX90640, SHT45, TMP117x2, SH1106 OLED" (at 20 74 0))
+(text "GPIO11-14 = SPI2 to ADS131M04" (at 20 80 0))
+(text "GPIO15-18 = SPI3 to microSD" (at 20 86 0))
+(text "GPIO9 = ADC DRDY interrupt" (at 20 92 0))
+(text "GPIO5 = alert LED, GPIO6 = buzzer, GPIO7/8 = front buttons" (at 20 98 0))
+
+(text "SHEET 3 — ANALOG EVENT FRONT END" (at 20 112 0))
+(text "X1 Murata MA40H1S-R -> AC coupling -> OPA356 MFB band-pass 28-65 kHz -> diode envelope -> ADS131M04 CH0" (at 20 120 0))
+(text "RF probe -> 3 dB attenuator -> AD8318 log detector -> RC smoothing -> ADS131M04 CH1" (at 20 126 0))
+(text "CT jack J2 -> burden resistor -> precision rectifier -> 2nd-order low-pass -> ADS131M04 CH2" (at 20 132 0))
+(text "NTC / spare analog / vibration envelope -> ADS131M04 CH3" (at 20 138 0))
+
+(text "SHEET 4 — THERMAL + ENVIRONMENTAL" (at 20 152 0))
+(text "U3 MLX90640 faces panel hardware through IR window" (at 20 160 0))
+(text "U10 SHT45 near ventilation path for enclosure dew-point estimation" (at 20 166 0))
+(text "U11 TMP117 on magnetic contact tongue for cabinet wall temperature" (at 20 172 0))
+(text "U12 TMP117 measures internal air reference" (at 20 178 0))
+
+(text "SHEET 5 — NOTES" (at 20 192 0))
+(text "Keep analog ground star-connected at ADS131M04 reference return" (at 20 200 0))
+(text "Place AD8318 far from TPS63070 inductor; keep RF trace short and guarded" (at 20 206 0))
+(text "Use matte black 8-14 um IR window or aperture tube for MLX90640 stray-radiation control" (at 20 212 0))
+(text "Ultrasonic transducer should be elastomer mounted to avoid cabinet-borne false triggers" (at 20 218 0))

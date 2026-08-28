@@ -1,0 +1,25 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.0,
+        "copper_text_size_v": 1.0,
+        "copper_text_thickness": 0.15,
+        "other_layers_line_width": 0.1,
+        "silk_line_width": 0.12,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15
+      }
+    }
+  },
+  "meta": {
+    "filename": "panel-warden.kicad_pro",
+    "project_name": "panel-warden"
+  },
+  "schematic": {
+    "page_layout_descr_file": ""
+  }
+}

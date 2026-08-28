@@ -1,0 +1,7 @@
+timestamp,asset_id,fault,risk_score,confidence,hotspot_c,background_c,delta_t_c,hotspot_area_px,rise_rate_c_per_hr,ultrasound_db,rf_dbm_equiv,burst_rate_hz,load_corr_a,humidity_pct,ambient_c,contact_c,dewpoint_c,dew_margin_c,note
+2026-08-28T08:00:00Z,MCC-A1,LOOSE_LUG,76.4,0.86,87.2,44.9,42.3,9,5.6,18.0,-53.0,1.6,36.0,42.0,35.0,40.5,20.2,20.3,localized hotspot exceeds expected load correlation; re-torque and inspect lug oxidation
+2026-08-28T08:05:00Z,PV-COMB-2,SURFACE_TRACKING,80.0,0.86,53.1,40.7,12.4,6,2.4,37.5,-45.0,5.9,11.0,94.0,29.0,28.8,28.0,0.8,humid enclosure with sustained discharge signature; clean/replace insulation surfaces
+2026-08-28T08:10:00Z,CHILLER-BKT3,CORONA_PD,48.7,0.79,49.8,43.5,6.3,5,0.8,33.2,-59.0,3.4,8.5,51.0,31.2,34.0,20.1,13.9,partial-discharge hiss detected; inspect sharp edges and air gaps
+2026-08-28T08:15:00Z,WELL-PANEL-7,INTERMITTENT_ARC,84.3,0.93,62.0,31.0,31.0,4,6.9,44.0,-34.0,11.5,14.0,58.0,26.0,29.0,16.8,12.2,RF and ultrasonic bursts coincide; inspect contacts and insulation immediately
+2026-08-28T08:20:00Z,BREAKER-L2,OVERLOAD_HEATING,75.0,0.81,75.0,43.0,32.0,20,4.0,11.0,-63.0,0.7,71.0,39.0,33.0,39.0,17.7,21.3,broad-area heating tracks load; rebalance or derate feeder
+2026-08-28T08:25:00Z,PUMP-HOUSE-1,CONDENSATION_RISK,79.6,0.78,30.7,29.6,1.1,2,0.2,9.0,-68.0,0.1,0.0,98.0,26.0,26.1,25.7,0.4,dew margin is too small for reliable long-term insulation behavior
