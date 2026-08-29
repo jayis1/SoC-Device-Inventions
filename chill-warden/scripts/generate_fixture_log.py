@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import csv
+from pathlib import Path
+
+ROWS = [
+    ["2026-08-29T09:00:00Z", "RTU-17", "cool", 9.8, 67.4, 31.2, 52.0, 8.1, 0.42, 58.0, 34.0, 1620, 8.4, 36.2, "NORMAL", 14.0, "Continue monitoring"],
+    ["2026-08-29T09:12:00Z", "FREEZER-4", "freezer", -13.2, 61.0, 24.0, 84.0, 7.4, 0.58, 60.2, 38.1, 4200, 1.8, 37.0, "DEFROST_ISSUE", 73.0, "Inspect heater termination sensor and ice load"],
+    ["2026-08-29T09:24:00Z", "HP-22", "heat", 18.0, 88.5, 34.5, 48.0, 9.0, 0.61, 71.5, 42.0, 1500, 6.0, 54.0, "AIRFLOW_RESTRICTED", 79.0, "Clean condenser coil and verify fan airflow"],
+    ["2026-08-29T09:36:00Z", "CU-9", "cool", 18.5, 54.0, 29.0, 44.0, 4.1, 0.39, 55.2, 31.0, 1800, 21.0, 25.0, "LOW_CHARGE_SUSPECT", 76.0, "Check charge and inspect for leak signs"],
+    ["2026-08-29T09:48:00Z", "HP-3", "heat", 14.0, 78.0, 30.0, 57.0, 8.4, 1.92, 76.4, 63.0, 1700, 7.0, 48.0, "BEARING_WEAR", 82.0, "Inspect fan and compressor bearings"],
+    ["2026-08-29T10:00:00Z", "WKIN-12", "cool", 3.0, 64.5, 27.0, 65.0, 9.1, 1.20, 66.0, 78.0, 1400, 1.1, 37.5, "LIQUID_SLUGGING", 90.0, "Verify TXV bulb and floodback conditions"],
+    ["2026-08-29T10:12:00Z", "MINI-5", "cool", 11.0, 63.5, 28.5, 50.0, 8.0, 0.47, 59.0, 33.0, 180, 8.0, 35.0, "SHORT_CYCLING", 81.0, "Check thermostat placement and anti-short-cycle control"],
+]
+
+HEADER = [
+    "timestamp", "asset_id", "mode", "suction_c", "discharge_c", "ambient_c", "rh_pct",
+    "current_a", "vibration_g", "acoustic_db", "piezo_db", "cycle_period_s",
+    "superheat_proxy_c", "condenser_split_c", "fault", "risk_score", "action"
+]
+
+
+def main() -> int:
+    out = Path(__file__).resolve().parents[1] / "docs" / "sample-log.csv"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with out.open("w", newline="") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(HEADER)
+        writer.writerows(ROWS)
+    print(f"wrote {len(ROWS)} rows to {out}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

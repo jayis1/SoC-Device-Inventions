@@ -1,0 +1,25 @@
+Item,Reference,Qty,Part,Description,Manufacturer,MPN,Package,Notes
+1,U1,1,ESP32-S3-WROOM-1-N8,Wi-Fi/BLE SoC module,Espressif,ESP32-S3-WROOM-1-N8,Module,Main controller
+2,U2,1,ADS122C04IPWR,4-ch 24-bit ADC,Texas Instruments,ADS122C04IPWR,TSSOP-16,Piezo and CT digitizer
+3,U3,1,TMP117AIDRVR,Digital temperature sensor,Texas Instruments,TMP117AIDRVR,WSON-6,Suction clamp sensor
+4,U4,1,TMP117AIDRVR,Digital temperature sensor,Texas Instruments,TMP117AIDRVR,WSON-6,Discharge clamp sensor
+5,U5,1,SHT45-AD1B-R2,Humidity/temperature sensor,Sensirion,SHT45-AD1B-R2,DFN-4,Ambient context
+6,U6,1,ICM-42688-P,6-axis IMU,TDK InvenSense,ICM-42688-P,LGA-14,Vibration sensing
+7,U7,1,ICS-43434,I2S MEMS microphone,TDK InvenSense,ICS-43434,LGA-5,Acoustic sensing
+8,U8,1,OPA1652AIDR,Dual low-noise op-amp,Texas Instruments,OPA1652AIDR,SOIC-8,Piezo front end
+9,U9,1,MCP73831T-2ATI/OT,Li-ion charger,Microchip,MCP73831T-2ATI/OT,SOT-23-5,USB charging
+10,U10,1,TPS63070RNMR,Buck-boost regulator,Texas Instruments,TPS63070RNMR,VQFN-15,System 3V3
+11,U11,1,AP7333-33SAG-7,Low-noise LDO,Diodes Inc,AP7333-33SAG-7,SOT-23,Analog rail
+12,U12,1,MAX17048G+T10,Fuel gauge,Analog Devices,MAX17048G+T10,TDFN-8,Battery telemetry
+13,DS1,1,SH1106 OLED 128x64,Monochrome OLED module,Generic,SH1106-12864,Module,Front panel display
+14,J1,1,microSD socket,Push-push microSD connector,Hirose,DM3AT-SF-PEJM5,SMD,Local log storage
+15,J2,1,3.5 mm TRS jack,CT accessory connector,CUI Devices,SJ1-3523N,TH,Split-core current clamp input
+16,J3,1,USB-C receptacle,Power/service connector,HRO,TYPE-C-31-M-12,SMD,5V power and service
+17,J4,1,JST-PH-2,Battery connector,JST,B2B-PH-SM4-TB,SMD,Li-ion pack
+18,K1,1,PC817,Optocoupler,Sharp/everlight,PC817,SO-4,Isolated thermostat call sense
+19,X1,1,27 mm piezo disc,Contact acoustic sensor,Generic,PZT-27MM,Disc,Slugging / knock pickup
+20,B1,1,2000 mAh Li-ion pouch,Battery pack,Generic,LP603450,Pouch,Portable power
+21,Q1,1,AO3407A,P-channel MOSFET,Alpha & Omega,AO3407A,SOT-23,Reverse battery protection
+22,D1,1,ESD9B5.0ST5G,USB ESD protector,onsemi,ESD9B5.0ST5G,SOD-923,USB protection
+23,F1,1,MF-MSMF050-2,Resettable fuse,Bourns,MF-MSMF050-2,1812,USB input protection
+24,MISC,1,Passives and mechanics,Resistors capacitors clamp jaws magnets enclosure hardware,Multiple,Multiple,Mixed,See schematic notes

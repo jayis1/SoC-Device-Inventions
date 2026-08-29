@@ -1,0 +1,42 @@
+kicad_sch (version 20230121) (generator "Hermes Agent")
+
+(uuid 0d474e95-6cf7-4a77-a9af-387f73297fb3)
+(paper "A3")
+(title_block
+  (title "Chill Warden")
+  (company "SoC Device Inventions")
+  (comment 1 "Clamp-on refrigeration and heat-pump fault sentinel")
+  (comment 2 "Main SoC: ESP32-S3-WROOM-1-N8")
+)
+
+(text "SHEET 1 — POWER" (at 20 20 0))
+(text "USB-C 5V -> MCP73831 charger -> Li-ion cell -> TPS63070 SYS_3V3" (at 20 28 0))
+(text "SYS_3V3 -> ESP32-S3, OLED, SHT45, TMP117x2, ICM-42688-P, microSD" (at 20 34 0))
+(text "SYS_3V3 -> AP7333 ANA_3V3 -> ADS122C04, OPA1652 piezo front end" (at 20 40 0))
+(text "MAX17048 fuel gauge on battery rail via I2C" (at 20 46 0))
+
+(text "SHEET 2 — DIGITAL CORE" (at 20 60 0))
+(text "U1 ESP32-S3-WROOM-1-N8" (at 20 68 0))
+(text "GPIO1/2 = I2C shared by ADS122C04, TMP117 suction, TMP117 discharge, SHT45, IMU, OLED, MAX17048" (at 20 74 0))
+(text "GPIO4/5/6 = I2S WS/SCK/SD to ICS-43434" (at 20 80 0))
+(text "GPIO12-15 = SPI2 to microSD" (at 20 86 0))
+(text "GPIO8 = alert LED, GPIO9 = buzzer, GPIO10/11 = buttons" (at 20 92 0))
+(text "GPIO17 = thermostat call optocoupler input, GPIO20 = ADC DRDY" (at 20 98 0))
+
+(text "SHEET 3 — ANALOG SERVICE PATHS" (at 20 112 0))
+(text "X1 piezo disc -> OPA1652 buffer -> MFB band-pass 150 Hz-4 kHz -> ADS122C04 AIN0" (at 20 120 0))
+(text "J2 split-core CT -> burden resistor -> precision rectifier -> RC filter -> ADS122C04 AIN1" (at 20 126 0))
+(text "AIN2 spare analog accessory / optional discharge pressure transducer" (at 20 132 0))
+(text "AIN3 battery-backed analog calibration channel" (at 20 138 0))
+
+(text "SHEET 4 — FIELD PROBES" (at 20 152 0))
+(text "U3 TMP117 on insulated copper suction clamp jaw" (at 20 160 0))
+(text "U4 TMP117 on stainless discharge strap probe" (at 20 166 0))
+(text "U5 SHT45 kept shaded from condenser exhaust for ambient reference" (at 20 172 0))
+(text "U6 ICM-42688-P near enclosure center of mass for shell vibration pickup" (at 20 178 0))
+(text "U7 ICS-43434 faces fan/compressor cavity through acoustic vent" (at 20 184 0))
+
+(text "SHEET 5 — NOTES" (at 20 198 0))
+(text "Keep the piezo analog return star-connected to the ADS122C04 analog ground node" (at 20 206 0))
+(text "Route I2S mic traces away from the buck-boost inductor and piezo input" (at 20 212 0))
+(text "Use creepage sleeves and high-temp insulation on the discharge probe harness" (at 20 218 0))
