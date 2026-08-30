@@ -1,0 +1,12 @@
+(kicad_pcb (version 20221018) (generator "Hermes Agent")
+  (general
+    (thickness 1.6)
+  )
+  (paper "A4")
+  (title_block
+    (title "Pasture Pulse")
+    (company "SoC Device Inventions")
+    (comment 1 "Solar electric-fence pulse analyzer node")
+  )
+  (gr_rect (start 0 0) (end 120 80) (stroke (width 0.15) (type default)) (fill none) (layer "Edge.Cuts"))
+)

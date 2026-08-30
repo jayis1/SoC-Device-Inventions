@@ -1,0 +1,46 @@
+kicad_sch (version 20230121) (generator "Hermes Agent")
+
+(uuid 4a355917-fc30-49e0-bfd2-074fe11e688f)
+(paper "A3")
+(title_block
+  (title "Pasture Pulse")
+  (company "SoC Device Inventions")
+  (comment 1 "Solar electric-fence pulse analyzer node")
+  (comment 2 "Main SoC: STM32WL55JC")
+)
+
+(text "SHEET 1 — POWER HARVEST" (at 20 20 0))
+(text "6V solar panel J4 -> reverse protection -> BQ25570 -> LiFePO4 cell J2/B1" (at 20 28 0))
+(text "BQ25570 buck output -> 3V3_SYS for STM32WL55JC, ADS131M02, I2C sensors" (at 20 34 0))
+(text "TPS22916 switches 3V3_SW to OLED and accessory rail during low battery" (at 20 40 0))
+(text "USB-C J3 present only for service power and UART/SWD bench work" (at 20 46 0))
+
+(text "SHEET 2 — MCU + RADIO CORE" (at 20 60 0))
+(text "U1 STM32WL55JC with LoRa RF matching to 868/915 MHz antenna" (at 20 68 0))
+(text "PA4/5/6/7 = SPI1 CS/SCK/MISO/MOSI to ADS131M02" (at 20 74 0))
+(text "PB8/PB9 = I2C1 shared by TMP117, SHT45, FRAM, MAX17048, SSD1306" (at 20 80 0))
+(text "PA0 = comparator pulse wake interrupt, PB3 = ADS DRDY, PB13 = buzzer" (at 20 86 0))
+(text "PB4/PB5 = status LED channels, PB14/PB15 = buttons, PA1 = gate reed input" (at 20 92 0))
+
+(text "SHEET 3 — FENCE PULSE SENSE" (at 20 106 0))
+(text "Pickup plate CP1 couples capacitively to live fence wire without galvanic contact" (at 20 114 0))
+(text "CP1 -> 100M/2M equivalent HV divider string -> surge resistor -> SMBJ58A clamp" (at 20 120 0))
+(text "Secondary low-capacitance ESD clamps and RC filter feed ADS131M02 CH0" (at 20 126 0))
+(text "TLV3691 comparator monitors the conditioned pulse and wakes MCU on threshold" (at 20 132 0))
+
+(text "SHEET 4 — PULSE CURRENT ACCESSORY" (at 20 146 0))
+(text "J1 pulse current transformer input -> burden resistor -> OPA2192 diff amp" (at 20 154 0))
+(text "Virtual 1.65V midrail biases bipolar waveform into ADS131M02 CH1 input range" (at 20 160 0))
+(text "2-pole RC anti-alias filter at 30kHz precedes ADC" (at 20 166 0))
+
+(text "SHEET 5 — ENVIRONMENT + UI" (at 20 180 0))
+(text "TMP117 and SHT45 provide ambient context for dewpoint and leakage classification" (at 20 188 0))
+(text "MB85RC256V FRAM stores pulse summaries and alarm history" (at 20 194 0))
+(text "SSD1306 OLED on switched rail displays kV, pulse interval, fault class, battery" (at 20 200 0))
+(text "Reed switch K1 indicates gate-open state for event correlation" (at 20 206 0))
+
+(text "SHEET 6 — LAYOUT NOTES" (at 20 220 0))
+(text "Keep pickup divider and surge clamps isolated with wide creepage and guard slots" (at 20 228 0))
+(text "Route the ADC and CT analog return separately to a single quiet star point" (at 20 234 0))
+(text "Place radio matching away from the pickup plate to avoid detuning and false coupling" (at 20 240 0))
+(text "Use UV-stable enclosure plastics and conformal coat except on humidity sensor vent area" (at 20 246 0))

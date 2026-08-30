@@ -1,0 +1,6 @@
+# Placeholder configuration for the intended STM32WL55JC production firmware.
+# The repository build uses a host-side C simulation via CMake.
+CONFIG_DEVICE_NAME="Pasture Pulse"
+CONFIG_TARGET_SOC="STM32WL55JC"
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+CONFIG_FIRMWARE_MODE_HOST_SIM=y

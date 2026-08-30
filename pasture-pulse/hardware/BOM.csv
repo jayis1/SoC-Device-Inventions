@@ -1,0 +1,27 @@
+Item,Reference,Qty,Part,Description,Manufacturer,MPN,Package,Notes
+1,U1,1,STM32WL55JCI6,LoRa-enabled MCU,STMicroelectronics,STM32WL55JCI6,UFBGA-73,Main SoC
+2,U2,1,ADS131M02IPBS,Dual-channel 24-bit simultaneous ADC,Texas Instruments,ADS131M02IPBS,TQFP-32,Pulse voltage and current capture
+3,U3,1,OPA2192IDR,Dual precision op-amp,Texas Instruments,OPA2192IDR,SOIC-8,CT differential conditioner and midrail buffer
+4,U4,1,TMP117AIDRVR,Digital temperature sensor,Texas Instruments,TMP117AIDRVR,WSON-6,Board temperature reference
+5,U5,1,SHT45-AD1B-R2,Humidity and temperature sensor,Sensirion,SHT45-AD1B-R2,DFN-4,Ambient dew/leakage context
+6,U6,1,MB85RC256VPNF-G-JNERE1,I2C FRAM,Fujitsu,MB85RC256VPNF-G-JNERE1,SOP-8,Event log memory
+7,U7,1,BQ25570RGRR,Energy harvesting PMIC,Texas Instruments,BQ25570RGRR,VQFN-20,Solar charger and buck regulator
+8,U8,1,TPS22916CYFPR,Load switch,Texas Instruments,TPS22916CYFPR,DSBGA-4,Switchable display rail
+9,U9,1,TLV3691DBVR,Nanopower comparator,Texas Instruments,TLV3691DBVR,SOT-23-5,Pulse wake detector
+10,U10,1,MAX17048G+T10,Fuel gauge,Analog Devices,MAX17048G+T10,TDFN-8,Optional battery SOC estimator
+11,DS1,1,SSD1306 128x64 OLED,Monochrome OLED module,Generic,SSD1306-12864,Module,Local display
+12,J1,1,2-pin accessory terminal,CT input terminal,Phoenix Contact,1935161,TH,Optional pulse CT connector
+13,J2,1,JST-PH-2,Battery connector,JST,B2B-PH-SM4-TB,SMD,LiFePO4 cell input
+14,J3,1,USB-C receptacle,Service power connector,HRO,TYPE-C-31-M-12,SMD,Bench power and service only
+15,J4,1,JST-VH-2,Solar connector,JST,B2P-VH,TH,Solar panel input
+16,K1,1,Reed switch,Gate open sensor,Littelfuse,59065-1-S-02-A,Axial,Optional gate monitor
+17,BZ1,1,3V magnetic buzzer,Local audible alarm,Mallory,PS-3240P-1-LW100-R,TH,Alarm output
+18,B1,1,18650 LiFePO4 cell,Rechargeable battery,Generic,IFR18650-1500,Pouch/Cyl,Energy storage
+19,D1,1,SMBJ58A,Primary surge TVS,Littlefuse,SMBJ58A,DO-214AA,Pickup surge clamp
+20,D2,1,PESD3V3L2BT,ESD diode,Nexperia,PESD3V3L2BT,SOT-23,Secondary frontend clamp
+21,D3,1,PESD3V3L2BT,ESD diode,Nexperia,PESD3V3L2BT,SOT-23,Secondary frontend clamp
+22,CP1,1,Stainless pickup plate,Capacitive fence pickup,Custom,CUSTOM-PLATE,Mechanical,Non-contact fence sensing plate
+23,T1,1,Split-core pulse current transformer,Accessory current pickup,YHDC,SCT-013-005,Clamp,Optional pulse current measurement
+24,ANT1,1,915/868 MHz antenna,LoRa antenna,Taoglas,PC104.07.0165A,Flexible,Regional variant as needed
+25,RHV1-RHV8,8,12.5M HV resistor,Series HV divider stack,Ohmite,MOX-1-12M5,Axial,Forms 100M divider string
+26,MISC,1,Passives and mechanics,Capacitors resistors gasket straps standoffs enclosure hardware,Multiple,Multiple,Mixed,See schematic notes
