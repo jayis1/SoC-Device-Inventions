@@ -1,0 +1,23 @@
+Item,Designator,Qty,Manufacturer Part,Description,Package,Notes,Approx Unit USD
+1,U1,1,ESP32-S3-WROOM-1-N8,Wi-Fi/BLE SoC module,Module,Main controller,4.80
+2,U2,1,A02YYUW,Waterproof UART ultrasonic sensor,Module,Pit level sensor,8.50
+3,U3,1,LIS2DW12TR,3-axis low-power accelerometer,LGA-12,Vibration monitor,1.20
+4,U4,1,SHT45,Temperature and humidity sensor,DFN-4,Condensation and mold risk,4.50
+5,U5,1,DS3231SN,RTC with backup battery,SOIC-16M,Time-stamped logs,2.10
+6,U6,1,SH1106 OLED 128x64,Monochrome display,Module,Local UI,4.20
+7,J7,1,microSD socket,Card socket,Socket,Event logging,1.10
+8,U8,1,LMV358IDGKR,Dual low-voltage op amp,VSSOP-8,CT envelope front end,0.48
+9,U9,1,TLV3691DBVR,Nano-power comparator,SOT-23-5,Leak rope threshold,0.62
+10,U10,1,TPS62162DSGT,3.3 V buck regulator,WSON-8,Main supply,1.35
+11,U11,1,MCP73831T-2ACI/OT,Li-ion charger,SOT-23-5,Backup battery charger,0.55
+12,U12,1,TPS2113APW,Power mux,TSSOP-8,Adapter/battery OR-ing,1.65
+13,T1,1,SCT-013-030,Split-core current transformer,Clamp,Non-invasive pump current,8.00
+14,LS1,1,CMT-1203 magnetic buzzer,Buzzer,TH,Local audible alarm,0.65
+15,B1,1,18650 Li-ion 2600 mAh,Rechargeable cell,Cylindrical,Backup runtime,4.20
+16,J1,1,JST-XH-2,Float switch connector,TH,Opto-isolated contact input,0.12
+17,J2,1,JST-XH-2,Leak rope connector,TH,Wet floor input,0.12
+18,J3,1,USB-C or barrel input,Power connector,Connector,Service power option,0.60
+19,OC1,1,PC817,Optocoupler,DIP-4 or SOP-4,Float isolation,0.18
+20,D1,1,SMBJ15A,TVS diode,SMB,Input surge clamp,0.28
+21,F1,1,MF-R050,Resettable fuse,Radial,Input protection,0.22
+22,R/C/Misc,passives,1,set,Resistors capacitors LEDs headers,Mixed,Support circuitry,3.50
