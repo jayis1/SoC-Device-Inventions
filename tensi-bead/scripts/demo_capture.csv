@@ -1,0 +1,9 @@
+sample_id,mode,surface_tension_mn_m,contact_angle_deg,classification
+1,pendant,62.23,,high-surface-tension / water-like
+2,pendant,56.84,,high-surface-tension / water-like
+3,pendant,43.99,,medium-surface-tension / solvent-blend
+4,pendant,20.4,,low-surface-tension / surfactant-or-solvent-rich
+5,sessile,72.18,39.0,high-energy / easily wetted surface
+6,sessile,64.08,84.0,moderately wetting surface
+7,sessile,68.76,58.0,high-energy / easily wetted surface
+8,pendant,72.84,,high-surface-tension / water-like

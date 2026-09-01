@@ -100,6 +100,7 @@ Every device here is designed with these principles:
 || 66 | Chill Warden | ESP32-S3-WROOM-1-N8 | Clamp-on refrigeration and heat-pump fault sentinel with dual TMP117 line probes, SHT45 ambient sensing, split-core CT current tracking, ICM-42688-P vibration sensing, piezo shell-acoustic pickup, ICS-43434 microphone, on-device fault classification, microSD logging, and BLE/Wi-Fi technician telemetry |
 || 67 | Pasture Pulse | STM32WL55JC | Solar-powered electric-fence pulse analyzer node with non-contact capacitive HV pickup, optional pulse-current transformer, ADS131M02 waveform capture, vegetation/leakage/gate-open/fence-down fault classification, FRAM logging, OLED status, and LoRaWAN telemetry for remote pasture monitoring |
 || 68 | Sump Shepherd | ESP32-S3-WROOM-1-N8 | Basement sump-pump sentinel with ultrasonic pit-level sensing, non-contact motor-current monitoring, vibration + humidity fusion, float/leak inputs, backup-battery supervision, on-device fault classification, microSD logging, and BLE/Wi-Fi alerts for no-start, backflow, short-cycle, dry-run, and flood-risk detection |
+|| 69 | Tensi Bead | ESP32-S3-WROOM-1-N8 | Pocket pendant-drop tensiometer and contact-angle analyzer with HM0360 silhouette camera, motorized syringe stage, load-cell-assisted sessile platen, on-device surface-tension/contact-angle computation, microSD logging, and BLE/Wi-Fi export for field wetting and formulation work |
 |
 ## Structure
 

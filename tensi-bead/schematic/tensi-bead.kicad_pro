@@ -1,0 +1,6 @@
+(kicad_pro
+  (version 1)
+  (generator "Hermes Agent")
+  (project "tensi-bead")
+  (comment "Pocket pendant-drop tensiometer and contact-angle analyzer")
+)

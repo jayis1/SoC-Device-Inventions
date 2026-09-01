@@ -1,0 +1,25 @@
+Item,Reference,Qty,Manufacturer Part,Description,Estimated Unit Cost USD,Notes
+Main SoC module,U1,1,ESP32-S3-WROOM-1-N8,Wi-Fi + BLE SoC module,4.90,8 MB flash
+Camera,U2,1,HM0360,Ultra-low-power grayscale camera,5.80,Used for silhouette imaging
+OLED,U3,1,SSD1306 128x64 0.96in,I2C OLED display,2.40,Local UI
+Temp/RH,U4,1,SHT45,Humidity and temperature sensor,4.60,Ambient compensation
+Contact platen temp,U5,1,TMP117,Precision temperature sensor,2.80,Sample/platen temperature
+RTC,U6,1,DS3231SN,Real-time clock,2.10,Time-stamped logging
+microSD,J1,1,MicroSD push-push socket,Storage socket,1.20,CSV and raw frame logs
+USB-C,J2,1,USB-C 16P receptacle,Power and debug,0.85,USB-UART via bridge
+USB-UART,U7,1,CP2102N,USB serial bridge,1.90,Firmware console
+Stepper driver,U8,1,DRV8834,Syringe stage motor driver,1.75,Microstepping
+Syringe motor,M1,1,NEMA8 12V stepper,Micro syringe plunger motor,8.50,Lead-screw driven
+Lead screw,MECH1,1,M5x0.8 + nut,Syringe linear actuator,3.20,Travel stage
+Load-cell ADC,U9,1,HX711,24-bit bridge ADC,0.70,Sessile mass / tare
+Load cell,U10,1,5kg bar load cell,Mass feedback sensor,3.10,Fixture tare + coupon weight
+Buck regulator,U11,1,TPS62162,3.3V regulator,1.30,Input 5V
+Battery charger,U12,1,MCP73831,Li-ion charger,0.55,Single-cell
+Power mux,U13,1,TPS2113A,Power-path selector,2.20,USB/battery switchover
+Battery,B1,1,18650 3000mAh,Li-ion cell,5.00,Portable use
+Backlight LED,U14,8,LTST-C191KRKT,White side-fire LED,0.08,Diffuse silhouette lighting
+LED driver,U15,1,AL8860,Constant-current LED driver,0.65,PWM dimming
+Buttons,SW1-SW3,3,EVQP7A,UI buttons,0.20,Mode/select/home
+Buzzer,LS1,1,CMT-1203,Magnetic buzzer,0.35,QC alert
+Passives,RR/CC/LL,1,Mixed,Resistors capacitors ferrites,7.50,0805/0603 set
+Enclosure,MECH2,1,Custom printed,Optical chamber + housing,12.00,Black interior
