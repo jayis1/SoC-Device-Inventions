@@ -1,0 +1,29 @@
+Item,Reference,Qty,Part,Description,Manufacturer,MPN,Package,Estimated_Unit_USD,Notes
+1,U1,1,ESP32-S3-WROOM-1-N8,Wi-Fi/BLE SoC module,Espressif,ESP32-S3-WROOM-1-N8,Module,3.80,Main controller
+2,U2,1,AD5933,1 MSPS impedance converter,Analog Devices,AD5933YRSZ,TSSOP-16,11.20,Moisture probe measurement IC
+3,U3,1,OPA320AIDBVR,Rail-to-rail op-amp,Texas Instruments,OPA320AIDBVR,SOT-23-5,0.78,Guard driver / buffer
+4,U4,1,MLX90640ESF-BAA-000-TU,Thermal array 32x24,Melexis,MLX90640ESF-BAA-000-TU,TO-39,48.00,IR thermal imager
+5,U5,1,SHT45,Humidity and temperature sensor,Sensirion,SHT45-AD1B-R2,DFN,4.95,Primary psychrometric sensor
+6,U6,1,BME688,Gas/VOC/temp/RH sensor,Bosch,BME688,LGA,7.50,Secondary IAQ sensor
+7,U7,1,ICM-42688-P,6-axis IMU,TDK InvenSense,ICM-42688-P,LGA-14,2.60,Sweep quality detection
+8,U8,1,MAX17048G+T,Fuel gauge,Analog Devices,MAX17048G+T,TDFN,1.65,Battery state of charge
+9,U9,1,DS3231MZ+,RTC,Analog Devices,DS3231MZ+,SOIC-8,2.35,Timestamp retention
+10,U10,1,DRV2605L,Haptic driver,Texas Instruments,DRV2605LDSGR,WSON-8,1.95,Silent alerts
+11,U11,1,TPS63070RNMR,Buck-boost 3.3V regulator,Texas Instruments,TPS63070RNMR,QFN-15,3.20,Main supply
+12,U12,1,MCP73831T-2ATI/OT,Li-ion charger,Microchip,MCP73831T-2ATI/OT,SOT-23-5,0.52,USB charging
+13,U13,1,TPD4E05U06,USB ESD array,Texas Instruments,TPD4E05U06,DSON-6,0.42,USB protection
+14,U14,1,TPS22916CYFPR,Load switch,Texas Instruments,TPS22916CYFPR,DSBGA,0.38,Sensor rail switch
+15,DS1,1,SH1107 OLED Module,128x64 monochrome OLED,Generic,SH1107-1.3-I2C,Module,6.50,Local display
+16,J1,1,microSD Socket,Push-push microSD connector,Amphenol,101-00594-68-16,SMT,1.10,Data logging
+17,J2,1,USB-C Receptacle,16-pin USB-C power/data,GCT,USB4105-GF-A,SMT,1.25,Charging and service
+18,BT1,1,Li-ion Cell,2500 mAh single-cell battery,Generic,18650-2500mAh,Cylindrical,4.50,Main power
+19,H1,1,Guarded Electrode PCB,Front coplanar moisture sensing pad,Custom,MS-PROBE-01,PCB,0.90,Integrated front probe
+20,M1,1,Coin Vibration Motor,10 mm haptic motor,Jinlong,C1020B002F,Wire-lead,1.10,Silent alerts
+21,SW1,1,Tactile Switch,Power button,C&K,KMR221GLFS,SMT,0.24,UI input
+22,SW2,1,Tactile Switch,Mode/mark button,C&K,KMR221GLFS,SMT,0.24,UI input
+23,LED1,1,RGB LED,Status indicator,APA,KT-0603RGB,0603,0.12,Status color
+24,R/C passives,Various,42,Resistors/capacitors,Decoupling/filtering,Various,Mixed,0402/0603,4.80,Estimated total
+25,L1,1,2.2uH Inductor,Power inductor for TPS63070,Coilcraft,XAL4020-222MEC,SMT,0.86,Buck-boost inductor
+26,NT1,1,10k NTC,Charger thermal monitor,Murata,NCP18XH103F03RB,0603,0.08,Optional thermal foldback
+27,IR1,1,IR Window,Thin IR transmissive window,Generic,PE-IR-12x12,Panel,1.90,For thermal sensor aperture
+28,ST1,1,Calibration Tile,Dry-wall dielectric reference,Custom,MS-CAL-DRY,Accessory,0.65,Field baseline accessory
