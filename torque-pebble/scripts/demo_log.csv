@@ -1,0 +1,6 @@
+timestamp,preset,peak_torque_nm,snug_torque_nm,angle_after_snug_deg,prevailing_torque_nm,stiffness_nm_per_deg,backoff_deg,yield_risk,cross_thread_score,state,action
+2026-09-03T02:15:14Z,m6_frame_bolt,9.20,6.30,55.2,0.38,0.067,0.0,0.02,0.06,PASS,Accept joint
+2026-09-03T02:16:02Z,battery_lug,5.20,4.80,1.0,0.30,0.500,0.0,0.03,0.08,UNDER_TORQUE,Retighten to target torque
+2026-09-03T02:17:41Z,m6_frame_bolt,9.19,5.70,78.0,0.45,0.045,0.0,0.03,0.07,SOFT_JOINT,Inspect joint stack and compression
+2026-09-03T02:19:08Z,m5_cover_screw,6.09,4.59,2.5,1.17,0.600,0.0,0.03,0.82,CROSS_THREAD_RISK,Back out fastener and inspect threads
+2026-09-03T02:21:55Z,bike_stem_faceplate,5.80,4.30,3.0,0.48,0.333,3.7,0.16,0.11,REWORK_DETECTED,Inspect joint and repeat tightening

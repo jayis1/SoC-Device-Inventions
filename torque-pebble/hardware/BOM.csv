@@ -1,0 +1,29 @@
+Item,Reference,Qty,Part,Description,Package,Supplier,Approx_Unit_USD
+1,U1,1,ESP32-S3-WROOM-1-N8,Wi-Fi + BLE SoC module,Module,Espressif,3.90
+2,U2,1,ADS1232IPWR,24-bit bridge ADC,TSSOP-24,Texas Instruments,5.10
+3,U3,1,INA333AIDGKR,Low-offset instrumentation amplifier,VSSOP-8,Texas Instruments,1.85
+4,U4,1,AS5600-ASOM,Magnetic angle encoder,SOIC-8,ams OSRAM,2.10
+5,U5,1,ICM-42688-P,6-axis IMU,LGA-14,TDK InvenSense,2.95
+6,U6,1,TMP117AIDRVR,Precision temperature sensor,WSON-6,Texas Instruments,1.70
+7,U7,1,DS3231SN,RTC with battery backup,SOIC-16,Analog Devices/Maxim,3.20
+8,U8,1,MCP73831T-2ACI/OT,LiPo charger,SOT-23-5,Microchip,0.58
+9,U9,1,TPS62172DSGR,3.3 V buck regulator,WSON-8,Texas Instruments,1.45
+10,U10,1,MAX17048G+T10,Fuel gauge,TDFN-8,Analog Devices/Maxim,1.35
+11,U11,1,TPS22916CYFPR,Load switch,DSBGA-4,Texas Instruments,0.32
+12,DS1,1,SH1106 OLED 128x64,1.3 in I2C OLED module,Module,Generic,3.80
+13,J1,1,MicroSD Socket,Push-push microSD connector,SMT,Amphenol,0.72
+14,B1,1,LiPo 3.7V 650mAh,Rechargeable cell,Pack,EEMB,4.20
+15,SG1-SG4,4,350 Ohm Foil Strain Gauge,Torsion bridge elements,Gauge,Vishay/Micro-Measurements,3.50
+16,LS1,1,Piezo Buzzer 3V,Audible pass/fail indicator,TH,Generic,0.22
+17,Q1,1,AO3400A,N-MOSFET for buzzer,SOT-23,Alpha & Omega,0.08
+18,SW1-SW2,2,EVQ-P7A01P,Low-profile tactile switch,SMD,Panasonic,0.28
+19,M1,1,Diametric Magnet 6x2mm,Encoder target,Magnet,Generic,0.18
+20,BR1-BR2,2,MR105ZZ,Miniature bearings,5x10x4 mm,Bearing,Generic,0.85
+21,PCB,1,4-layer FR-4 PCB,Main electronics board,PCB,JLCPCB,2.50
+22,MECH1,1,CNC Housing Set,Aluminum shell and shaft support,Custom,Local shop,14.00
+23,MECH2,1,Torsion Shaft,17-4PH reduced-section shaft,Custom,Local shop,9.50
+24,Passives,1,set,Resistors capacitors ferrites TVS headers,Mixed,DigiKey,6.50
+25,USB1,1,USB-C Receptacle,Power + UART access,SMD,HRO,0.42
+26,BT1,1,CR1220 Holder,RTC backup cell holder,TH,Keystone,0.38
+27,LED1,1,WS2812B-MINI,Status RGB LED,2020,Worldsemi,0.16
+28,REG2,1,REF3330AIDBZR,3.0 V precision analog reference,SOT-23-3,Texas Instruments,0.82
