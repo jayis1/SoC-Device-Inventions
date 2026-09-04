@@ -1,0 +1,34 @@
+Item,Reference,Qty,Part,Description,Package,Supplier,Approx_Unit_USD
+1,U1,1,STM32G474RET6,Main measurement MCU,LQFP-64,STMicroelectronics,6.40
+2,U2,1,ESP32-C3-MINI-1,Wi-Fi + BLE coprocessor,Module,Espressif,2.70
+3,U3,1,INA240A1IDR,Bidirectional current-sense amplifier,SOIC-8,Texas Instruments,2.10
+4,U4,1,TMAG5273A1QDBVR,3-axis Hall sensor,SOT-23-6,Texas Instruments,1.40
+5,U5,1,ISO7721FDWR,Digital isolator,SOIC-8-Wide,Texas Instruments,1.85
+6,U6,1,MCP6002T-I/SN,Dual op-amp for piezo AFE,SOIC-8,Microchip,0.52
+7,U7,1,LM5155QDSSRQ1,Boost controller for coil bus,WSON-12,Texas Instruments,2.35
+8,U8,1,TPS54560BDDAR,5 V buck regulator,SOIC-8,Texas Instruments,1.48
+9,U9,1,TPS62172DSGR,3.3 V buck regulator,WSON-8,Texas Instruments,1.45
+10,U10,1,MCP73831T-2ACI/OT,Li-ion charger,SOT-23-5,Microchip,0.58
+11,U11,1,MAX17048G+T10,Fuel gauge,TDFN-8,Analog Devices/Maxim,1.35
+12,U12,1,DS3231SN,RTC,SOIC-16,Analog Devices/Maxim,3.20
+13,U13,1,ADS1015IDGST,Auxiliary ADC,VSSOP-10,Texas Instruments,1.10
+14,DS1,1,SH1106 OLED 128x64,1.3 inch OLED module,Module,Generic,3.80
+15,J1,1,MicroSD Socket,Push-push microSD connector,SMT,Amphenol,0.72
+16,J2,1,USB-C Receptacle,Power + debug,SMD,HRO,0.42
+17,J3,1,2-pin locking terminal,DUT coil connector,TH,Degson,0.55
+18,J4,1,2-pin locking terminal,DUT contact connector,TH,Degson,0.55
+19,J5,1,JST-SH 4-pin,Hall probe connector,SMD,JST,0.28
+20,Q1,1,IPT015N10N5,Main coil-drive MOSFET,TO-220/PowerPAK,Infineon,1.95
+21,D1,1,SMBJ58A,Input TVS,SMB,Littelfuse,0.36
+22,D2,1,STTH2R06,Fast diode for decay path,SMA,STMicroelectronics,0.29
+23,RSH1,1,10mOhm 1% 2W 4-terminal,Current shunt,2512,Isabellenhütte,1.20
+24,B1,1,LiPo 3.7V 1200mAh,Battery pack,Pack,EEMB,5.20
+25,BZ1,1,Piezo Buzzer 3V,Audible alert,TH,Generic,0.22
+26,PZ1,1,27mm Piezo Disc,Contact acoustic pickup,Disc,Generic,0.35
+27,ENC1,1,EC11 Rotary Encoder,UI input,TH,ALPS/Generic,0.85
+28,SW1-SW2,2,EVQ-P7A01P,Tactile buttons,SMD,Panasonic,0.28
+29,F1,1,1.5A resettable fuse,Input protection,1812,Bourns,0.24
+30,PCB,1,4-layer FR-4 PCB,Main board,PCB,JLCPCB,3.20
+31,Passives,1,set,Resistors capacitors inductors headers ferrites,Mixed,DigiKey,9.50
+32,MECH1,1,ABS enclosure,Handheld shell,Custom/Off-the-shelf,Hammond,8.00
+33,LEADS1,1,Silicone clip-lead set,DUT interface leads,Assembly,Generic,4.80

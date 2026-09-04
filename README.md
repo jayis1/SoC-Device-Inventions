@@ -103,6 +103,7 @@ Every device here is designed with these principles:
 | 69 | Tensi Bead | ESP32-S3-WROOM-1-N8 | Pocket pendant-drop tensiometer and contact-angle analyzer with HM0360 silhouette camera, motorized syringe stage, load-cell-assisted sessile platen, on-device surface-tension/contact-angle computation, microSD logging, and BLE/Wi-Fi export for field wetting and formulation work |
 | 70 | Mold Scout | ESP32-S3-WROOM-1-N8 | Handheld hidden-moisture and mold-risk mapper with AD5933 guarded dielectric probe, MLX90640 thermal array, SHT45 psychrometrics, BME688 VOC sensing, IMU-assisted sweep mode, microSD logging, and BLE/Wi-Fi export for non-invasive building diagnostics |
 | 71 | Torque Pebble | ESP32-S3-WROOM-1-N8 | Palm-sized inline fastener torque-angle auditor with foil strain-gauge torsion shaft, ADS1232 bridge ADC, AS5600 magnetic angle encoder, IMU-assisted rundown analytics, OLED + microSD logging, and BLE/Wi-Fi traceability for assembly and field-service tightening verification |
+| 72 | Relay Finch | STM32G474RET6 + ESP32-C3-MINI-1 | Pocket relay and solenoid signature analyzer with programmable 3–48 V coil drive, INA240 current capture, isolated contact-bounce timing, TMAG5273 Hall armature travel sensing, piezo click envelope analysis, OLED + microSD logging, and BLE/Wi-Fi export for predictive maintenance of relays, valves, and contactors |
 
 ## Structure
 

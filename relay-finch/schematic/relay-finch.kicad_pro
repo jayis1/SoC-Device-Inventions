@@ -1,0 +1,24 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.0,
+        "copper_text_size_v": 1.0,
+        "silk_line_width": 0.12,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "tracks_clearance": 0.2,
+        "zone_clearance": 0.25
+      }
+    }
+  },
+  "meta": {
+    "filename": "relay-finch.kicad_pro",
+    "generator": "Hermes Agent"
+  },
+  "schematic": {
+    "file": "relay-finch.kicad_sch"
+  }
+}
