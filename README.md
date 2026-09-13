@@ -105,6 +105,7 @@ Every device here is designed with these principles:
 | 71 | Torque Pebble | ESP32-S3-WROOM-1-N8 | Palm-sized inline fastener torque-angle auditor with foil strain-gauge torsion shaft, ADS1232 bridge ADC, AS5600 magnetic angle encoder, IMU-assisted rundown analytics, OLED + microSD logging, and BLE/Wi-Fi traceability for assembly and field-service tightening verification |
 | 72 | Relay Finch | STM32G474RET6 + ESP32-C3-MINI-1 | Pocket relay and solenoid signature analyzer with programmable 3–48 V coil drive, INA240 current capture, isolated contact-bounce timing, TMAG5273 Hall armature travel sensing, piezo click envelope analysis, OLED + microSD logging, and BLE/Wi-Fi export for predictive maintenance of relays, valves, and contactors |
 | 73 | Kernel Scout | ESP32-S3-WROOM-1-N8 | Pocket grain moisture, density, and storage-risk analyzer using a guarded AD5933 dielectric cup, 500 g load cell, cup and ambient temperature/RH sensing, piezo insect-activity screening, profile-calibrated wet-basis moisture fusion, OLED + microSD logging, and BLE/Wi-Fi reporting for farm, co-op, maltster, and seed-bank intake decisions |
+| 74 | Seal Whisper | ESP32-S3-WROOM-1-N8 | Portable package seal-integrity analyzer that combines temperature-compensated vacuum pressure-decay with piezo acoustic ring-down, controlled pump/vent chamber, profile-based robust z-score screening, OLED + microSD records, and BLE/Wi-Fi reporting for pouch, blister, sachet, vial, food, and diagnostic-package process control |
 
 ## Structure
 

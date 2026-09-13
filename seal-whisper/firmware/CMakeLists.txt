@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(seal_whisper C)
+set(CMAKE_C_STANDARD 11)
+add_executable(seal_whisper_demo src/main.c src/leak_model.c)
+target_include_directories(seal_whisper_demo PRIVATE include)
+target_link_libraries(seal_whisper_demo m)
