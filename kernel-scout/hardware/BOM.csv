@@ -1,0 +1,27 @@
+Item,Reference,Qty,Part,Description,Package,Supplier,Approx_Unit_USD
+1,U1,1,ESP32-S3-WROOM-1-N8,Wi-Fi/BLE main SoC module,Module,Espressif,3.80
+2,U2,1,AD5933YRSZ,Programmable impedance converter,SSOP-16,Analog Devices,8.50
+3,U3,1,HX711,24-bit load-cell ADC,SOIC-16,Avia,0.85
+4,LC1,1,500g single-point load cell,Sample mass measurement,Bar type,TAL220,3.80
+5,U4,1,OPA320AIDBVR,Rail-to-rail piezo preamplifier,SOT-23-5,Texas Instruments,1.55
+6,U5,1,TMP117AIDRVR,Grain-cup temperature sensor,WSON-6,Texas Instruments,2.80
+7,U6,1,SHT45-AD1B-R2,Ambient temperature/RH sensor,DFN-4,Sensirion,4.90
+8,U7,1,MAX17048G+T10,Li-ion fuel gauge,TDFN-8,Analog Devices,1.35
+9,U8,1,MCP73831T-2ACI/OT,Li-ion charger,SOT-23-5,Microchip,0.58
+10,U9,1,TPS63031DSKR,3.3V buck-boost regulator,VSON-10,Texas Instruments,1.60
+11,U10,1,ADS122C04IRTER,24-bit piezo ADC,VQFN-16,Texas Instruments,3.40
+12,DS1,1,SH1106 128x64 OLED,1.3in display module,Module,Generic,3.80
+13,J1,1,USB-C receptacle,Power/debug connector,SMD,HRO,0.42
+14,J2,1,MicroSD socket,Data logging,SMT,Amphenol,0.72
+15,CP1,1,120mL guarded sample cup,Insulated cylindrical electrode cup,Custom,Custom,5.50
+16,PZ1,1,20mm piezo disc,Contact acoustic pickup,Disc,Generic,0.28
+17,B1,1,LiPo 3.7V 1200mAh,Protected battery pack,Pack,EEMB,5.20
+18,Q1,1,AO3400A,Buzzer switch MOSFET,SOT-23,Alpha & Omega,0.12
+19,BZ1,1,3V piezo buzzer,Audible indicator,TH,Generic,0.22
+20,SW1-SW3,3,EVQ-P7A01P,Measure/profile/menu buttons,SMD,Panasonic,0.42
+21,ENC1,1,EC11 rotary encoder,User input,TH,ALPS/Generic,0.85
+22,D1-D3,3,PESD3V3U1UL,ESD suppressor,SOD-523,Nexperia,0.18
+23,F1,1,500mA PTC fuse,USB input protection,1206,Bourns,0.19
+24,Passives,1,set,1% resistors C0G/X7R capacitors ferrites,Mixed,DigiKey,6.40
+25,PCB,1,4-layer FR-4 board,80x55mm board,PCB,JLCPCB,3.20
+26,MECH1,1,ABS enclosure + cup lid,Handheld enclosure,Custom,Hammond,7.00
