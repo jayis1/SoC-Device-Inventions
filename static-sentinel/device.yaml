@@ -1,0 +1,31 @@
+id: static-sentinel
+display_name: Static Sentinel
+revision: 0.1.0
+owner: jayis1
+maturity:
+  schematic: reference-design-not-ERC-checked
+  firmware: host-core-tested
+  hardware: not-assembled
+problem: Verify that an ESD workbench's mat, wrist strap, and local humidity remain within a configured control policy.
+primary_capability: Low-voltage resistance checks plus local environmental context and event logging.
+soc:
+  manufacturer: Espressif
+  part: ESP32-C6-WROOM-1-N8
+  sdk: ESP-IDF v5.2+
+power:
+  input: USB-C, 5 V, 500 mA maximum
+  rails: [5V_USB, 3V3]
+interfaces:
+  i2c: GPIO6/SDA, GPIO7/SCL, 400 kHz
+  adc: GPIO0 MAT_SENSE, GPIO1 STRAP_SENSE
+  gpio: GPIO2 TEST_DRIVE, GPIO3 BUZZER, GPIO4 LED, GPIO5 BUTTON
+limitations:
+  - Not an ANSI/ESD S20.20 compliance instrument.
+  - Resistance values require calibration with traceable standards.
+  - No high-voltage ionizer measurement or certification claim.
+files:
+  schematic: schematic/static-sentinel.kicad_sch
+  bom: hardware/BOM.csv
+  firmware: firmware
+  assembly: docs/ASSEMBLY.md
+  api: docs/API.md

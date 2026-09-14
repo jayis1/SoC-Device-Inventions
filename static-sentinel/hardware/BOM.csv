@@ -1,0 +1,18 @@
+Item,Reference,Qty,MPN,Function,Package,Manufacturer,Key_specification,Approx_Unit_USD,Substitute
+1,U1,1,ESP32-C6-WROOM-1-N8,Wi-Fi 6 BLE 5 Thread SoC module,Module,Espressif,3.0-3.6V 8MB flash,3.20,ESP32-C6-WROOM-1-N4
+2,U2,1,SHT45-AD1B-R2,Humidity and temperature sensor,DFN-4,Sensirion,1.08-3.6V I2C,4.50,SHT41-AD1B-R2
+3,U3,1,ADS1115IDGSR,16-bit ADC for resistance dividers,VSSOP-10,Texas Instruments,2.0-5.5V I2C PGA,2.10,ADS1015IDGSR
+4,U4,1,AP2112K-3.3TRG1,3.3V LDO,SOT-23-5,Diodes Inc,600mA 3.3V,0.35,TPS7A2033PDBVR
+5,U5,1,USBLC6-2SC6,USB-C CC/ESD protection,SOT-23-6,STMicroelectronics,Low-capacitance ESD,0.42,TPD2EUSB30
+6,J1,1,USB4105-GF-A,USB-C receptacle,USB-C 16P,GCT,USB2 power and CC pins,0.62,TYPE-C-31-M-12
+7,J2,1,PTS636SL43SMTR-LFS,Test pushbutton,SMD,C&K,Momentary normally open,0.25,B3U-1000P
+8,J3,1,PH1-02-UA,Mat resistance terminal,Header 1x02,Harwin,3.3V guarded measurement only,0.18,77311-101-02LF
+9,J4,1,PH1-02-UA,Wrist strap terminal,Header 1x02,Harwin,3.3V guarded measurement only,0.18,77311-101-02LF
+10,R1-R2,2,RC0603FR-071M0L,1 Mohm divider reference,0603,Yageo,1% 0.1W,0.02,CRCW06031M00FKEA
+11,R3-R4,2,RC0603FR-07100KL,100 kohm input protection,0603,Yageo,1% 0.1W,0.02,CRCW0603100KFKEA
+12,R5-R6,2,RC0603FR-074K7L,I2C pull-ups,0603,Yageo,4.7 kohm 1%,0.02,RC0603FR-074K7L
+13,C1-C5,5,CC0603ZRY5V8BB104,100nF decoupling,0603,Yageo,16V X7R,0.02,GRM188R71C104KA01
+14,C6-C7,2,CL10A106MQ8NNNC,10uF bulk capacitor,0603,Samsung,6.3V X5R,0.08,GRM188R60J106ME47
+15,D1,1,SMF5.0A,5V TVS diode,SOD-123FL,Littelfuse,5V input transient protection,0.30,SMBJ5.0A
+16,F1,1,MF-MSMF050-2,Resettable USB fuse,1812,Bourns,0.5A hold,0.22,1812L050PR
+17,PCB,1,FR4-2L-65x45,Controller PCB,2-layer,Generic,65 x 45mm 1oz copper,2.50,FR4-4L-65x45
