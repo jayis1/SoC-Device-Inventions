@@ -1,0 +1,10 @@
+device_id: warp-watch
+name: Warp Watch
+owner: jayis1
+target_soc: RP2040
+primary_capability: loom warp-tension and take-up motion sentinel
+domain: textile fabrication
+modality: load-cell force sensing plus magnetic rotation sensing
+connectivity: USB CDC serial; optional UART header
+power: protected 1S LiPo with USB-C charging
+design_status: reference design; host-tested policy core; hardware unverified

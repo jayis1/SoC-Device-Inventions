@@ -1,0 +1,9 @@
+{
+  "board": {},
+  "cvpcb": {},
+  "erc": {},
+  "meta": {"filename": "warp-watch.kicad_pro", "version": 1},
+  "net_settings": {},
+  "schematic": {},
+  "text_variables": {"DESIGN_STATUS": "Reference only — run ERC/DRC before fabrication", "OWNER": "jayis1"}
+}

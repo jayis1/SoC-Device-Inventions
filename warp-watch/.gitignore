@@ -1,0 +1,9 @@
+build/
+*.elf
+*.uf2
+*.bin
+__pycache__/
+*.pyc
+*-backups/
+*-rescue.kicad_sch
+fp-info-cache

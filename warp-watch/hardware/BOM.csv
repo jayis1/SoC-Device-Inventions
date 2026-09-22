@@ -1,0 +1,25 @@
+Item,Reference,Qty,MPN,Function,Package,Manufacturer,Key_specification,Approx_Unit_USD,Substitute
+1,U1,1,RP2040,Microcontroller,QFN-56,Raspberry Pi,dual Cortex-M0+ 133MHz,1.00,Raspberry Pi Pico module for prototype
+2,U2,1,W25Q16JVSSIQ,QSPI program flash,SOIC-8,Winbond,16Mbit 2.7-3.6V,0.45,W25Q32JVSSIQ
+3,U3,1,ADS1232IPWR,Load-cell ADC,TSSOP-16,Texas Instruments,24-bit bridge ADC 10/80SPS,2.10,ADS1234IPWR
+4,U4,1,AS5600-ASOM,Magnetic angle sensor,SOIC-8,ams OSRAM,12-bit I2C 0x36,1.65,AS5600L-ASOM
+5,U5,1,NHD-0.96-12864WDW3,OLED display module,0.96in module,Newhaven Display,128x64 SSD1306 I2C 0x3C,4.20,SSD1306 0.96in 3.3V module
+6,J2,1,ST4-1.5,Load-cell connector,1x4 1.5mm,JST,bridge E+/E-/A+/A-,0.18,JST-SH-4
+7,LC1,1,TAL220B-1KG,Single-point load cell,bar load cell,TAL,1kg rated strain gauge,3.80,1kg four-wire load cell
+8,D1,1,DIA-6X2-N52,Angle magnet,6x2mm,Generic,N52 diametric magnet,0.25,AS5600 recommended magnet
+9,U6,1,MCP73831T-2ACI/OT,Single-cell LiPo charger,SOT-23-5,Microchip,4.2V 100mA charge setpoint,0.62,MCP73832T-2ACI/OT
+10,U7,1,TPS62743YFPR,3.3V buck regulator,DSBGA-6,Texas Instruments,300mA low-IQ buck,1.35,TPS62740DSSR
+11,B1,1,LP503035,Protected LiPo cell,503035,Generic,3.7V 500mAh protected,5.50,LP402030 protected
+12,J1,1,USB4105-GF-A,USB-C receptacle,USB-C 16P,GCT,USB2 power/data and CC,0.62,TYPE-C-31-M-12
+13,F1,1,MF-MSMF050-2,Resettable USB fuse,1812,Bourns,0.5A hold,0.22,1812L050PR
+14,D2,1,SMF5.0A,USB 5V TVS,SOD-123FL,Littelfuse,5V transient suppression,0.30,SMBJ5.0A
+15,R1-R2,2,RC0603FR-074K7L,I2C pull-ups,0603,Yageo,4.7kOhm 1%,0.02,CRCW06034K70FKEA
+16,R3-R4,2,RC0603FR-075K1L,USB-C CC resistors,0603,Yageo,5.1kOhm 1%,0.02,CRCW06035K10FKEA
+17,R5,1,RC0603FR-071KL,LED resistor,0603,Yageo,1kOhm 1%,0.02,CRCW06031K00FKEA
+18,Q1,1,MMBT3904,Low-side buzzer switch,SOT-23,onsemi,NPN 40V 200mA,0.06,BC817-40
+19,BZ1,1,AST1109MLTRQ,Passive piezo buzzer,10mm,Soberton,3V piezo,0.72,AST1109MATRQ
+20,LED1,1,LTST-C190KGKT,Status LED,0603,Lite-On,green 2.0V,0.08,150060GS75000
+21,C1-C12,12,CC0603ZRY5V8BB104,Local decoupling,0603,Yageo,100nF 16V X7R,0.02,GRM188R71C104KA01
+22,C13-C16,4,CL10A106MQ8NNNC,Bulk capacitors,0603,Samsung,10uF 6.3V X5R,0.08,GRM188R60J106ME47
+23,X1,1,ABM8-272-T3,12MHz crystal,3.2x2.5mm,Abracon,12MHz 18pF,0.34,12MHz RP2040-compatible crystal
+24,PCB,1,FR4-2L-60x38,Controller PCB,2-layer,Generic,60x38mm 1oz copper,2.50,FR4-4L-60x38
