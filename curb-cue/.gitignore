@@ -1,0 +1,7 @@
+firmware/build/
+*.o
+*.elf
+*.hex
+*.bin
+__pycache__/
+*.pyc

@@ -1,0 +1,12 @@
+{
+  "board": {},
+  "boards": [],
+  "cvpcb": {},
+  "erc": {"erc_exclusions": []},
+  "libraries": {},
+  "meta": {"filename": "curb-cue.kicad_pro", "version": 1},
+  "net_settings": {},
+  "pcbnew": {},
+  "schematic": {},
+  "text_variables": {"DESIGN_STATUS": "Reference design; validate before fabrication", "AUTHOR": "jayis1"}
+}

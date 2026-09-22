@@ -1,0 +1,9 @@
+device_id: curb-cue
+name: Curb Cue
+owner: jayis1
+target_soc: nRF52840-QIAA-R
+primary_capability: paired time-of-flight obstacle cue with directional haptics
+domain: accessibility
+connectivity: optional Bluetooth Low Energy configuration
+power: protected 1S LiPo with USB-C charging
+design_status: reference design; host-tested policy core; hardware unverified

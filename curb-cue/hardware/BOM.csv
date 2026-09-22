@@ -1,0 +1,19 @@
+Item,Reference,Qty,MPN,Function,Package,Manufacturer,Key_specification,Approx_Unit_USD,Substitute
+1,U1,1,nRF52840-QIAA-R,nRF52840 BLE SoC,aQFN73,Nordic Semiconductor,1.7-5.5V BLE 5.3,6.80,nRF52840-QFAB-R
+2,U2-U3,2,VL53L5CXV0GC/1,8x8-zone ToF ranging sensor,LGA-12,STMicroelectronics,4m nominal range I2C 2.8V,5.20,VL53L7CXV0GC/1
+3,U4-U5,2,DRV2605LDR,Haptic driver,VSON-10,Texas Instruments,2-5.2V I2C LRA/ERM,1.52,DRV2605LDGSR
+4,M1-M2,2,C10-100,Haptic LRA motor,10mm coin,Precision Microdrives,3V LRA,2.60,C08-001
+5,U6,1,MCP73831T-2ACI/OT,Single-cell LiPo charger,SOT-23-5,Microchip,4.2V 100mA charge setpoint,0.62,MCP73832T-2ACI/OT
+6,U7,1,TPS62743YFPR,3.3V buck regulator,DSBGA-6,Texas Instruments,300mA low-IQ buck,1.35,TPS62740DSSR
+7,B1,1,LP503035,Protected LiPo cell,503035,Generic,3.7V 500mAh protected,5.50,LP402030 protected
+8,J1,1,USB4105-GF-A,USB-C receptacle,USB-C 16P,GCT,USB2 power and CC pins,0.62,TYPE-C-31-M-12
+9,F1,1,MF-MSMF050-2,Resettable USB fuse,1812,Bourns,0.5A hold,0.22,1812L050PR
+10,D1,1,SMF5.0A,USB 5V TVS,SOD-123FL,Littelfuse,5V transient suppression,0.30,SMBJ5.0A
+11,R1-R2,2,RC0603FR-075K1L,USB-C CC resistors,0603,Yageo,5.1kOhm 1%,0.02,CRCW06035K10FKEA
+12,R3-R4,2,RC0603FR-074K7L,I2C pull-ups,0603,Yageo,4.7kOhm 1%,0.02,CRCW06034K70FKEA
+13,R5,1,RC0603FR-0710KL,Reset pull-up,0603,Yageo,10kOhm 1%,0.02,CRCW060310K0FKEA
+14,C1-C10,10,CC0603ZRY5V8BB104,Local decoupling capacitors,0603,Yageo,100nF 16V X7R,0.02,GRM188R71C104KA01
+15,C11-C14,4,CL10A106MQ8NNNC,Bulk capacitors,0603,Samsung,10uF 6.3V X5R,0.08,GRM188R60J106ME47
+16,SW1,1,PTS636SL43SMTR-LFS,Mode pushbutton,SMD,C&K,Momentary normally open,0.25,B3U-1000P
+17,LED1,1,LTST-C190KGKT,Status LED,0603,Lite-On,Green 2.0V,0.08,150060GS75000
+18,PCB,1,FR4-2L-58x34,Controller PCB,2-layer,Generic,58x34mm 1oz copper,2.20,FR4-4L-58x34
