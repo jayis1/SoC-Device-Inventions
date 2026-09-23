@@ -1,0 +1,23 @@
+Item,Reference,Qty,MPN,Function,Package,Manufacturer,Key_specification,Approx_Unit_USD,Datasheet_or_source
+1,U1,1,nRF52840-QIAA-R,BLE SoC,QFN-73,Nordic Semiconductor,64MHz Cortex-M4F BLE 5.3,6.80,https://www.nordicsemi.com/Products/nRF52840
+2,U2,1,OPA320AIDBVR,Piezo charge-amplifier op amp,SOT-23-5,Texas Instruments,20MHz RRIO CMOS,1.25,https://www.ti.com/product/OPA320
+3,PZ1,1,7BB-20-6,Piezo contact disc,20mm,Murata,20mm brass piezo disc,0.45,https://www.murata.com/
+4,U3,1,DRV5032FAQLPGM,Digital Hall switch,X2SON,Texas Instruments,ultra-low-power omnipolar switch,0.64,https://www.ti.com/product/DRV5032
+5,U4,1,MCP73831T-2ACI/OT,LiPo charger,SOT-23-5,Microchip,4.2V 100mA charge setpoint,0.62,https://www.microchip.com/en-us/product/MCP73831
+6,U5,1,TPS62743YFPR,3.3V buck regulator,DSBGA-6,Texas Instruments,300mA low-IQ buck,1.35,https://www.ti.com/product/TPS62743
+7,D1,1,USBLC6-2SC6,USB ESD protector,SOT-23-6,STMicroelectronics,USB low-capacitance TVS,0.35,https://www.st.com/en/protections-and-emi-filters/usblc6-2.html
+8,J1,1,USB4105-GF-A,USB-C receptacle,USB-C 16P,GCT,USB2 power and CC,0.62,https://gct.co/connector/usb4105
+9,F1,1,MF-MSMF050-2,Resettable USB fuse,1812,Bourns,0.5A hold,0.22,https://www.bourns.com/
+10,B1,1,LP503035,Protected LiPo cell,503035,Generic,3.7V 300mAh protected,4.80,Verify cell protection and supplier
+11,DISP1,1,NHD-0.96-12864WDW3,OLED module,0.96in module,Newhaven Display,SSD1306 I2C 0x3C,4.20,https://newhavendisplay.com/
+12,M1,1,310-101,Coin vibration motor,10mm,Precision Microdrives,3V vibration motor,2.30,https://www.precisionmicrodrives.com/
+13,Q1,1,DMG2305UX-7,Motor low-side MOSFET,SOT-23,Diodes Inc,20V logic NMOS,0.20,https://www.diodes.com/
+14,SW1-SW2,2,EVQ-P7A01P,Sealed tactile switch,SMD,Panasonic,side-actuated switch,0.32,https://na.industrial.panasonic.com/
+15,LED1,1,LTST-C190KGKT,Status LED,0603,Lite-On,green 2.0V,0.08,https://optoelectronics.liteon.com/
+16,R1-R2,2,RC0603FR-074K7L,I2C pull-ups,0603,Yageo,4.7kOhm 1%,0.02,https://www.yageo.com/
+17,R3-R4,2,RC0603FR-075K1L,USB-C CC resistors,0603,Yageo,5.1kOhm 1%,0.02,https://www.yageo.com/
+18,R5,1,RC0603FR-071KL,LED resistor,0603,Yageo,1kOhm 1%,0.02,https://www.yageo.com/
+19,R6-R9,4,RC0603FR-07100K,Analog/battery divider resistors,0603,Yageo,100kOhm 1%,0.02,https://www.yageo.com/
+20,C1-C14,14,CC0603ZRY5V8BB104,Local decoupling,0603,Yageo,100nF 16V X7R,0.02,https://www.yageo.com/
+21,C15-C18,4,CL10A106MQ8NNNC,Bulk capacitors,0603,Samsung,10uF 6.3V X5R,0.08,https://sem.samsung.com/
+22,PCB,1,FR4-2L-52x34,Controller PCB,2-layer,Generic,52x34mm 1oz copper,2.20,Verify RF impedance and antenna keep-out

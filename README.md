@@ -109,6 +109,7 @@ Every device here is designed with these principles:
 | 75 | [Static Sentinel](static-sentinel/) | ESP32-C6-WROOM-1-N8 | USB-powered ESD-workstation readiness monitor that checks mat and wrist-strap resistance with low-voltage dividers, records humidity context, and provides local OK/warn/fault status for electronics benches (reference design; not physically validated) |
 | 76 | [Curb Cue](curb-cue/) | nRF52840-QIAA-R | Clip-on cane-handle obstacle cue using paired time-of-flight sensors and directional haptics for optional near-field awareness (reference design; hardware unverified) |
 | 77 | [Warp Watch](warp-watch/) | RP2040 | Clamp-on loom warp-tension and take-up-motion sentinel with load-cell force sensing, magnetic rotation tracking, OLED cues, and USB logging (reference design; hardware unverified) |
+| 78 | [Wheel Whisper](wheel-whisper/) | nRF52840-QIAA-R | Clamp-on bicycle spoke-frequency assistant with piezo tap capture, rim indexing, OLED/haptic guidance, and optional local BLE records for wheel-specific relative tension checks (reference design; hardware unverified) |
 
 ## Structure
 

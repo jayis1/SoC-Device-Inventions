@@ -1,0 +1,5 @@
+# nRF52840 target-integration notes, designed by jayis1.
+# This portable core is intentionally SDK-neutral.
+# Target adapter requirements: 8 ksample/s SAADC DMA, 12-bit samples,
+# 120 ms capture, BLE only after explicit user enable, watchdog after init.
+# Select Zephyr or nRF5 SDK board/module settings after exact module choice.
