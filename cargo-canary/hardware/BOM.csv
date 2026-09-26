@@ -1,0 +1,22 @@
+Item,Reference,Qty,MPN,Function,Package,Manufacturer,Key_specification,Approx_Unit_USD,Datasheet_or_source
+1,U1,1,nRF52840-QIAA-R,BLE SoC,QFN-73,Nordic Semiconductor,64MHz Cortex-M4F BLE 5.3,6.80,https://www.nordicsemi.com/Products/nRF52840
+2,U2,1,BG95-M3,LTE-M/NB-IoT+GNSS modem,LGA,Quectel,LTE Cat M1/NB2 GNSS,16.50,https://www.quectel.com/product/lte-bg95-m3/
+3,U3,1,SHT45-AD1B-R2,Temperature/humidity sensor,DFN-4,Sensirion,typical +/-0.1C +/-1.0%RH,4.70,https://sensirion.com/products/catalog/SHT45
+4,U4,1,LIS2DW12TR,Low-power accelerometer,LGA-12,STMicroelectronics,ultra-low-power 3-axis with FIFO,1.10,https://www.st.com/en/mems-and-sensors/lis2dw12.html
+5,U5,1,OPT3001DNPR,Ambient light sensor,USON-6,Texas Instruments,0.01-83865 lux I2C,1.50,https://www.ti.com/product/OPT3001
+6,U6,1,TCA9548APWR,I2C multiplexer,TSSOP-24,Texas Instruments,8-channel I2C switch,1.10,https://www.ti.com/product/TCA9548A
+7,U7,1,W25Q128JVSIQ,NOR flash,SOIC-8,Winbond,128Mbit SPI NOR,1.40,https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=en&partNo=W25Q128JV
+8,U8,1,TPS62745DSSR,3.3V buck regulator,WSON-12,Texas Instruments,300mA 360nA IQ buck,1.72,https://www.ti.com/product/TPS62745
+9,U9,1,TPS22919DBVR,Modem load switch,SOT-23-5,Texas Instruments,5A controlled rise switch,0.42,https://www.ti.com/product/TPS22919
+10,U10,1,AP9101CK6-AKTRG1,Battery protection monitor,SOT-26,Diodes Inc,Li-SOCl2 undervoltage monitor,0.28,https://www.diodes.com/part/view/AP9101C
+11,DISP1,1,GDEY0213B74,E-paper display,2.13in,Good Display,212x104 monochrome SPI,8.20,https://www.good-display.com/product/386.html
+12,ANT1,1,FXP830.07.0100A,LTE-M antenna,FPC,Taoglas,698-3000MHz flexible antenna,3.60,https://www.taoglas.com/product/fxp830-07-0100a-flexible-embedded-antenna/
+13,ANT2,1,AA.105.301111,GNSS patch antenna,15x15mm,Taoglas,active GPS/GLONASS patch,6.50,https://www.taoglas.com/product/aa-105-301111-active-gps-glonass-15mm-patch-antenna/
+14,B1,1,ER34615,Primary lithium battery,D cell,EVE Energy,3.6V 19Ah Li-SOCl2,12.00,https://www.evemall.com/product/er34615/
+15,SW1,1,ORD221,Reed switch,through-hole,Standex-Meder,normally closed tamper loop,0.48,https://standexelectronics.com/products/reed-switches/ord221/
+16,F1,1,MF-MSMF075-2,Resettable fuse,1812,Bourns,0.75A hold,0.25,https://www.bourns.com/products/circuit-protection/resettable-fuses/mf-msmf-series
+17,D1,1,SMF5.0A,TVS diode,SMF,Littelfuse,5V transient suppressor,0.30,https://www.littelfuse.com/products/tvs-diodes/surface-mount/smf.aspx
+18,C1-C18,18,CC0603ZRY5V8BB104,Decoupling capacitors,0603,Yageo,100nF 16V X7R,0.02,https://www.yageo.com/
+19,C19-C23,5,GRM21BR60J477ME15,Modem bulk capacitors,0805,Murata,470uF total low-ESR equivalent,0.55,https://www.murata.com/
+20,R1-R10,10,RC0603FR-074K7L,Pull-ups/series resistors,0603,Yageo,4.7kOhm 1%,0.02,https://www.yageo.com/
+21,PCB,1,FR4-4L-70x43,Four-layer PCB,4-layer,Generic,70x43mm 1oz outer copper,4.50,RF impedance and DFM validation required

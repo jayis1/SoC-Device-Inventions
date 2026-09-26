@@ -110,6 +110,7 @@ Every device here is designed with these principles:
 | 76 | [Curb Cue](curb-cue/) | nRF52840-QIAA-R | Clip-on cane-handle obstacle cue using paired time-of-flight sensors and directional haptics for optional near-field awareness (reference design; hardware unverified) |
 | 77 | [Warp Watch](warp-watch/) | RP2040 | Clamp-on loom warp-tension and take-up-motion sentinel with load-cell force sensing, magnetic rotation tracking, OLED cues, and USB logging (reference design; hardware unverified) |
 | 78 | [Wheel Whisper](wheel-whisper/) | nRF52840-QIAA-R | Clamp-on bicycle spoke-frequency assistant with piezo tap capture, rim indexing, OLED/haptic guidance, and optional local BLE records for wheel-specific relative tension checks (reference design; hardware unverified) |
+| 79 | [Cargo Canary](cargo-canary/) | nRF52840-QIAA-R | Reusable cellular cold-chain shipment tag with temperature/RH, shock, tamper/light, GNSS, e-paper handoff verdicts, flash-backed event evidence, and LTE-M/NB-IoT upload (reference design; hardware unverified) |
 
 ## Structure
 

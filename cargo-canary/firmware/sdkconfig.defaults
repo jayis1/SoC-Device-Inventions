@@ -1,0 +1,6 @@
+# Target integration contract, not an ESP-IDF project.
+# nRF52840 target: use Nordic SDK or Zephyr with APPROTECT enabled for production.
+# UART: BG95 at 115200 baud through a bidirectional 1.8V level translator.
+# I2C: 400 kHz with bus recovery and TCA9548A channel isolation.
+# Storage: append-before-transmit; retain acknowledged records until maintenance erase.
+# Security: certificate pinning/validation, signed provisioning, sequence+CRC receipt checks.
