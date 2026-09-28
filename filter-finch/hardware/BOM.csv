@@ -1,0 +1,14 @@
+Item,Reference,Qty,MPN_or_description,Function,Approx_unit_USD,Approx_extended_USD,Notes
+1,U1,1,ESP32-C6-DevKitC-1-N8,SoC development board,12.00,12.00,Use production module only after a PCB review
+2,U2-U3,2,SDP810-500Pa differential pressure breakout,Filter and pitot differential pressure,32.00,64.00,Verify breakout regulator and connector pinout
+3,U4,1,TCA9548A breakout,I2C address multiplexer,6.00,6.00,Each SDP810 has fixed address 0x25
+4,U5,1,SHT45 breakout,Temperature and humidity context,8.00,8.00,Keep out of enclosure self-heating plume
+5,DISP1,1,SSD1306 128x64 OLED breakout,Local status display,8.00,8.00,3.3 V I2C
+6,J1,1,microSD SPI module 3.3V,Local CSV logging,6.00,6.00,Do not use a 5 V-only level shifted module
+7,PS1,1,USB-C 5V 1A listed supply,SELV power,8.00,8.00,Use a safety-listed supply
+8,TUBE1,1,3 mm ID silicone tube 4 m,Pressure plumbing,8.00,8.00,Check pressure rating and fire-smoke policy
+9,P1,1,low-pressure duct pitot probe,Flow proxy,15.00,15.00,Not a calibrated traverse station
+10,TAP1-TAP2,2,barbed static-pressure duct tap,Across-filter pressure pickup,3.00,6.00,Deburr and seal per duct policy
+11,ENC1,1,ABS vented enclosure 120x80x35 mm,Electronics enclosure,12.00,12.00,Mount outside the air stream where practical
+12,HW1,1,perfboard headers cable glands and wire,Prototype interconnect,5.00,5.00,Strain-relieve all tubes and cables
+TOTAL,,,,,158.00,158.00,Indicative single-unit retail estimate excluding shipping tax labor calibration and tools
