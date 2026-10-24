@@ -113,6 +113,7 @@ Every device here is designed with these principles:
 | 79 | [Cargo Canary](cargo-canary/) | nRF52840-QIAA-R | Reusable cellular cold-chain shipment tag with temperature/RH, shock, tamper/light, GNSS, e-paper handoff verdicts, flash-backed event evidence, and LTE-M/NB-IoT upload (reference design; hardware unverified) |
 | 80 | [Filter Finch](filter-finch/) | ESP32-C6-DevKitC-1-N8 | USB-powered HVAC filter-loading monitor that combines across-filter differential pressure with a pitot airflow proxy, clean-baseline normalization, local OLED/microSD evidence, and explicit tubing/sensor fault states (reference design; hardware unverified) |
 | 81 | [Stitch Sentinel](stitch-sentinel/) | RP2040 (Raspberry Pi Pico) | USB-powered sewing-machine retrofit that compares optical needle-cycle and fabric-feed motion to flag sustained no-feed events without touching machine wiring (reference design; hardware unverified) |
+| 82 | [Bench Buddy](bench-buddy/) | RP2040 (Raspberry Pi Pico) | USB-powered 8×8 low-voltage cable continuity and connector mapper with current-limited scanning and USB CDC matrix output (reference design; hardware unverified) |
 
 ## Structure
 

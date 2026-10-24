@@ -1,0 +1,9 @@
+Ref,Qty,Value,Description,MPN,Manufacturer,Notes
+U1,1,Raspberry Pi Pico,RP2040 development board,SC0915,Raspberry Pi Ltd,Board includes flash and 3V3 regulator; candidate sourcing
+U2,1,74HC4051,8:1 analog multiplexer,TBD,Nexperia,Exact package/MPN to select before PCB; candidate
+U3,1,74HC4051,8:1 analog multiplexer,TBD,Nexperia,Exact package/MPN to select before PCB; candidate
+R1,8,1k,Drive current limit resistor,RC0603FR-071KL,Yageo,1% 0603
+R2,8,10k,Receive pull-down resistor,RC0603FR-0710KL,Yageo,1% 0603
+C1,2,100nF,IC local decoupling,CC0603KRX7R9BB104,Yageo,One per mux IC
+J1,1,2x4,Drive cable fixture connector,61300811121,Wurth Elektronik,Keyed 2x4 header
+J2,1,2x4,Sense cable fixture connector,61300811121,Wurth Elektronik,Keyed 2x4 header
