@@ -1,0 +1,7 @@
+Ref,Qty,Part,MPN,Package,Description,Supplier
+U1,1,Raspberry Pi Pico,Raspberry Pi Pico,Module,RP2040 module with USB connector and onboard regulator,Approved distributors
+U2,1,Slotted photointerrupter,Generic 3.3V-compatible open-collector type,Through-hole,Optical gate A; confirm pinout and current for selected part,Electronics distributor
+U3,1,Slotted photointerrupter,Generic 3.3V-compatible open-collector type,Through-hole,Optical gate B; match U2,Electronics distributor
+R1 R2,2,4.7k resistor,Generic,Axial 0.25W,Pull-up from each output to Pico 3V3,Electronics distributor
+C1 C2,2,100nF ceramic capacitor,Generic,0603 or radial,Local sensor decoupling,Electronics distributor
+J1,1,USB cable,USB-A to micro-USB,External,Power and USB CDC for Pico,Any
