@@ -1,0 +1,10 @@
+Ref,Qty,Value,Package,MPN,Manufacturer,Distributor,DPN,Notes
+U1,1,DRV5032 Hall switch,DBZ (SOT-23-3),DRV5032FCDBZR,Texas Instruments,,,Select digital variant; confirm unipolar/latching behavior and threshold
+J1,1,Raspberry Pi Pico module,Module,Raspberry Pi Pico,Raspberry Pi Ltd.,,,Genuine 40-pin module; USB connector and onboard 3V3 regulator
+J2,1,128x64 OLED module,Module,SSD1306-based 128x64 I2C module,Various,,,3.3V-compatible VCC and logic; address 0x3C; verify pull-ups
+SW1,1,Rotary encoder with push switch,Through-hole,PEC11R-4215F-S0024,Bourns,,,Confirm terminal layout; alternate equivalent encoder acceptable
+R1,1,10 kOhm 1%,0603,RC0603FR-0710KL,Yageo,,,Hall output pull-up
+R2-R3,2,4.7 kOhm 1%,0603,RC0603FR-074K7L,Yageo,,,I2C pull-ups; omit if OLED module already has suitable pull-ups
+C1,1,100 nF X7R,0603,CC0603KRX7R9BB104,Yageo,,,Hall sensor local bypass
+C2,1,10 uF X7R,0805,CL21A106KAYNNNE,Samsung Electro-Mechanics,,,Local bulk capacitor; account for DC-bias derating
+J3,1,Perfboard and magnet marker,Assembly,Generic perfboard + small permanent magnet,Various,,,Keep magnet secured and safely away from children/implanted devices

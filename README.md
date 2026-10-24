@@ -114,7 +114,8 @@ Every device here is designed with these principles:
 | 80 | [Filter Finch](filter-finch/) | ESP32-C6-DevKitC-1-N8 | USB-powered HVAC filter-loading monitor that combines across-filter differential pressure with a pitot airflow proxy, clean-baseline normalization, local OLED/microSD evidence, and explicit tubing/sensor fault states (reference design; hardware unverified) |
 | 81 | [Stitch Sentinel](stitch-sentinel/) | RP2040 (Raspberry Pi Pico) | USB-powered sewing-machine retrofit that compares optical needle-cycle and fabric-feed motion to flag sustained no-feed events without touching machine wiring (reference design; hardware unverified) |
 | 82 | [Bench Buddy](bench-buddy/) | RP2040 (Raspberry Pi Pico) | USB-powered 8×8 low-voltage cable continuity and connector mapper with current-limited scanning and USB CDC matrix output (reference design; hardware unverified) |
-| 83 | [Rain Gauge Keeper](rain-gauge-keeper/) | RP2040 (Raspberry Pi Pico) | Offline tipping-bucket rain-gauge pulse logger prototype with debounced USB CDC event export and an explicit netlist (reference design; not fabricated) |
+|| 83 | [Rain Gauge Keeper](rain-gauge-keeper/) | RP2040 (Raspberry Pi Pico) | Offline tipping-bucket rain-gauge pulse logger prototype with debounced USB CDC event export and an explicit netlist (reference design; not fabricated) |
+|| 84 | [Row Beacon](row-beacon/) | RP2040 (Raspberry Pi Pico) | Clip-on knitting row counter using a Hall sensor and magnetic needle marker, with local OLED/encoder interface planned (reference design; firmware core syntax-checked, hardware unverified) |
 
 ## Structure
 

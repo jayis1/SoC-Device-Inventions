@@ -1,0 +1,29 @@
+Row Beacon reference connection netlist (3.3 V logic; no PCB layout)
+
+J1 Raspberry Pi Pico module:
+  VSYS <- USB 5 V via Pico USB connector
+  GND -> GND
+  3V3_OUT -> +3V3
+  GP2 <- U1 OUT (Hall event, active-low)
+  GP4 <-> J2 SDA (I2C0 SDA)
+  GP5 <-> J2 SCL (I2C0 SCL)
+  GP10 <- SW1 encoder A
+  GP11 <- SW1 encoder B
+  GP12 <- SW1 encoder push
+
+U1 DRV5032FCDBZR (verify exact package/variant and magnetic threshold):
+  VCC -> +3V3; GND -> GND; OUT -> GP2
+R1 10 kOhm: GP2 to +3V3 (external pull-up)
+C1 100 nF: U1 VCC to GND, placed adjacent
+
+J2 OLED I2C module (SSD1306, 128x64, address 0x3C; module supply must accept 3.3 V):
+  VCC -> +3V3; GND -> GND; SDA -> GP4; SCL -> GP5
+R2 4.7 kOhm: GP4 to +3V3
+R3 4.7 kOhm: GP5 to +3V3
+C2 10 uF: +3V3 to GND near J2
+
+SW1 rotary encoder with push switch:
+  Common pins -> GND; A -> GP10; B -> GP11; push -> GP12
+  Enable RP2040 internal pull-ups; do not add external pull-ups unless needed after testing.
+
+Power: Pico USB connector receives 5 V; onboard regulation creates +3V3. All peripherals share GND. Never apply 5 V to RP2040 GPIO. Confirm the OLED module has no 5 V pull-ups before connecting.
