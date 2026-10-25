@@ -1,0 +1,11 @@
+Ref,Qty,Value / MPN,Manufacturer,Package,Description,Notes
+U1,1,Raspberry Pi Pico (SC0915),Raspberry Pi,40-pin module,RP2040 development board,Use castellated Pico board; official board has onboard regulator and USB
+Q1,1,TEPT4400,Vishay,5 mm radial phototransistor,Reflective sensor receiver,Verify wavelength/response against chosen indicator
+D1,1,VSMY1850X01,Vishay,0805 IR LED,850 nm illuminator,Alternative optics require re-calibration
+R1,1,220R,Yageo,0603,IR LED current limit,Approx 9.5 mA from 3.3 V assuming 1.2 V Vf
+R2,1,10k,Yageo,0603,Phototransistor pull-up,To 3V3
+D2,1,Green LED,Yageo,0603,Status indicator,Any 3.3 V LED with suitable resistor
+R3,1,1k,Yageo,0603,Status LED current limit,Approx 1.3 mA
+C1,1,100nF,Murata,0603,Sensor supply bypass,Place near optical head connector
+J2,1,3-pin 2.54 mm header,Generic,THT,Optical head connection,VCC GND OPT_OUT
+J3,1,2-pin 2.54 mm header,Generic,THT,IR LED connection,GP12 and GND
