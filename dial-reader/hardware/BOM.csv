@@ -1,0 +1,8 @@
+Ref,Qty,Value,MPN,Manufacturer,Package,Notes
+U1,1,Raspberry Pi Pico board,Raspberry Pi Pico,Raspberry Pi Ltd,Module,RP2040 board with USB and onboard regulator
+U2,1,16:1 analog multiplexer,SN74HC4067D,Texas Instruments,SOIC-24,Confirm 3.3 V variant and logic thresholds
+Q1-Q16,16,Phototransistor,TEPT4400,Vishay,5 mm radial,Prototype array; verify optical geometry and pinout
+LED1-LED16,16,IR LED,TSAL6200,Vishay,5 mm radial,940 nm illuminator; verify optical geometry
+R1-R16,16,10k resistor,RC0603FR-0710KL,Yageo,0603,Sensor pull-up resistor
+R17-R32,16,1k resistor,RC0603FR-071KL,Yageo,0603,LED current limiting
+SW1-SW2,2,Momentary switch,PTS645SM43SMTR92 LFS,C&K,SMT,Calibration inputs

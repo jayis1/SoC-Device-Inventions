@@ -119,7 +119,8 @@ Every device here is designed with these principles:
 ||| 85 | [Loom Latch](loom-latch/) | RP2040 (Raspberry Pi Pico) | USB-powered hand-loom shuttle crossing logger using paired optical gates and ordered-edge classification, with offline USB CDC JSONL output (reference design; hardware unverified) |
 | 86 | [Quiet Cue](quiet-cue/) | RP2040 (Raspberry Pi Pico) | USB-powered silent visual task timer with tactile encoder setting and 10-segment remaining-time display; no audio or network |
 | 87 | [Flow Ledger](flow-ledger/) | RP2040 (Raspberry Pi Pico) | Clamp-on optical meter-wheel revolution logger with offline USB CDC JSONL export for water-use verification (design reference; hardware unverified) |
-| 88 | [Shutter Tick](shutter-tick/) | RP2040 (Raspberry Pi Pico) | Optical leaf-shutter pulse-duration logger with USB CDC output for camera repair screening (reference design; hardware unverified) |
+|| 88 | [Shutter Tick](shutter-tick/) | RP2040 (Raspberry Pi Pico) | Optical leaf-shutter pulse-duration logger with USB CDC output for camera repair screening (reference design; hardware unverified) |
+|| 89 | [Dial Reader](dial-reader/) | RP2040 (Raspberry Pi Pico) | Clip-on reflective sensor ring estimates analog gauge-pointer angle and exports calibrated USB CDC JSONL (reference design; not physically validated) |
 
 ## Structure
 
