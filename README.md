@@ -117,6 +117,7 @@ Every device here is designed with these principles:
 || 83 | [Rain Gauge Keeper](rain-gauge-keeper/) | RP2040 (Raspberry Pi Pico) | Offline tipping-bucket rain-gauge pulse logger prototype with debounced USB CDC event export and an explicit netlist (reference design; not fabricated) |
 ||| 84 | [Row Beacon](row-beacon/) | RP2040 (Raspberry Pi Pico) | Clip-on knitting row counter using a Hall sensor and magnetic needle marker, with local OLED/encoder interface planned (reference design; firmware core syntax-checked, hardware unverified) |
 ||| 85 | [Loom Latch](loom-latch/) | RP2040 (Raspberry Pi Pico) | USB-powered hand-loom shuttle crossing logger using paired optical gates and ordered-edge classification, with offline USB CDC JSONL output (reference design; hardware unverified) |
+|| 86 | [Quiet Cue](quiet-cue/) | RP2040 (Raspberry Pi Pico) | USB-powered silent visual task timer with tactile encoder setting and 10-segment remaining-time display; no audio or network |
 
 ## Structure
 

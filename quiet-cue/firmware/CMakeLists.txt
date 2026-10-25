@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.13)
+project(quiet_cue_core C)
+add_library(quiet_cue_core src/quiet_cue.c)
+target_include_directories(quiet_cue_core PUBLIC include)
+target_compile_features(quiet_cue_core PUBLIC c_std_11)

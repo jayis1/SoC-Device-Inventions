@@ -1,0 +1,8 @@
+Ref,Qty,Part,MPN,Manufacturer,Package,Notes
+U0,1,Raspberry Pi Pico,SC0915,Raspberry Pi,module,RP2040 module with USB and regulator
+U1-U2,2,8-bit shift register,SN74HC595D,Texas Instruments,SOIC-16,3.3 V supply
+D1-D10,10,Green LED,Generic,Multiple,0603,Specify low-current type; 2 mA intended
+R1-R3,3,10 kOhm resistor,Generic,Multiple,0603,Pull-ups
+R4-R13,10,1 kOhm resistor,Generic,Multiple,0603,LED current limit
+C1-C2,2,100 nF ceramic,Generic,Multiple,0603,Local decoupling
+J2,1,Rotary encoder with push switch,Generic,Multiple,THT,3 GPIO contacts plus common
