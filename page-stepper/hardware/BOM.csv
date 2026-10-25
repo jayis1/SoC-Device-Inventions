@@ -1,0 +1,6 @@
+Ref,Qty,Value,MPN,Manufacturer,Package,Supplier,UnitPrice,Notes
+U1,1,Raspberry Pi Pico,SC0915,Raspberry Pi,Module,Approved resellers,6.00,Official Pico board; confirm revision
+J1,1,2-pin terminal block,1935161,Phoenix Contact,5.08mm THT,DigiKey,1.20,Pedal A
+J2,1,2-pin terminal block,1935161,Phoenix Contact,5.08mm THT,DigiKey,1.20,Pedal B
+SW1,1,Momentary footswitch,FS-1,Generic,Panel mount,Various,5.00,Normally open dry contact; substitution expected
+SW2,1,Momentary footswitch,FS-1,Generic,Panel mount,Various,5.00,Normally open dry contact; substitution expected
