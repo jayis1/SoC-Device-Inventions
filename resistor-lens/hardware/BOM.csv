@@ -1,0 +1,8 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,Est. Unit Cost USD
+U1,1,Raspberry Pi Pico,Raspberry Pi Ltd.,SC0915,Module,RP2040 development board with USB,4.00
+U2,1,TCS34725 color sensor breakout,Adafruit Industries,1334,Module,RGB color sensor breakout; verify 3V3 pull-ups,7.00
+Q1,1,N-channel MOSFET,Diodes Incorporated,2N7002-7-F,SOT-23,LED low-side switch,0.10
+R1,1,330 ohm resistor,Yageo,RC0603FR-07330RL,0603,LED current limit,0.01
+R2,1,100 kohm resistor,Yageo,RC0603FR-07100KL,0603,Gate pulldown,0.01
+LED1,1,White LED,Kingbright,APTD1608SECK,J-lead 0603,Illumination LED,0.10
+J1,1,USB cable,Generic,N/A,Cable,USB cable compatible with Pico connector,1.00
