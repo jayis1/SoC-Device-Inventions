@@ -1,0 +1,16 @@
+Ref,Qty,Value,MPN,Manufacturer,Package,Description
+U1,1,Raspberry Pi Pico,SC0915,Raspberry Pi Trading,Module,RP2040 module with USB and regulator
+U2,1,AS5600,AS5600-ASOT,ams OSRAM,SOT-23-6,Magnetic angle sensor
+U3,1,EE-SX671,EE-SX671,Omron,Slotted photomicrosensor,Optical spool flag sensor
+U4,1,SSD1306 OLED 128x32,SSD1306,Solomon Systech,Module,3.3 V I2C display module; exact module varies
+D1,1,Green LED,LTST-C190KGKT,Lite-On,0603,Run indicator
+R1-R2,2,4.7k,RC0603FR-074K7L,Yageo,0603,I2C pull-ups to 3V3
+R3,1,10k,RC0603FR-0710KL,Yageo,0603,Optical switch pull-up to 3V3
+R4,1,1k,RC0603FR-071KL,Yageo,0603,LED series resistor
+C1-C3,3,100nF,GRM188R71C104KA01D,Murata,0603,Local sensor decoupling
+C4,1,10uF,GRM21BR71A106KE51L,Murata,0805,Local bulk decoupling
+SW1,1,Momentary button,B3U-1000P,Omron,SMT tactile,User button
+J1,1,USB cable,USB micro-B cable,Generic,Cable,Power and USB CDC via Pico connector
+M1,1,Diametric magnet,2x6mm diametric magnet,Generic,Mechanical,AS5600 target; confirm magnetization and air gap
+M2,1,Measuring wheel,20 mm circumference grooved wheel,Generic,Mechanical,Filament contact wheel; dimension is effective circumference
+M3,1,Slotted flag,Opaque spool flag,Generic,Mechanical,Spool rotation interrupter target
