@@ -1,0 +1,8 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCost,Source
+U1,1,Raspberry Pi Pico,Raspberry Pi,SC0915,Board,RP2040 development board with USB,4.00,raspberrypi.com
+Q1,1,NPN phototransistor,Vishay,TEPT4400,5 mm radial,Visible-light phototransistor,0.40,vishay.com
+R1,1,Resistor,Yageo,RC0603FR-0710KL,0603 10k pull-up,0.02,distributor
+R2,1,Resistor,Yageo,RC0603FR-071KL,0603 1k LED limiter,0.02,distributor
+D1,1,Red LED,Kingbright,L-934ID,3 mm radial,Status indicator,0.10,distributor
+J1,1,Pin header,Generic,1x03-2.54,Through-hole,Sensor hookup,0.10,distributor
+C1,1,Ceramic capacitor,Murata,GRM188R71C104KA01D,0603 100nF,Local sensor decoupling,0.05,distributor
