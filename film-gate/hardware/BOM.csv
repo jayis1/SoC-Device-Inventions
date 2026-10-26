@@ -1,0 +1,10 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,Notes
+U1,1,SC0915,Raspberry Pi Ltd.,Raspberry Pi Pico RP2040 development board,Module,Header-mounted; includes flash and regulator
+U2,1,TCRT5000L,Vishay,reflective optical sensor,Through-hole,Pair with LM393 threshold comparator breakout; verify OUT never exceeds 3.3 V
+U3,1,LM393DR,Texas Instruments,dual comparator optical sensor interface,SOIC-8,Comparator breakout or equivalent module
+U4,1,LTV-817S-TA1,LITEON,phototransistor optocoupler,SMD-4,Camera contact isolation; verify CTR at selected LED current
+R1,1,RC0603FR-07330RL,Yageo,330 ohm LED current limiter,0603,GP16 to optocoupler LED
+R2,1,RC0603FR-0710KL,Yageo,10 kohm pull-up,0603,Optional pull-up from comparator open collector to 3V3
+SW1,1,TL1105VF160Q,E-Switch,momentary normally-open foot switch,Through-hole,Foot pedal mechanical assembly unspecified
+J1,1,USB cable,Generic,USB data cable,USB,Use Pico USB connector
+J2,1,Camera cable,Generic,model-specific remote cable,Custom,Wire only optocoupler transistor contacts
