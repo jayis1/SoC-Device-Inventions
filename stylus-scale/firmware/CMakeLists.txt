@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(stylus_scale_core C)
+set(CMAKE_C_STANDARD 11)
+add_library(stylus_scale_core src/stylus_scale.c)
+target_include_directories(stylus_scale_core PUBLIC include)
+target_compile_options(stylus_scale_core PRIVATE -Wall -Wextra -Werror)

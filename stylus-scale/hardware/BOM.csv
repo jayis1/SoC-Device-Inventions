@@ -1,0 +1,8 @@
+Ref,Qty,Value,Manufacturer,MPN,Package,Notes
+U1,1,Raspberry Pi Pico module,Raspberry Pi,SC0915,Module,RP2040 plus onboard flash and regulator; confirm revision
+U2,1,24-bit bridge ADC,Avia Semiconductor,HX711,SOP-16,Use a breakout/module only if supply and logic are 3.3 V compatible
+LS1,1,5 g four-wire load cell,Various,5g-4wire,Bar/miniature,Verify bridge polarity and rated overload with supplier
+DS1,1,128x64 OLED module,Various,SSD1306-128x64,Module,3.3 V logic; I2C address 0x3C
+SW1,1,Momentary tactile switch,Omron,B3F-1000,THT,Optional tare button
+R1-R2,2,4.7 kOhm pull-up,Yageo,RC0805FR-074K7L,0805,Only if display module lacks I2C pull-ups
+C1,1,100 nF ceramic,Murata,GRM21BR71H104KA01,0805,Local decoupling near HX711 module

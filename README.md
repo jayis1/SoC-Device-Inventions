@@ -123,7 +123,8 @@ Every device here is designed with these principles:
 || 89 | [Dial Reader](dial-reader/) | RP2040 (Raspberry Pi Pico) | Clip-on reflective sensor ring estimates analog gauge-pointer angle and exports calibrated USB CDC JSONL (reference design; not physically validated) |
 || 90 | [Resistor Lens](resistor-lens/) | RP2040 (Raspberry Pi Pico) | USB-powered TCS34725 color-sensor bench aid for sampling resistor bands and decoding manually identified 4-band values; reference design, unvalidated |
 || 91 | [Page Stepper](page-stepper/) | RP2040 (Raspberry Pi Pico) | Wired dual-foot USB HID page-turn controller for sheet music, recipes, and hands-free navigation; reference design, hardware unverified |
-| 92 | [Spool Scout](spool-scout/) | RP2040 (Raspberry Pi Pico) | Inline filament and spool-motion monitor with local USB reporting for detecting 3D-printer feed interruptions; reference design, hardware unverified |
+|| 92 | [Spool Scout](spool-scout/) | RP2040 (Raspberry Pi Pico) | Inline filament and spool-motion monitor with local USB reporting for detecting 3D-printer feed interruptions; reference design, hardware unverified |
+|| 93 | [Stylus Scale](stylus-scale/) | RP2040 (Raspberry Pi Pico) | USB-powered turntable stylus tracking-force gauge using a 5 g load cell and HX711 bridge ADC; reference design, target firmware and hardware unverified |
 
 ## Structure
 
