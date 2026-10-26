@@ -1,0 +1,9 @@
+Ref,Qty,Value,MPN,Manufacturer,Package,Notes
+U1,1,Raspberry Pi Pico,SC0915,Raspberry Pi Trading,Pico module,RP2040 board; exact board revision/pinout verify before assembly
+U2,1,24-bit load-cell ADC module,HX711,Avia Semiconductor,Module,Module layout and excitation voltage vary; verify module documentation
+U3,1,12-bit magnetic angle sensor breakout,AS5600,ams OSRAM,Breakout,Use diametric magnet and 3.3 V-compatible breakout
+W1,1,1 kg bar load cell,Generic 1 kg bar load cell,Various,Bar,Bridge wiring and rated excitation per supplied cell datasheet
+R1 R2,2,4.7 kOhm 1%,Generic,Various,0603 or breakout,Only populate if board does not already provide I2C pullups
+J1,1,4-pin sensor header,Generic,Various,2.54 mm,3V3 GND SDA SCL
+J2,1,4-pin load-cell header,Generic,Various,Module connector,Exc+ Exc- Sig+ Sig- per load-cell labeling
+M1,1,M6 x 0.5 fine-pitch lead screw,Generic,Various,Mechanical,Manual travel drive; use compatible nut and guided platen

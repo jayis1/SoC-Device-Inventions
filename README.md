@@ -125,6 +125,7 @@ Every device here is designed with these principles:
 || 91 | [Page Stepper](page-stepper/) | RP2040 (Raspberry Pi Pico) | Wired dual-foot USB HID page-turn controller for sheet music, recipes, and hands-free navigation; reference design, hardware unverified |
 || 92 | [Spool Scout](spool-scout/) | RP2040 (Raspberry Pi Pico) | Inline filament and spool-motion monitor with local USB reporting for detecting 3D-printer feed interruptions; reference design, hardware unverified |
 || 93 | [Stylus Scale](stylus-scale/) | RP2040 (Raspberry Pi Pico) | USB-powered turntable stylus tracking-force gauge using a 5 g load cell and HX711 bridge ADC; reference design, target firmware and hardware unverified |
+|| 94 | [Key Travel](key-travel/) | RP2040 (Raspberry Pi Pico) | Manual keyboard-switch force–travel curve logger with 1 kg load cell, screw-angle sensing, and USB CSV export (reference design; firmware build and hardware unverified) |
 
 ## Structure
 
