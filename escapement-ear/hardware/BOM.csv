@@ -1,0 +1,13 @@
+Ref,Qty,Value,Package,Manufacturer,MPN,Notes
+U1,1,MCP6001,PDIP-8 or breakout,Microchip,MCP6001-I/P,Confirm pinout and availability
+U2,1,LMV331,SOIC-5 or comparator breakout,Texas Instruments,LMV331IDBVR,Open-collector output; confirm pinout
+J1,1,Raspberry Pi Pico module,module,Raspberry Pi,Pico,RP2040 module with onboard flash and regulator
+J2,1,128x64 I2C OLED,module,Generic,SSD1306-based module,Verify 3.3V-compatible module
+PZ1,1,Passive piezo disc,disc,Generic,27mm passive piezo,Use contact-coupled pickup
+D1 D2,1,BAT54S dual Schottky,SOT-23,Nexperia,BAT54S,Clamp implementation must be confirmed
+R1 R2 R5,3,1M 10k 10k,through-hole,Generic,standard resistor,1/4W
+R3 R6 R7,3,100k 4.7k 4.7k,through-hole,Generic,standard resistor,1/4W
+R4,1,10k,through-hole,Generic,standard resistor,1/4W
+RV1,1,10k potentiometer,panel mount,Generic,linear potentiometer,Threshold adjustment
+C1,1,10nF,ceramic,Generic,10nF ceramic,Input filter
+C2 C3,2,100nF,ceramic,Generic,100nF ceramic,Supply decoupling

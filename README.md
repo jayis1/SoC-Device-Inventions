@@ -126,6 +126,7 @@ Every device here is designed with these principles:
 || 92 | [Spool Scout](spool-scout/) | RP2040 (Raspberry Pi Pico) | Inline filament and spool-motion monitor with local USB reporting for detecting 3D-printer feed interruptions; reference design, hardware unverified |
 || 93 | [Stylus Scale](stylus-scale/) | RP2040 (Raspberry Pi Pico) | USB-powered turntable stylus tracking-force gauge using a 5 g load cell and HX711 bridge ADC; reference design, target firmware and hardware unverified |
 || 94 | [Key Travel](key-travel/) | RP2040 (Raspberry Pi Pico) | Manual keyboard-switch force–travel curve logger with 1 kg load cell, screw-angle sensing, and USB CSV export (reference design; firmware build and hardware unverified) |
+|| 95 | [Escapement Ear](escapement-ear/) | RP2040 (Raspberry Pi Pico) | Contact-piezo mechanical escapement interval and rate analyzer with USB CDC output; reference design, firmware core syntax-checked, hardware unverified |
 
 ## Structure
 
