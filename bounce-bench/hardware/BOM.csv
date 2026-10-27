@@ -1,0 +1,12 @@
+Ref,Qty,Value,Description,Manufacturer,MPN,Package,Notes
+U1,1,MCU,32-bit RISC-V MCU,WCH,CH32V003F4P6,SOP-8,Verify current datasheet pin map
+U2,1,3.3V LDO,300mA low-dropout regulator,Texas Instruments,TLV70033DBVR,SOT-23-5,Input from USB 5V
+J1,1,USB-C,USB 2.0 receptacle,GCT,USB4105-GF-A,USB-C,USB power only; verify footprint
+J2,1,2-pin terminal,Test contact input,Generic,TBD,2.54mm header,Dry contact only
+J3,1,3-pin header,3.3V UART TX RX GND,Generic,TBD,2.54mm header,Adapter external
+R1,1,1k,Series input resistor,Yageo,RC0603FR-071KL,0603,TEST input
+R2 R3,2,5.1k,USB-C CC pulldowns,Yageo,RC0603FR-075K1L,0603,CC1 and CC2
+C1,1,100nF,MCU bypass capacitor,Murata,GRM188R71C104KA01D,0603,Place close to VDD
+C2,1,1uF,LDO input capacitor,Murata,GRM188R71C105KA61D,0603,Confirm stability requirements
+C3,1,4.7uF,3.3V output capacitor,Murata,GRM188R60J475ME19D,0603,Confirm stability requirements
+D1,1,ESD clamp,Low-capacitance 3.3V signal ESD protection,Generic,TBD,SOD-323,Select validated part before fabrication

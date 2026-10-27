@@ -127,7 +127,8 @@ Every device here is designed with these principles:
 || 93 | [Stylus Scale](stylus-scale/) | RP2040 (Raspberry Pi Pico) | USB-powered turntable stylus tracking-force gauge using a 5 g load cell and HX711 bridge ADC; reference design, target firmware and hardware unverified |
 || 94 | [Key Travel](key-travel/) | RP2040 (Raspberry Pi Pico) | Manual keyboard-switch force–travel curve logger with 1 kg load cell, screw-angle sensing, and USB CSV export (reference design; firmware build and hardware unverified) |
 || 95 | [Escapement Ear](escapement-ear/) | RP2040 (Raspberry Pi Pico) | Contact-piezo mechanical escapement interval and rate analyzer with USB CDC output; reference design, firmware core syntax-checked, hardware unverified |
-|| 96 | [Film Gate](film-gate/) | RP2040 (Raspberry Pi Pico) | USB-powered optical film-frame gate with guarded foot-switch exposure requests and camera-isolated trigger prototype |
+||| 96 | [Film Gate](film-gate/) | RP2040 (Raspberry Pi Pico) | USB-powered optical film-frame gate with guarded foot-switch exposure requests and camera-isolated trigger prototype |
+||| 97 | [Bounce Bench](bounce-bench/) | CH32V003F4P6 (RISC-V) | USB-powered dry-contact bounce-time sampler with UART CSV export for switch and keyboard characterization (reference design; firmware/hardware unverified) |
 
 ## Structure
 
