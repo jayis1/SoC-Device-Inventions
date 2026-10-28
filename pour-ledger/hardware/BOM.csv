@@ -1,0 +1,6 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Supplier PN,Notes
+U1,1,Raspberry Pi Pico,Raspberry Pi,SC0915,Module,Various,RP2040 module with USB and regulator
+U2,1,24-bit load-cell ADC module,Avia Semiconductor,HX711 module,Module,Various,Verify 3.3 V logic and excitation configuration
+LS1,1,Single-point load cell 1 kg,Various,1kg single-point cell,Bar,Various,Use datasheet wiring and mounting recommendations
+DS1,1,128x64 OLED I2C,Various,SSD1306 0.96in module,Module,Various,Address 0x3C; 3.3 V logic
+SW1-SW2,2,Momentary normally-open tactile switch,Various,6x6mm tactile switch,THT,Various,Connect GPIO to ground
