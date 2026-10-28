@@ -1,0 +1,9 @@
+Reference,Quantity,Manufacturer,MPN,Package,Approx USD
+Pico1,1,Raspberry Pi,Pico,Board,$4
+U1,1,Texas Instruments,LMV331IDBVR,SOT-23-5,$0.30
+D1,1,Vishay,TCRT5000L,Radial through-hole,$0.50
+R1,1,Yageo,RC0603FR-07220RL,0603,$0.01
+R2 R3,2,Yageo,RC0603FR-0710KL,0603,$0.01
+RV1,1,Bourns,3386P-1-103LF,Trimmer,$0.80
+C1,1,Murata,GRM188R71C104KA01D,0603,$0.02
+C2,1,Murata,GRM188R71H103KA01D,0603,$0.02

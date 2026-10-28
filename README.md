@@ -129,6 +129,7 @@ Every device here is designed with these principles:
 || 95 | [Escapement Ear](escapement-ear/) | RP2040 (Raspberry Pi Pico) | Contact-piezo mechanical escapement interval and rate analyzer with USB CDC output; reference design, firmware core syntax-checked, hardware unverified |
 ||| 96 | [Film Gate](film-gate/) | RP2040 (Raspberry Pi Pico) | USB-powered optical film-frame gate with guarded foot-switch exposure requests and camera-isolated trigger prototype |
 ||| 97 | [Bounce Bench](bounce-bench/) | CH32V003F4P6 (RISC-V) | USB-powered dry-contact bounce-time sampler with UART CSV export for switch and keyboard characterization (reference design; firmware/hardware unverified) |
+|| 98 | [Tape Tally](tape-tally/) | RP2040 (Raspberry Pi Pico) | Offline reflective-reel motion and stall logger for vintage cassette transport diagnosis (reference design; hardware unverified) |
 
 ## Structure
 
