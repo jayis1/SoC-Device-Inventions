@@ -1,0 +1,5 @@
+RefDes,Qty,Part,Manufacturer,MPN,Package,Description,Notes
+U1,1,Raspberry Pi Pico board,Raspberry Pi,SC0915,Module,RP2040 development module with USB and onboard regulator,Reference board; verify board revision and pin labels
+R1,1,Resistor 1 kOhm 1%,Yageo,RC0603FR-071KL,0603,Series piezo current limiting resistor,Any 1 kOhm 1% resistor rated at least 0.1 W is suitable
+BZ1,1,Passive piezo sounder,Generic,Generic passive piezo 3.3 V compatible,Through-hole or module,Local key cue; select a low-current piezo not a magnetic buzzer
+S1,1,Straight telegraph key,Generic,Generic normally-open momentary key,Panel or desktop,Two-terminal normally-open contact; enclosure not included
