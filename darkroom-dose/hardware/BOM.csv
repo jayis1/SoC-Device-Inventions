@@ -1,0 +1,10 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,Approx Unit Cost USD
+U1,1,OPA333AIDBVR,Texas Instruments,OPA333AIDBVR,SOT-23-5,Zero-drift single op amp (TIA prototype),1.60
+D1,1,BPW34,Vishay,BPW34,THROUGH-HOLE,Silicon PIN photodiode,0.60
+U2,1,LTV-817S,LITE-ON,LTV-817S,SOP-4,Phototransistor optocoupler signal isolation,0.35
+R1,1,Feedback resistor value TBD,Generic,TBD,0603,Select after TIA stability and range testing,0.02
+C1,1,100nF ceramic capacitor,Generic,GRM188R71C104KA01D,0603,Local amplifier bypass,0.03
+R2,1,1k resistor,Generic,RC0603FR-071KL,0603,ADC series resistor,0.01
+R3,1,1k resistor,Generic,RC0603FR-071KL,0603,Optocoupler LED current limit,0.01
+R4,1,100k resistor,Generic,RC0603FR-07100KL,0603,Output GPIO pull-down,0.01
+J1,1,Raspberry Pi Pico board,Raspberry Pi,SC0915,BOARD,RP2040 development board with USB and regulator,4.00

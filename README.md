@@ -130,7 +130,8 @@ Every device here is designed with these principles:
 ||| 96 | [Film Gate](film-gate/) | RP2040 (Raspberry Pi Pico) | USB-powered optical film-frame gate with guarded foot-switch exposure requests and camera-isolated trigger prototype |
 ||| 97 | [Bounce Bench](bounce-bench/) | CH32V003F4P6 (RISC-V) | USB-powered dry-contact bounce-time sampler with UART CSV export for switch and keyboard characterization (reference design; firmware/hardware unverified) |
 || 98 | [Tape Tally](tape-tally/) | RP2040 (Raspberry Pi Pico) | Offline reflective-reel motion and stall logger for vintage cassette transport diagnosis (reference design; hardware unverified) |
-||| 99 | [Morse Mate](morse-mate/) | RP2040 (Raspberry Pi Pico) | Offline straight-key Morse practice aid with local piezo feedback and USB CDC character output (reference design; hardware unverified) |
+||| 99 | [Morse Mate](morse-mate/) | RP2040 (Raspberry Pi Pico) | Offline straight-key Morse practice aid with local piezo feedback and USB CDC character output (reference design; hardware unverified)
+||| 100 | [Darkroom Dose](darkroom-dose/) | RP2040 (Raspberry Pi Pico) | Enlarger exposure-dose integration and timed low-voltage enable output (reference design; TIA and hardware unverified) |
 
 ## Structure
 
