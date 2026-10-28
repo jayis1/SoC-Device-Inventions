@@ -1,0 +1,12 @@
+reference,description,manufacturer,part_number,package,quantity,unit_cost_usd
+U1,Raspberry Pi Pico RP2040 module,Raspberry Pi,SC0915,through-hole module,1,4.00
+U2,Dual low-voltage comparator,Texas Instruments,LMV393IDR,SOIC-8,1,0.45
+Q1-Q2,Phototransistor Vishay,Vishay,TEPT4400,5mm through-hole,2,0.40
+D1-D2,IR LED 940nm,Vishay,TSAL6200,5mm through-hole,2,0.30
+R1-R2,LED current limit 220 ohm,Yageo,RC0805FR-07220RL,0805,2,0.02
+R3-R4,phototransistor collector 100 kohm,Yageo,RC0805FR-07100KL,0805,2,0.02
+R5-R6,comparator output pull-up 10 kohm,Yageo,RC0805FR-0710KL,0805,2,0.02
+R7-R10,comparator threshold divider 100 kohm,Yageo,RC0805FR-07100KL,0805,4,0.02
+C1,comparator decoupling 100nF,Murata,GRM21BR71C104KA01L,0805,1,0.04
+C2,bulk decoupling 10uF,Murata,GRM21BR71A106KE51L,0805,1,0.12
+J2-J3,4-pin keyed sensor connector,JST,B4B-PH-K-S,through-hole,2,0.30
