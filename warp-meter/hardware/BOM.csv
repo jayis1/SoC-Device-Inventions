@@ -1,0 +1,7 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,Unit cost USD (estimate),Substitute constraints
+U1,1,Pico H,Raspberry Pi,RP2040 development board with USB,Board,$4.00,Exact Pico pinout required
+ENC1,1,PEC11R-4215F-S0024,Bourns,Incremental encoder 24 detent with push switch,Through-hole,$2.50,Use 24 detents and configure count divisor accordingly
+S1,1,EE-SX1103,Omron,Photomicrosensor interrupter,Through-hole,$2.00,Open collector output; confirm 3.3V-compatible
+R1,1,Generic 10k 1%,Yageo,Photointerrupter pull-up,0603,$0.02,10k ±5%
+SW1,1,TL1105, E-Switch,Momentary tactile zero button,Through-hole,$0.20,Normally open
+J1,1,USB-MICRO-B,Generic,USB power and data cable,Cable,$1.00,Match Pico H connector

@@ -1,0 +1,8 @@
+# Firmware configuration
+
+Target: Raspberry Pi Pico H (RP2040)
+Pico SDK: 2.1.1 (set PICO_SDK_PATH to that checkout)
+USB CDC: enabled by CMake; UART disabled
+GPIO: encoder A=2, B=3; optical yarn gate=14; zero button=15; onboard LED=25
+Sample length: 100 mm
+Encoder detents/turn: 24 (Bourns PEC11R-4215F-S0024 nominal detent variant; verify actual part)

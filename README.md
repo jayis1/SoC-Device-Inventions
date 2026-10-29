@@ -140,7 +140,8 @@ Every device here is designed with these principles:
 | 106 | [Knot Witness](knot-witness/) | RP2040 (Raspberry Pi Pico) | Offline fishing-knot pull-test logger using a 100 N S-beam load cell and HX711; records raw force samples and peak load over USB CDC CSV (reference design; calibration and hardware unverified) |
 || 107 | [Edge Tally](edge-tally/) | RP2040 (Raspberry Pi Pico) | Low-voltage dry-contact operation counter with debounced edge counting and USB-powered reference design; target integration and hardware unverified |
 || 108 | [Beat Window](beat-window/) | RP2040 (Raspberry Pi Pico) | USB-powered reflective optical interval logger for pendulum/balance passages; portable timing core and hardware unverified |
-|| 109 | [Fold Ledger](fold-ledger/) | RP2040 (Raspberry Pi Pico) | Offline USB event logger for manual paper-folding passes with foot-switch and isolated optical pulse inputs (reference design; not fabricated) |
+||| 109 | [Fold Ledger](fold-ledger/) | RP2040 (Raspberry Pi Pico) | Offline USB event logger for manual paper-folding passes with foot-switch and isolated optical pulse inputs (reference design; not fabricated) |
+||| 110 | [Twist Meter](warp-meter/) | RP2040 (Raspberry Pi Pico H) | USB CDC yarn twist-density comparison fixture with rotary encoder, optical specimen gate, and manually operated 100 mm sample clamp (reference design; target build and hardware unverified) |
 
 ## Structure
 
