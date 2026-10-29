@@ -133,7 +133,8 @@ Every device here is designed with these principles:
 ||| 99 | [Morse Mate](morse-mate/) | RP2040 (Raspberry Pi Pico) | Offline straight-key Morse practice aid with local piezo feedback and USB CDC character output (reference design; hardware unverified)
 ||| 100 | [Darkroom Dose](darkroom-dose/) | RP2040 (Raspberry Pi Pico) | Enlarger exposure-dose integration and timed low-voltage enable output (reference design; TIA and hardware unverified) |
 | 101 | [Pour Ledger](pour-ledger/) | RP2040 (Raspberry Pi Pico) | USB-powered pour-over coffee scale and brew timer using a load cell/HX711, live flow-rate estimation, staged recipe prompts, and USB CDC CSV export (reference design; firmware/hardware unverified) |
-| 102 | [Loom Mark](loom-mark/) | RP2040 (Raspberry Pi Pico) | Hand-loom shuttle crossing logger with paired optical gates and offline USB CDC CSV events (reference design; hardware unverified) |
+|| 102 | [Loom Mark](loom-mark/) | RP2040 (Raspberry Pi Pico) | Hand-loom shuttle crossing logger with paired optical gates and offline USB CDC CSV events (reference design; hardware unverified) |
+|| 103 | [Tank Tally](tank-tally/) | RP2040 (Raspberry Pi Pico) | Offline developing-tank inversion/agitation cadence logger using LIS3DH motion sensing and USB CDC CSV export (reference design; hardware unverified) |
 
 ## Structure
 

@@ -1,0 +1,6 @@
+ref,qty,manufacturer_part_number,manufacturer,value,package,notes
+U1,1,Pico, Raspberry Pi Ltd,Raspberry Pi Pico module,module,RP2040 module; USB powered
+U2,1,LIS3DH,STMicroelectronics,LIS3DH accelerometer,LGA-16 or breakout,Use 3.3 V-compatible breakout
+R1 R2,2,RC0603FR-074K7L,Yageo,4.7 kOhm,0603,I2C pull-ups (omit if already fitted)
+SW1,1,B3U-1000P,Omron,Normally-open momentary switch,SMD or panel,Button GP14 to GND
+J1,1,USB-MICRO-B,Generic,USB cable/host connector,cable,Pico onboard USB connector

@@ -1,0 +1,1 @@
+# Pico SDK build defaults: select board via CMake -DPICO_BOARD=pico

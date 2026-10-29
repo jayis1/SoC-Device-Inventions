@@ -1,0 +1,12 @@
+Connectivity reference (not a native KiCad schematic)
+
+U1 Raspberry Pi Pico:
+  3V3(OUT) -> U2 VDD; GND -> U2 GND
+  GP4 (physical pin 6) -> U2 SDA; R1 4k7 from SDA to 3V3
+  GP5 (physical pin 7) -> U2 SCL; R2 4k7 from SCL to 3V3
+  GP14 (physical pin 19) -> SW1 -> GND
+  USB connector is onboard U1
+U2 LIS3DH breakout:
+  SA0/SDO -> GND, address 0x18; CS -> 3V3 for I2C mode
+
+Use breakout pin labels rather than bare-chip pad assumptions. Verify power and interface requirements for the particular module before wiring. No PCB or fabrication data is supplied.
