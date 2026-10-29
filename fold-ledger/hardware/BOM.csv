@@ -1,0 +1,8 @@
+Qty,Reference,Part,Value / identity,Notes
+1,U1,Raspberry Pi Pico,RP2040 board,USB-powered module with flash and regulator
+1,SW1,Normally-open foot switch,dry contact,GP14 to GND
+1,U2,PC817,PC817XxNSZ0F,Check package suffix and CTR for SELV input
+1,R1,Resistor,10 kΩ 0603 1%,GP15 pull-up to 3V3
+1,R2,Resistor,1 kΩ 0603 1%,Status LED limit
+1,D1,Green LED,0603,Status
+1,J1,USB cable,USB-A to micro-USB,data capable

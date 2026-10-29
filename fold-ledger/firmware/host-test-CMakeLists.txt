@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.13)
+project(fold_ledger_host_test C)
+add_executable(fold_ledger_test main.c)
+target_compile_definitions(fold_ledger_test PRIVATE FOLD_LEDGER_TEST=1)
