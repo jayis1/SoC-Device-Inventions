@@ -137,6 +137,7 @@ Every device here is designed with these principles:
 ||| 103 | [Tank Tally](tank-tally/) | RP2040 (Raspberry Pi Pico) | Offline developing-tank inversion/agitation cadence logger using LIS3DH motion sensing and USB CDC CSV export (reference design; hardware unverified) |
 || 104 | [Coil Clock](coil-clock/) | RP2040 (Raspberry Pi Pico) | Magnetic index-crossing revolution counter for small coil-winding jigs with local tick and USB CDC JSONL output (reference design; hardware unverified) |
 | 105 | [Slide Scout](slide-scout/) | RP2040 (Raspberry Pi Pico) | USB-powered film-negative spot densitometer using a TSL2591 light sensor and stable LED backlight; converts calibrated transmission readings to optical density and exports USB CDC CSV for darkroom printing notes (reference design; hardware unverified) |
+| 106 | [Knot Witness](knot-witness/) | RP2040 (Raspberry Pi Pico) | Offline fishing-knot pull-test logger using a 100 N S-beam load cell and HX711; records raw force samples and peak load over USB CDC CSV (reference design; calibration and hardware unverified) |
 
 ## Structure
 

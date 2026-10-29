@@ -1,0 +1,6 @@
+Ref,Qty,Value,MPN,Manufacturer,Package,Supplier/Link,Notes
+U1,1,Raspberry Pi Pico,SC0915,Raspberry Pi Ltd,40-pin module,https://www.raspberrypi.com/products/raspberry-pi-pico/,RP2040 board; use original Pico with USB micro-B
+U2,1,3.3 V-compatible HX711 breakout module,GENERIC,Select verified supplier,Module,Select supplier,Must expose VCC GND DOUT SCK E+ E− A+ A−; internal decoupling and RATE-low 10 SPS; confirm all logic outputs are 3.3 V
+LC1,1,100 N S-beam load cell,UNSPECIFIED,Select by supplier,Varies,Select supplier,Must provide documented 4-wire bridge; verify excitation rating and mounting before purchase
+J1,1,8-pin load-cell/HX711 harness connector,Generic,Select supplier,Varies,Select supplier,Only needed when breakout lacks a detachable load-cell connector; label pin 1 E+
+J2,1,USB micro-B,On Pico,On Pico,Module connector,https://www.raspberrypi.com/products/raspberry-pi-pico/,USB input and CDC
