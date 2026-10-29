@@ -1,0 +1,4 @@
+Ref,Qty,Part,MPN,Package,Notes
+U1,1,Raspberry Pi Pico,SC0915,module,RP2040 board; includes USB connector and regulator
+R1,1,Resistor 10 kOhm,generic,0603,External pull-up; optional if internal pull-up enabled
+J2,1,2-pin terminal block,generic,5.08mm,Contact under test must be unpowered
