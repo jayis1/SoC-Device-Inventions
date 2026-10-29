@@ -138,7 +138,8 @@ Every device here is designed with these principles:
 || 104 | [Coil Clock](coil-clock/) | RP2040 (Raspberry Pi Pico) | Magnetic index-crossing revolution counter for small coil-winding jigs with local tick and USB CDC JSONL output (reference design; hardware unverified) |
 | 105 | [Slide Scout](slide-scout/) | RP2040 (Raspberry Pi Pico) | USB-powered film-negative spot densitometer using a TSL2591 light sensor and stable LED backlight; converts calibrated transmission readings to optical density and exports USB CDC CSV for darkroom printing notes (reference design; hardware unverified) |
 | 106 | [Knot Witness](knot-witness/) | RP2040 (Raspberry Pi Pico) | Offline fishing-knot pull-test logger using a 100 N S-beam load cell and HX711; records raw force samples and peak load over USB CDC CSV (reference design; calibration and hardware unverified) |
-| 107 | [Edge Tally](edge-tally/) | RP2040 (Raspberry Pi Pico) | Low-voltage dry-contact operation counter with debounced edge counting and USB-powered reference design; target integration and hardware unverified |
+|| 107 | [Edge Tally](edge-tally/) | RP2040 (Raspberry Pi Pico) | Low-voltage dry-contact operation counter with debounced edge counting and USB-powered reference design; target integration and hardware unverified |
+|| 108 | [Beat Window](beat-window/) | RP2040 (Raspberry Pi Pico) | USB-powered reflective optical interval logger for pendulum/balance passages; portable timing core and hardware unverified |
 
 ## Structure
 

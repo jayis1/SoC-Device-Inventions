@@ -1,0 +1,7 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Notes
+U1,1,Raspberry Pi Pico,Raspberry Pi,SC0915,module,RP2040 board; USB connector and onboard regulator
+Q1,1,Phototransistor,Vishay,TEPT5600,3mm radial,Visible-light phototransistor; check polarity and spectral response
+R1-R2,2,Resistor 10 kOhm,Yageo,RC0603FR-0710KL,0603,Divider; 1% preferred
+R3,1,Resistor 1 kOhm,Yageo,RC0603FR-071KL,0603,LED current limiting
+D1,1,Red LED,Kingbright,L-7113ID,3mm radial,Indicator LED; Vf assumed ~2.0 V for estimate
+J2,1,Sensor shield (optional),Generic,N/A,opaque material,Blocks ambient light; fabricate to suit setup
