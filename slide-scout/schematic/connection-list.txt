@@ -1,0 +1,9 @@
+Slide Scout wiring reference (not a KiCad schematic)
+Pico J1 pin 36 (3V3 OUT) -> TSL2591 breakout VIN/3V3
+Pico J1 pin 3 (GND) -> sensor GND
+Pico J1 pin 6 (GP4/I2C0 SDA) -> sensor SDA
+Pico J1 pin 7 (GP5/I2C0 SCL) -> sensor SCL
+Pico J1 pin 21 (GP16) -> R1 220R -> D1 anode; D1 cathode -> GND
+C1 100nF between sensor supply and ground, adjacent to breakout if not already fitted
+Pico onboard USB connector -> host and 5V supply
+Ensure breakout I2C pullups terminate at 3.3V; do not connect a 5V pull-up.

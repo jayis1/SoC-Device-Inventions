@@ -1,0 +1,7 @@
+Ref,Qty,Value,MPN,Manufacturer,Package,Notes
+U1,1,Raspberry Pi Pico RP2040 module,SC0915,Raspberry Pi,Module,Includes RP2040 flash crystal regulator USB; use 3V3 pin
+U2,1,TSL2591 light sensor breakout,TSL2591FN,ams OSRAM,Module,Select 3.3V-compatible I2C breakout; module exact vendor SKU depends on supplier
+D1,1,White LED,LTW-2S3D7,Lite-On,0603,Typical Vf about 2.8-3.2V
+R1,1,LED current resistor 220 ohm,RC0603FR-07220RL,Yageo,0603,Sets approximately 2mA LED current
+C1,1,Decoupling capacitor 100 nF,CC0603KRX7R9BB104,Yageo,0603,Place at sensor module supply if not present onboard
+J1,1,USB cable,NA,Various,USB Micro-B cable,Use Pico onboard connector

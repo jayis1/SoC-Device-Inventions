@@ -136,6 +136,7 @@ Every device here is designed with these principles:
 || 102 | [Loom Mark](loom-mark/) | RP2040 (Raspberry Pi Pico) | Hand-loom shuttle crossing logger with paired optical gates and offline USB CDC CSV events (reference design; hardware unverified) |
 ||| 103 | [Tank Tally](tank-tally/) | RP2040 (Raspberry Pi Pico) | Offline developing-tank inversion/agitation cadence logger using LIS3DH motion sensing and USB CDC CSV export (reference design; hardware unverified) |
 || 104 | [Coil Clock](coil-clock/) | RP2040 (Raspberry Pi Pico) | Magnetic index-crossing revolution counter for small coil-winding jigs with local tick and USB CDC JSONL output (reference design; hardware unverified) |
+| 105 | [Slide Scout](slide-scout/) | RP2040 (Raspberry Pi Pico) | USB-powered film-negative spot densitometer using a TSL2591 light sensor and stable LED backlight; converts calibrated transmission readings to optical density and exports USB CDC CSV for darkroom printing notes (reference design; hardware unverified) |
 
 ## Structure
 
