@@ -1,0 +1,12 @@
+Reference BOM; validate exact module/footprint before procurement.
+Reference,Qty,Description,Package,Notes
+Raspberry Pi Pico,1,RP2040 development board,Module,USB powered
+SSD1306 OLED 128x32,1,Display module,I2C module,3.3V logic; address 0x3C
+2N3904,2,NPN transistor,TO-92,IR and optional buzzer drivers
+IR LED 940nm,1,Emitter,5mm,Use series resistor
+Phototransistor 940nm,1,Detector,5mm,Pair with emitter
+220 ohm resistor,1,LED series resistor,Axial,Set LED current after measurement
+1 kohm resistor,1,Base resistor,Axial,Transistor drive
+10 kohm resistor,1,Detector load,Axial,Adjust with optical geometry
+Tactile switch,1,Reset button,Through-hole,
+Piezo buzzer,1,Optional local feedback,Through-hole,Drive through transistor
