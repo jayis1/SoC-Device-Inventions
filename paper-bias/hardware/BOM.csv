@@ -1,0 +1,7 @@
+Ref,Qty,Part,MPN,Package,Notes
+U1,1,Raspberry Pi Pico,SC0915,module,RP2040 board with USB and regulator
+RV1,1,Linear potentiometer 10 kOhm,B10K,through-hole,Sensor lever-angle divider; exact manufacturer varies
+SW1-SW2,2,Normally-open microswitch,generic,through-hole,Fixture orientation selection; no external voltage
+J1,1,USB cable,micro-B cable,cable,Pico power and USB CDC
+J2,1,3-position connector,generic,2.54 mm,Potentiometer ends and wiper
+J3,1,3-position connector,generic,2.54 mm,Two switch inputs and common ground
