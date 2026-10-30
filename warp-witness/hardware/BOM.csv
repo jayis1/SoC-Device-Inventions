@@ -1,0 +1,13 @@
+Ref,Qty,Part,MPN,Manufacturer,Package,Description,Approx cost USD
+U0,1,Raspberry Pi Pico,SC0915,Raspberry Pi,module,RP2040 controller,4.00
+U1,1,Shift register,SN74HC595D,Texas Instruments,SOIC-16,LED output serial register,0.40
+U2,1,Load cell ADC,HX711,Avia Semiconductor,SOIC-16,24-bit bridge ADC,0.60
+U3,1,Dual H-bridge,DRV8833PWP,Texas Instruments,HTSSOP-16,Motor driver,1.50
+J2,1,Rotary encoder,PEC11R-4215F-S0024,Bourns,panel,Encoder with push switch,2.50
+M1,1,5V geared motor,99:1 micro metal gearmotor,Pololu,assembly,Capstan drive; verify stall current,14.00
+LS1,1,1kg load cell,1kg 4-wire beam,generic,bar,Mass measurement element,5.00
+D1-D8,8,Green LED,0603 low current,generic,0603,Indicator,0.40
+R1-R11,11,Resistor assortment,10k/1k,generic,0603,Pullups and LED limiting,0.30
+C1-C3,3,100nF ceramic,100nF,generic,0603,Local bypass,0.15
+C4,1,Electrolytic capacitor,47uF 10V,generic,radial,Motor bulk decoupling,0.20
+J1/J3,2,Header,2.54mm generic,generic,through-hole,Power and load cell connectors,0.50

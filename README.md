@@ -144,6 +144,7 @@ Every device here is designed with these principles:
 ||| 110 | [Twist Meter](warp-meter/) | RP2040 (Raspberry Pi Pico H) | USB CDC yarn twist-density comparison fixture with rotary encoder, optical specimen gate, and manually operated 100 mm sample clamp (reference design; target build and hardware unverified) |
 || 111 | [Drop Index](drop-index/) | RP2040 (Raspberry Pi Pico) | Offline drip-irrigation emitter comparison tester using a cup-mounted load cell and USB CSV mass-rate readings (reference design; calibration and hardware unverified) |
 ||| 112 | [Spine Press Witness](spine-press-witness/) | RP2040 (Raspberry Pi Pico) | USB CDC single-point press-force trace logger for small-book binding workflows (reference design; force calibration and hardware unverified) |
+||| 113 | [Warp Witness](warp-witness/) | RP2040 (Raspberry Pi Pico) | Offline yarn linear-density and twist comparator with a load-cell capstan fixture; portable calculation core only (reference design; not fabricated or calibrated) |
 
 ## Structure
 
