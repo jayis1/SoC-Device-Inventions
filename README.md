@@ -146,7 +146,8 @@ Every device here is designed with these principles:
 ||| 112 | [Spine Press Witness](spine-press-witness/) | RP2040 (Raspberry Pi Pico) | USB CDC single-point press-force trace logger for small-book binding workflows (reference design; force calibration and hardware unverified) |
 ||| 113 | [Warp Witness](warp-witness/) | RP2040 (Raspberry Pi Pico) | Offline yarn linear-density and twist comparator with a load-cell capstan fixture; portable calculation core only (reference design; not fabricated or calibrated) |
 ||| 114 | [Paper Bias](paper-bias/) | RP2040 (Raspberry Pi Pico) | Offline paper-grain direction comparator using a repeatable cantilever bend fixture and lever-angle ADC readings (reference design; not calibrated or physically validated) |
-| 115 | [Seed Counter](seed-counter/) | RP2040 (Raspberry Pi Pico) | USB-powered optical seed-packet counter with beam-break event core and offline operation (reference design; hardware unverified) |
+|| 115 | [Seed Counter](seed-counter/) | RP2040 (Raspberry Pi Pico) | USB-powered optical seed-packet counter with beam-break event core and offline operation (reference design; hardware unverified) |
+|| 116 | [Cell Scout](cell-scout/) | RP2040 (Raspberry Pi Pico) | USB-powered coin-cell pulse-response screening fixture with timed resistive load, ADC sag/recovery readings, and offline serial output (reference design; unbuilt, uncalibrated) |
 
 ## Structure
 

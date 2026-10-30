@@ -1,0 +1,9 @@
+reference,description,quantity,value,package_or_footprint,notes
+U1,Raspberry Pi Pico board,1,RP2040 module,through-hole headers,SDK target pico
+R1,Load resistor,1,100 ohm 0.25 W,axial THT,limits approximate pulse current
+R2,R-divider upper,1,100 kohm 1%,0805,cell positive to ADC sense
+R3,R-divider lower,1,100 kohm 1%,0805,ADC sense to cell negative
+R4,Gate resistor,1,100 ohm,0805,GPIO to MOSFET gate
+R5,Gate pulldown,1,100 kohm,0805,gate to source
+Q1,N-channel MOSFET,1,logic-level at 2.5 V gate,SOT-23 or THT,check actual pinout and RDS(on)
+J1,CR2032 holder,1,single-cell coin-cell holder,through-hole,positive and negative marked
