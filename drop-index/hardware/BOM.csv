@@ -1,0 +1,7 @@
+Ref,Qty,Value,MPN,Manufacturer,Package,Notes
+U1,1,Raspberry Pi Pico,SC0915,Raspberry Pi Trading,Module,RP2040 module; USB powered
+U2,1,HX711 breakout,verify module marking,verify,Module,Select 3.3 V logic-compatible module; breakout varies
+LS1,1,1 kg four-wire load cell,verify supplier,verify,Bar/load-cell assembly,Bridge wire colors vary; verify datasheet
+SW1,1,Momentary normally-open button,any suitable,Generic,THT,Start input to ground
+C1,1,100 nF,GRM188R71C104KA01,Murata,0603,Local decoupling if designing carrier PCB
+J1,1,4-pin load cell connector,any suitable,Generic,THT,Match chosen sensor lead and polarity

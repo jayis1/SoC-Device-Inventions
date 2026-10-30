@@ -142,6 +142,7 @@ Every device here is designed with these principles:
 || 108 | [Beat Window](beat-window/) | RP2040 (Raspberry Pi Pico) | USB-powered reflective optical interval logger for pendulum/balance passages; portable timing core and hardware unverified |
 ||| 109 | [Fold Ledger](fold-ledger/) | RP2040 (Raspberry Pi Pico) | Offline USB event logger for manual paper-folding passes with foot-switch and isolated optical pulse inputs (reference design; not fabricated) |
 ||| 110 | [Twist Meter](warp-meter/) | RP2040 (Raspberry Pi Pico H) | USB CDC yarn twist-density comparison fixture with rotary encoder, optical specimen gate, and manually operated 100 mm sample clamp (reference design; target build and hardware unverified) |
+|| 111 | [Drop Index](drop-index/) | RP2040 (Raspberry Pi Pico) | Offline drip-irrigation emitter comparison tester using a cup-mounted load cell and USB CSV mass-rate readings (reference design; calibration and hardware unverified) |
 
 ## Structure
 

@@ -1,0 +1,9 @@
+Signal,Source,Destination,Electrical notes
+USB_VBUS,Pico USB connector,Pico onboard regulator,USB 5 V only; no battery circuit
+3V3,Pico 3V3(OUT),HX711 VCC,Only use breakout after confirming 3.3 V operation
+GND,Pico GND,HX711 GND and button return,Shared low-voltage ground
+HX_DOUT,HX711 DOUT,Pico GP2,3.3 V CMOS only
+HX_SCK,Pico GP3,HX711 SCK,Idle low; 25 pulses per conversion
+BUTTON,Pico GP15 to GND,Start switch,Internal pull-up
+BRIDGE+,Load cell E+/E-,HX711 E+/E-,Match excitation polarity
+BRIDGE_A,Load cell A+/A-,HX711 A+/A-,Match channel A polarity
