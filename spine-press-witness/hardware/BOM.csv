@@ -1,0 +1,5 @@
+RefDes,Qty,Value,Manufacturer,MPN,Package,Notes
+U1,1,Raspberry Pi Pico board,Raspberry Pi,SC0915,module,RP2040 board; verify board revision and USB connector
+U2,1,HX711 load-cell ADC module,Avia Semiconductor,UNVERIFIED,module,Confirm 3V3 operation and output logic voltage; module vendor varies
+S1,1,5 kg straight-bar load cell,Generic,UNVERIFIED,bar sensor,Select documented 4-wire bridge and use within rated load
+C1,1,100 nF ceramic,Any reputable supplier,UNVERIFIED,0603 or module,Across HX711 VCC/GND if not populated on selected module
