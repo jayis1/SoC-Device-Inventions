@@ -134,6 +134,7 @@ Every device here is designed with these principles:
 || 117 | [Thread Gauge](thread-gauge/) | RP2040 (Raspberry Pi Pico) | Offline sewing-thread linear-density comparator using a fixed-length specimen, low-force load cell, and USB CDC records; reference design, uncalibrated |
 
 | 118 | [Paper Dryness Comparator](paper-dryness/) | RP2040 (Raspberry Pi Pico) | Low-voltage paper-sheet dielectric comparison reference with MCP3008 sampling and offline USB CDC CSV; calibration and hardware unverified |
+| 119 | [Curtain Scope](curtain-scope/) | RP2040 (Raspberry Pi Pico) | Offline focal-plane camera shutter curtain travel tester with five optical gates and USB CDC timing skew report (reference design; hardware unverified) |
 
 ## Structure
 

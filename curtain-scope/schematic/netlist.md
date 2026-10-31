@@ -1,0 +1,5 @@
+# Connection specification (not a KiCad schematic)
+
+J1 is Pico 3V3, GND, GP2..GP6. Five identical channels: phototransistor TEPT5700 collector to 3V3, emitter to MCP6002 non-inverting input; 10 kΩ from emitter/input to GND. MCP6002 powered 3V3/GND; inverting input to 10 kΩ trim divider (10 kΩ potentiometer between 3V3/GND); 1 MΩ feedback from output to non-inverting input for modest hysteresis. Outputs each connect to Pico GP2..GP6 with 1 kΩ series resistor. U1-U3 MCP6002 (two channels per package; third package spare). C1-C3 100 nF local bypass. Pico GP15 drives LED1 through 1 kΩ to GND. USB and SWD per Pico module reference design.
+
+Refs: Q1-Q5, U1-U3, R1-R5=10k, R6-R10=1k, R11-R15=1M, VR1-VR5=10k trim, C1-C3=100nF, D1=LED. Comparator polarity/output behavior must be confirmed against actual chosen phototransistor orientation and threshold; prototype before relying on capture. This text is a connection spec only; schematic capture and ERC are pending.

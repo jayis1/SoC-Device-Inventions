@@ -1,0 +1,12 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,Est unit USD
+U0,1,Pico,Pimoroni/Raspberry Pi,Pico RP2040 module,Module,4.00
+U1-U3,3,MCP6002-I/P,Microchip,Dual rail-to-rail op amp,PDIP-8,0.55
+Q1-Q5,5,TEPT5700,Vishay,Phototransistor,5mm THT,0.35
+R1-R5,5,RC0603FR-0710KL,Yageo,10k pull-down,0603,0.02
+R6-R10,5,RC0603FR-071KL,Yageo,1k output resistor,0603,0.02
+R11-R15,5,RC0603FR-071ML,Yageo,1M hysteresis resistor,0603,0.02
+VR1-VR5,5,3362P-1-103LF,Bourns,10k threshold trim,Through-hole,0.45
+C1-C3,3,C0603C104K5RACTU,KEMET,100nF bypass,0603,0.03
+D1,1,WP7113ID,Kingbright,Red status LED,5mm THT,0.10
+R16,1,RC0603FR-071KL,Yageo,1k LED resistor,0603,0.02
+J1,1,61300411121,Wurth Elektronik,4-pin sensor connector,Through-hole,0.40
