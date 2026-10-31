@@ -34,7 +34,7 @@ See [`hardware/BOM.csv`](hardware/BOM.csv). Approximate prototype parts cost exc
 `firmware/main.c` contains the platform-independent acquisition and conversion core; `firmware/CMakeLists.txt` builds a host verification executable, not RP2040 target firmware. The hardware adapter remains to be implemented. Conversion uses integer micrograms and millimetres: tex = mass_g × 1,000,000 / length_mm; denier = mass_g × 9,000,000 / length_mm. Build/test: `cmake -S firmware -B /tmp/thread-gauge-build && cmake --build /tmp/thread-gauge-build && ctest --test-dir /tmp/thread-gauge-build --output-on-failure`.
 
 ## Helper scripts
-`scripts/thread_gauge.py --help` displays CSV conversion utility usage. The script validates positive sample lengths and mass values and can convert exported CSV to tex/denier; it does not access hardware.
+`scripts/thread_gauge.py --help` displays CSV conversion utility usage. The script validates positive sample lengths and mass values and can convert exported CSV to tex/denier; it does not access hardware. Python bytecode caches are excluded from the release.
 
 ## Assembly summary
 Mount the Pico and HX711 module on an insulated carrier. Suspend the load-cell free end without side loading; attach a small cup/hook and ensure the yarn path does not touch the enclosure. Connect bridge excitation/output according to the load-cell datasheet and HX711 module labeling; confirm with a multimeter before powering. Use current-limited USB for first power-up. Calibrate with known masses and a measured yarn length before interpreting comparisons. Keep the force low; this is a non-certified bench aid, not a tensile-strength tester.
