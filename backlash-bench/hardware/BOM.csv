@@ -1,0 +1,8 @@
+Designator,Qty,Description,Manufacturer / part,Package / footprint,Notes
+U1,1,Raspberry Pi Pico RP2040 module,Raspberry Pi Pico,Module headers,USB-powered; RP2040 with onboard flash
+U2,1,2-channel I2C switch,TI TCA9543APWR,TSSOP-8,Address 0x70
+U3 U4,2,Magnetic angle sensor breakout,AS5600 breakout (verify vendor revision),Module,3.3 V compatible; distinct I2C switch channels
+J1 J2,2,4-pin sensor connector,Generic 1x04 2.54mm,Header,3V3 GND SDA SCL
+SW1,1,Direction marker switch,Generic SPST-NO,THT,GP6 to ground
+M1 M2,2,Diametric magnet,Generic diametric magnet,Mechanical,Size to match sensor and shaft
+R1 R2,2,Bus pull-up 4.7k if needed,Generic 4.7k 1%,0603 or THT,Populate only if modules lack pull-ups; 3V3 rail

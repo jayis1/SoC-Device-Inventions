@@ -137,6 +137,7 @@ Every device here is designed with these principles:
 | 119 | [Curtain Scope](curtain-scope/) | RP2040 (Raspberry Pi Pico) | Offline focal-plane camera shutter curtain travel tester with five optical gates and USB CDC timing skew report (reference design; hardware unverified) |
 | 120 | [Flicker Scope](flicker-scope/) | RP2040 (Raspberry Pi Pico) | USB-powered photodiode waveform probe with timestamped serial samples and host-side modulation estimate (reference design; not calibrated or hardware-verified) |
 | 121 | [Hinge Meter](hinge-meter/) | RP2040 (Raspberry Pi Pico) | USB-powered hinge and lid resistance fixture correlating a load-cell force trace with lever angle for repeatable mechanical comparison (reference design; BOM sourcing and hardware unverified) |
+| 122 | [Backlash Bench](backlash-bench/) | RP2040 (Raspberry Pi Pico) | USB-powered paired magnetic angle logger for comparing rotational transmission backlash and reversal hysteresis in small gearboxes and couplings (reference design; not fabricated or target-built) |
 
 ## Structure
 
