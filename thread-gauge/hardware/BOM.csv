@@ -1,0 +1,7 @@
+designator,manufacturer,mpn,description,package,qty,approx_unit_usd,source
+U1,Raspberry Pi Ltd,Raspberry Pi Pico,RP2040 module with USB and onboard flash,Module,1,4.00,raspberrypi.com/products/raspberry-pi-pico
+U2,Generic (verify vendor),HX711 module,24-bit load-cell ADC breakout rated for 3.3 V logic,Module,1,2.00,Module supplier datasheet required
+LS1,Generic (verify vendor),5g 4-wire load cell,Small bar load cell compatible with HX711,Bar,1,3.00,Load-cell vendor datasheet required
+SW1/SW2,Generic (verify vendor),SPST momentary tactile switch,Normally-open momentary button,6x6 mm,2,0.10,Any reputable component distributor
+C1,Generic (verify vendor),100 nF X7R,Bypass capacitor 10 V or higher,0603/through-hole,1,0.05,Any reputable component distributor
+J1,Raspberry Pi Ltd,USB connector on U1,USB host power and CDC,On module,1,0.00,Included with U1

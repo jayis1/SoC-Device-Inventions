@@ -1,0 +1,20 @@
+designator,pin,net,function,voltage_domain
+U1,GP2,HX_DOUT,HX711 data input,3V3
+U1,GP3,HX_SCK,HX711 clock output,3V3
+U1,GP14,BTN_TARE_N,Tare button active low,3V3
+U1,GP15,BTN_RECORD_N,Record button active low,3V3
+U1,3V3(OUT),3V3,HX711 supply,3V3
+U1,GND,GND,Common return,0V
+U1,USB,USB_5V,USB host input,5V
+U2,DOUT,HX_DOUT,Serial data output,3V3
+U2,SCK,HX_SCK,Serial clock input,3V3
+U2,VCC,3V3,Bridge/ADC supply,3V3
+U2,GND,GND,Common return,0V
+U2,E+,BRIDGE_E+,Bridge excitation positive,3V3
+U2,E-,BRIDGE_E-,Bridge excitation negative,0V
+U2,A+,BRIDGE_A+,Bridge signal positive,differential
+U2,A-,BRIDGE_A-,Bridge signal negative,differential
+SW1,1,BTN_TARE_N,Tare contact,3V3
+SW1,2,GND,Button return,0V
+SW2,1,BTN_RECORD_N,Record contact,3V3
+SW2,2,GND,Button return,0V
