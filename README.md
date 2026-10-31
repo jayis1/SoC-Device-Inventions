@@ -136,6 +136,7 @@ Every device here is designed with these principles:
 | 118 | [Paper Dryness Comparator](paper-dryness/) | RP2040 (Raspberry Pi Pico) | Low-voltage paper-sheet dielectric comparison reference with MCP3008 sampling and offline USB CDC CSV; calibration and hardware unverified |
 | 119 | [Curtain Scope](curtain-scope/) | RP2040 (Raspberry Pi Pico) | Offline focal-plane camera shutter curtain travel tester with five optical gates and USB CDC timing skew report (reference design; hardware unverified) |
 | 120 | [Flicker Scope](flicker-scope/) | RP2040 (Raspberry Pi Pico) | USB-powered photodiode waveform probe with timestamped serial samples and host-side modulation estimate (reference design; not calibrated or hardware-verified) |
+| 121 | [Hinge Meter](hinge-meter/) | RP2040 (Raspberry Pi Pico) | USB-powered hinge and lid resistance fixture correlating a load-cell force trace with lever angle for repeatable mechanical comparison (reference design; BOM sourcing and hardware unverified) |
 
 ## Structure
 

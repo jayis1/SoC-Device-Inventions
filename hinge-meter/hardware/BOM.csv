@@ -1,0 +1,6 @@
+ref,qty,part,MPN,package,distributor PN,unit cost,notes
+U1,1,Raspberry Pi Pico,Raspberry Pi Pico,40-pin module,UNVERIFIED,TBD,RP2040 board; verify exact revision and availability
+U2,1,Load-cell ADC module,HX711 module,breakout,UNVERIFIED,TBD,Use 3.3 V compatible module; exact vendor MPN varies
+S1,1,1 kg bar load cell,1 kg strain gauge load cell,bar,UNVERIFIED,TBD,Bridge wire colors vary; verify datasheet
+J1,1,Quadrature encoder with push switch,EC11-compatible,through-hole,UNVERIFIED,TBD,Check 3.3 V input levels
+C1,1,Bypass capacitor,100 nF X7R,0603,UNVERIFIED,TBD,Place at HX711 VCC

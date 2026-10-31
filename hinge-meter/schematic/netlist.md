@@ -1,0 +1,3 @@
+# Connection-level schematic (not KiCad)
+
+Use Raspberry Pi Pico headers. USB 5 V supplies the Pico; connect HX711 VCC and encoder VCC to Pico 3V3(OUT), all grounds to GND. HX711 DOUT→GP6, SCK→GP7. Load-cell E+/E− and A+/A− connect to the HX711 bridge terminals according to the specific load-cell color code; verify its datasheet rather than assuming wire colors. Encoder A→GP10, B→GP11, switch→GP12; each input uses the RP2040 internal pull-up and the switch/encoder common goes to GND. Add 100 nF bypass at HX711 VCC. The HX711 module's analog channel and 3.3 V compatibility must be verified for the purchased module before assembly. No native KiCad capture or ERC is provided.
