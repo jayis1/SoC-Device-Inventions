@@ -1,0 +1,7 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,Approx unit cost
+U1,1,Raspberry Pi Pico,Raspberry Pi,SC0915,module,RP2040 development board,4.00
+U2,1,MCP3008,Microchip,MCP3008-I/P,PDIP-16,10-bit SPI ADC,2.00
+U3,1,SSD1306 OLED module,Generic,SSD1306-128x64,module,I2C display 3.3V-compatible,3.00
+R1,1,Resistor 100k 1%,Yageo,RC0603FR-07100KL,0603,RC timing resistor,0.02
+C1,1,Ceramic capacitor 100nF,Murata,GRM188R71C104KA01D,0603,local decoupling,0.03
+J1,1,Copper electrode pair,Generic,CUSTOM-50SQ,50x50mm,parallel plate probe with insulating spacer,1.00

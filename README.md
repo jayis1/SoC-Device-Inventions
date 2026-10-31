@@ -133,6 +133,8 @@ Every device here is designed with these principles:
 || 116 | [Cell Scout](cell-scout/) | RP2040 (Raspberry Pi Pico) | USB-powered coin-cell pulse-response screening fixture with timed resistive load, ADC sag/recovery readings, and offline serial output (reference design; unbuilt, uncalibrated) |
 || 117 | [Thread Gauge](thread-gauge/) | RP2040 (Raspberry Pi Pico) | Offline sewing-thread linear-density comparator using a fixed-length specimen, low-force load cell, and USB CDC records; reference design, uncalibrated |
 
+| 118 | [Paper Dryness Comparator](paper-dryness/) | RP2040 (Raspberry Pi Pico) | Low-voltage paper-sheet dielectric comparison reference with MCP3008 sampling and offline USB CDC CSV; calibration and hardware unverified |
+
 ## Structure
 
 Each device lives in its own subfolder:
