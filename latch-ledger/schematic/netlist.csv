@@ -1,0 +1,12 @@
+RefDes,Part,pin,net
+U1,Raspberry Pi Pico,36 (3V3 OUT),+3V3
+U1,Raspberry Pi Pico,38 (GND),GND
+U1,Raspberry Pi Pico,4 (GP2),HALL_OUT
+U1,Raspberry Pi Pico,USB,VUSB_HOST
+U2,DRV5032FC,1 (VCC),+3V3
+U2,DRV5032FC,2 (GND),GND
+U2,DRV5032FC,3 (OUT),HALL_OUT
+R1,10k resistor,1,+3V3
+R1,10k resistor,2,HALL_OUT
+C1,100nF capacitor,1,+3V3
+C1,100nF capacitor,2,GND

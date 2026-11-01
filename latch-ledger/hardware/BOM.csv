@@ -1,0 +1,6 @@
+RefDes,Qty,Value/Part,Manufacturer,MPN,Package,Notes
+U1,1,Raspberry Pi Pico (RP2040),Raspberry Pi,SC0915,Module,Use unmodified Pico with onboard regulator and USB
+U2,1,Hall switch,Texas Instruments,DRV5032FC,TO-92,Confirm exact variant suffix and pinout before assembly; open-drain version required
+R1,1,Pull-up resistor 10 kOhm,Generic,UNVERIFIED,Through-hole,3V3 to GP2
+C1,1,Bypass capacitor 100 nF,Generic,UNVERIFIED,Through-hole,Hall VDD to GND, place near sensor
+J1,1,USB data cable,Generic,UNVERIFIED,USB cable,Data-capable cable; not included

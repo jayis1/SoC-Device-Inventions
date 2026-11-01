@@ -1,0 +1,5 @@
+{"event":"startup","version":1}
+{"event":"open","ms":1000}
+{"event":"close","ms":4750,"dwell_ms":3750}
+{"event":"open","ms":7000}
+{"event":"close","ms":8900,"dwell_ms":1900}
