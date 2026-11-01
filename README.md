@@ -142,6 +142,7 @@ Every device here is designed with these principles:
 | 124 | [Chord Witness](chord-witness/) | RP2040 (Raspberry Pi Pico) | USB-powered passive piezo guitar-string pitch and interval comparison fixture with offline ADC period estimator (reference design; hardware and calibration unverified) |
 | 125 | [Crease Meter](crease-meter/) | RP2040 (Raspberry Pi Pico) | USB-powered comparative optical paper-crease transmission fixture with offline ADC core (reference design; target firmware and hardware unverified) |
 | 126 | [Hinge Sag](hinge-sag/) | RP2040 (Raspberry Pi Pico) | USB-powered comparative dynamic hinge-sag and settling logger using accelerometer tilt samples with local CSV analysis (reference design; firmware core host-tested, target and hardware unverified) |
+| 127 | [Braille Check](braille-check/) | RP2040 (Raspberry Pi Pico) | USB-powered tactile-sign inspection fixture concept for comparing six Braille-dot displacement readings and exporting validated CSV (reference design; target adapter and hardware unverified) |
 
 ## Structure
 

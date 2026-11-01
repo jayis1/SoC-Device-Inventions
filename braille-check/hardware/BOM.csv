@@ -1,0 +1,5 @@
+Ref,Qty,Value,Part,Manufacturer,MPN,Package,Notes,ApproxUnitUSD
+U1,1,RP2040 module,Raspberry Pi Pico,Raspberry Pi,SC0915,Module,USB-powered development board,4.00
+U2,1,24-bit bridge ADC,HX711 module,Generic,generic,Module,Use compatible logic-level breakout,2.00
+LS1,1,Load cell 1 kg,straight bar load cell,Generic,generic,Bar,Fixture force trend only; not height metrology,3.00
+SW1-SW2,2,Normally-open switch,tactile switch,Generic,generic,THT,Axis index input to ground,0.10
