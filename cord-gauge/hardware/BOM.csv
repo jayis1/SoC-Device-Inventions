@@ -1,0 +1,8 @@
+ref,description,manufacturer_part,package,qty,notes
+U1,MCU development board with CH32V003F4P6,WeAct CH32V003,board,1,3.3 V I/O; verify board variant
+U2,24-bit bridge ADC module,HX711 breakout,module,1,Use verified 3.3 V logic-compatible module
+U3,10 kg load cell,Generic 10 kg bar load cell,bar,1,Range is not fixture safe-load rating
+RV1,10 kΩ linear potentiometer,Bourns 3382G-1-103G,through-hole,1,Carriage displacement; mechanically couple slider
+SW1-SW2,Momentary normally-open pushbutton,Omron B3F-1000,through-hole,2,Tare and mark
+J1,USB-UART 3.3 V adapter,FTDI TTL-232R-3V3,adapter,1,Adapter is separate from MCU supply
+J2,USB 5 V supply,USB supply,connector,1,Regulated supply

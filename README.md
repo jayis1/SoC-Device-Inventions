@@ -144,6 +144,8 @@ Every device here is designed with these principles:
 | 126 | [Hinge Sag](hinge-sag/) | RP2040 (Raspberry Pi Pico) | USB-powered comparative dynamic hinge-sag and settling logger using accelerometer tilt samples with local CSV analysis (reference design; firmware core host-tested, target and hardware unverified) |
 | 127 | [Braille Check](braille-check/) | RP2040 (Raspberry Pi Pico) | USB-powered tactile-sign inspection fixture concept for comparing six Braille-dot displacement readings and exporting validated CSV (reference design; target adapter and hardware unverified) |
 
+| 128 | [Cord Gauge](cord-gauge/) | CH32V003F4P6 | Comparative low-force cord/thread stretch fixture with load-cell and carriage-displacement logging (reference design; target firmware and hardware unverified) |
+
 ## Structure
 
 Each device lives in its own subfolder:
