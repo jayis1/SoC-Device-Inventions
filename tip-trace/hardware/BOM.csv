@@ -1,0 +1,6 @@
+Ref,Qty,Part,MPN,Package,Supplier,UnitCostUSD,Notes
+J1,1,Raspberry Pi Pico board,SC0915,Module,Raspberry Pi approved resellers,4.00,RP2040 development board with USB
+U1,1,K-type thermocouple-to-digital converter,MAX31855KASA+,SOIC-8,Authorized Maxim/ADI distributors,5.00,Read current datasheet before use
+C1,1,100 nF ceramic capacitor,GRM188R71C104KA01D,0603,Authorized Murata distributors,0.05,Local U1 bypass
+J2,1,K-type thermocouple connector,OSTW,PCB terminal,Authorized distributors,2.00,Match polarity and wire type
+P1,1,Fine-wire K-type thermocouple probe,Type K,Probe,Industrial suppliers,8.00,Electrically isolated tip contact fixture required
