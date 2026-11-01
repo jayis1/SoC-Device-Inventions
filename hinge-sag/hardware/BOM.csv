@@ -1,0 +1,6 @@
+RefDes,Qty,Manufacturer,MPN,Package,Description
+U1,1,Raspberry Pi,SC0915,"Pico module","RP2040 Pico module with USB"
+U2,1,STMicroelectronics,LIS3DH,"breakout module","3-axis accelerometer module set to 3.3 V I2C address 0x18"
+U3,1,Generic,"SSD1306 128x32 I2C OLED","module","3.3 V I2C display at 0x3C"
+R1 R2,2,Yageo,RC0603FR-074K7L,0603,"4.7 kOhm I2C pull-ups"
+SW1,1,Generic,"6x6mm tactile switch",THT,"normally-open capture button"
