@@ -1,0 +1,10 @@
+Ref,Description,Manufacturer,Part number,Qty,Package,Notes
+U1,Rail-to-rail dual op amp,Microchip,MCP6002-I/P,1,DIP-8,3.3V operation
+D1,Schottky clamp array,Diodes Inc,BAT54S,1,SOT-23,Verify orientation before assembly
+R1,Series input resistor,Yageo,RC0603FR-07100KL,1,0603,100k
+R6,ADC current limit resistor,Yageo,RC0603FR-071KL,1,0603,1k
+R2-R5,Resistors,Yageo,RC0603FR-07100KL,4,0603,100k 1%
+C1,10uF capacitor,Murata,GRM188R60J106ME47,1,0603,10uF 6.3V
+J1,Passive piezo contact pickup,Generic,VERIFY,1,disc,High impedance
+J2,Pico header,Generic,2.54mm 1x2,1,through-hole,Signal and ground
+U2,Microcontroller development board,Raspberry Pi,Pico (RP2040),1,module,Includes USB and 3V3 regulator
