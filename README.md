@@ -140,6 +140,7 @@ Every device here is designed with these principles:
 | 122 | [Backlash Bench](backlash-bench/) | RP2040 (Raspberry Pi Pico) | USB-powered paired magnetic angle logger for comparing rotational transmission backlash and reversal hysteresis in small gearboxes and couplings (reference design; not fabricated or target-built) |
 | 123 | [Tip Trace](tip-trace/) | RP2040 (Raspberry Pi Pico) | USB-connected K-type thermocouple logger for comparative soldering-iron tip thermal-recovery profiles (reference design; firmware adapter and hardware unverified) |
 | 124 | [Chord Witness](chord-witness/) | RP2040 (Raspberry Pi Pico) | USB-powered passive piezo guitar-string pitch and interval comparison fixture with offline ADC period estimator (reference design; hardware and calibration unverified) |
+| 125 | [Crease Meter](crease-meter/) | RP2040 (Raspberry Pi Pico) | USB-powered comparative optical paper-crease transmission fixture with offline ADC core (reference design; target firmware and hardware unverified) |
 
 ## Structure
 

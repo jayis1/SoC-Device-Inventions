@@ -1,0 +1,10 @@
+Reference, unvalidated | Qty | Description | Notes
+U1 | 1 | Raspberry Pi Pico, RP2040 module | USB powered; module includes regulator and flash
+Q1 | 1 | 2N7002 N-channel MOSFET, SOT-23 | LED low-side switch; verify footprint/pinout
+R1 | 1 | 330 ohm, 1%, 0603 | LED current limit
+R2 | 1 | 10 kohm, 1%, 0603 | ADC series protection
+R3 | 1 | 100 kohm, 1%, 0603 | MOSFET gate pulldown
+C1 | 1 | 100 nF, X7R, 0603 | ADC RC filter
+D1 | 1 | White visible LED, 3 mm THT | VF varies by selected part
+Q2 | 1 | NPN phototransistor, visible spectrum, THT | generic, verify pinout and response
+SW1 | 1 | Momentary normally-open pushbutton | trigger to ground
