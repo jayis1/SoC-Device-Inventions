@@ -1,0 +1,6 @@
+reference,part,qty,notes
+U1,Raspberry Pi Pico (RP2040 module),1,USB-powered module; choose module with exposed GP2-GP6 and onboard regulator
+ENC1,2-axis digitizer mechanics using two incremental quadrature encoders,1,Encoder supply compatible with 3V3; passive mechanical encoders preferred
+SW1,Normally-open momentary switch,1,Panel or cursor mounted; GP6 to GND
+C1-C2,100 nF ceramic capacitor,2,Optional local decoupling at encoder connectors
+J1,USB cable compatible with Pico,1,Host power and CDC

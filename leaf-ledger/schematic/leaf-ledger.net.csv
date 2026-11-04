@@ -1,0 +1,9 @@
+net,source,destination
+USB_VBUS,USB host,Pico USB VBUS
+GND,USB host/Pico GND,ENC1 GND; ENC2 GND; SW1 pin 2
+3V3,Pico 3V3 OUT,ENC1 supply; ENC2 supply
+X_A,GP2,ENC1 A
+X_B,GP3,ENC1 B
+Y_A,GP4,ENC2 A
+Y_B,GP5,ENC2 B
+TRACE_BUTTON,GP6,SW1 pin 1 (internal pull-up)

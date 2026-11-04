@@ -145,7 +145,8 @@ Every device here is designed with these principles:
 | 127 | [Braille Check](braille-check/) | RP2040 (Raspberry Pi Pico) | USB-powered tactile-sign inspection fixture concept for comparing six Braille-dot displacement readings and exporting validated CSV (reference design; target adapter and hardware unverified) |
 
 | 128 | [Cord Gauge](cord-gauge/) | CH32V003F4P6 | Comparative low-force cord/thread stretch fixture with load-cell and carriage-displacement logging (reference design; target firmware and hardware unverified) |
-| 129 | [Latch Ledger](latch-ledger/) | RP2040 (Raspberry Pi Pico) | USB-powered magnetic cabinet-latch cycle counter with open-dwell JSONL logging (reference design; firmware and hardware unverified) |
+|| 129 | [Latch Ledger](latch-ledger/) | RP2040 (Raspberry Pi Pico) | USB-powered magnetic cabinet-latch cycle counter with open-dwell JSONL logging (reference design; firmware and hardware unverified) |
+| 130 | [Leaf Ledger](leaf-ledger/) | RP2040 (Raspberry Pi Pico) | Offline leaf-area tracing digitizer using a low-voltage contact stylus, two-axis quadrature encoder, and USB CDC polygon-area export (reference design; firmware and hardware unverified) |
 
 ## Structure
 
