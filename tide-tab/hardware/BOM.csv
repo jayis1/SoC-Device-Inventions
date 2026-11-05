@@ -1,0 +1,5 @@
+Item,Manufacturer/part,Qty,Rating/package,Notes
+Pico board,Raspberry Pi Pico,1,RP2040 module,USB-powered; development board
+Float switch,Generic normally-open low-voltage magnetic float,1,Contact rated >=3.3V logic,Mount vertically at threshold; dry contact
+LED,Generic red indicator LED,1,Through-hole,Current limited by series resistor
+R1,Generic resistor,1,330 ohm 1/4W,LED series resistor

@@ -149,6 +149,8 @@ Every device here is designed with these principles:
 || 130 | [Leaf Ledger](leaf-ledger/) | RP2040 (Raspberry Pi Pico) | Offline leaf-area tracing digitizer using a low-voltage contact stylus, two-axis quadrature encoder, and USB CDC polygon-area export (reference design; firmware and hardware unverified) |
 || 131 | [Crease Checker](crease-checker/) | RP2040 (Raspberry Pi Pico) | Offline paper-fold repeatability comparator recording load-cell force and magnetic angle over USB CDC (reference design; not calibrated or hardware-verified) |
 
+| 132 | [Tide Tab](tide-tab/) | RP2040 (Raspberry Pi Pico) | Offline aquarium evaporation threshold-crossing logger using a dry-contact float switch, debounced event records, local LED, and USB CDC JSONL (reference design; hardware unverified) |
+
 ## Structure
 
 Each device lives in its own subfolder:
