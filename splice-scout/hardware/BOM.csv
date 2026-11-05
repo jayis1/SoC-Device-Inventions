@@ -1,0 +1,7 @@
+Item,Description,Manufacturer part number,Package,Qty,Notes
+U1,Raspberry Pi Pico,SC0915,Module,1,RP2040 board; USB powers and programs
+Q1,Reflective IR sensor,TCRT5000,Through-hole,1,Verify purchased part pinout
+R1,Collector pull-up,10 kOhm 1%,Axial or 0603,1,3V3 to collector
+R2,IR LED current limit,220 Ohm 5%,Axial or 0603,1,Estimate only; verify LED current for chosen part
+SW1,Mark button,Momentary NO,Through-hole,1,GP14 to GND
+SW2,Index button,Momentary NO,Through-hole,1,GP15 to GND

@@ -1,0 +1,5 @@
+Reference wiring (not a KiCad schematic / not fabrication data)
+
+J1 Raspberry Pi Pico: GP26/ADC0 <- Q1 collector; GP14 <- SW1; GP15 <- SW2; 3V3 -> R1 10k -> Q1 collector; Q1 emitter -> GND. 3V3 -> R2 220R -> D1 TCRT5000 IR LED anode; D1 cathode -> GND. SW1 and SW2 close to GND; firmware enables internal pull-ups. Common GND. Validate LED current and sensor pinout for the exact purchased part.
+
+Pico USB is the only power/programming interface. Keep sensor wiring short. Add no external supply or deck connection.
