@@ -1,0 +1,8 @@
+Reference,universal_part_id,Qty,Description,Notes
+U1,Raspberry Pi Pico (RP2040),1,RP2040 development board,USB powered; not a bare SoC design
+U2-U6,TCRT5000 digital reflective sensor module,5,IR reflectance comparator module,3.3 V-compatible output required; verify exact board
+SW1,Omron B3F-1000,1,Momentary normally-open start switch,Alternate tactile momentary switch
+LED1,Kingbright WP710A10ID,1,Red LED,Any 3 mm indicator LED
+R1,Yageo CFR-25JB-52-1K,1,1 kOhm 1/4 W LED resistor,
+R2-R6,Yageo RC0603FR-0710KL,5,10 kOhm pull-up resistors,Fit only if module lacks 3.3 V pull-up
+J2,Samtec TSW-105-07-G-S,1,1x5 2.54 mm sensor header,Or equivalent keyed/connectable harness

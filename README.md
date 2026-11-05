@@ -150,6 +150,7 @@ Every device here is designed with these principles:
 || 131 | [Crease Checker](crease-checker/) | RP2040 (Raspberry Pi Pico) | Offline paper-fold repeatability comparator recording load-cell force and magnetic angle over USB CDC (reference design; not calibrated or hardware-verified) |
 
 | 132 | [Tide Tab](tide-tab/) | RP2040 (Raspberry Pi Pico) | Offline aquarium evaporation threshold-crossing logger using a dry-contact float switch, debounced event records, local LED, and USB CDC JSONL (reference design; hardware unverified) |
+| 133 | [Wick Watch](wick-watch/) | RP2040 (Raspberry Pi Pico) | Offline capillary-rise comparator logging wet-front arrival at five optical stations on paper or textile strips, with USB CDC CSV export (reference design; target and hardware unverified) |
 
 ## Structure
 
