@@ -154,6 +154,7 @@ Every device here is designed with these principles:
 | 134 | [Splice Scout](splice-scout/) | RP2040 (Raspberry Pi Pico) | Offline cassette-tape optical transition recorder with manual mark/index buttons and USB CDC CSV reflectance samples (reference design; target and hardware unverified) |
 | 135 | [Label Peel](label-peel/) | RP2040 (Raspberry Pi Pico) | Comparative pressure-sensitive-label peel-force logger using an HX711 load-cell channel and USB CDC CSV export (reference design; target, calibration, and hardware unverified) |
 | 136 | [Tea Steep](tea-steep/) | RP2040 (Raspberry Pi Pico) | Offline tea-infusion color time-series logger with TCS34725 transmission sensing and a DS18B20 probe design; reference firmware supports color bring-up only, temperature adapter incomplete and hardware unverified |
+| 137 | [Fret Meter](fret-meter/) | RP2040 (Raspberry Pi Pico) | Offline guitar-fretboard string-clearance comparator using a spring-return potentiometer probe, filtered ADC readings, and USB CDC output (reference design; hardware unbuilt and uncalibrated) |
 
 ## Structure
 

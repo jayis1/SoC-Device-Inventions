@@ -1,0 +1,8 @@
+Reference, USD estimate, excludes enclosure/tooling. Verify stock and package before ordering.
+Reference,Part,Description,Qty,Notes
+U1,Raspberry Pi Pico (RP2040),Development board with USB and headers,1,3.3 V I/O; do not substitute 5 V GPIO board
+RV1,Bourns 3386P-1-103LF,10 kOhm linear trimmer adapted to sliding carriage,1,prototype mechanic; any 10k linear potentiometer
+R1,0603 1k 1%,Series protection resistor,1,
+C1,0603 100nF X7R 10V,ADC local filter,1,
+SW1,TS-1187A,Normally-open momentary switch,1,button to ground
+J2,USB cable,USB data and power cable,1,match Pico connector
