@@ -155,6 +155,7 @@ Every device here is designed with these principles:
 | 135 | [Label Peel](label-peel/) | RP2040 (Raspberry Pi Pico) | Comparative pressure-sensitive-label peel-force logger using an HX711 load-cell channel and USB CDC CSV export (reference design; target, calibration, and hardware unverified) |
 | 136 | [Tea Steep](tea-steep/) | RP2040 (Raspberry Pi Pico) | Offline tea-infusion color time-series logger with TCS34725 transmission sensing and a DS18B20 probe design; reference firmware supports color bring-up only, temperature adapter incomplete and hardware unverified |
 | 137 | [Fret Meter](fret-meter/) | RP2040 (Raspberry Pi Pico) | Offline guitar-fretboard string-clearance comparator using a spring-return potentiometer probe, filtered ADC readings, and USB CDC output (reference design; hardware unbuilt and uncalibrated) |
+| 138 | [Row Meter](row-meter/) | RP2040 (Raspberry Pi Pico) | Offline garden planting-spacing wheel using quadrature optical distance measurement, manual planting-event marks, OLED cues, and USB CDC CSV logging (reference design; firmware core host-tested, hardware unverified) |
 
 ## Structure
 

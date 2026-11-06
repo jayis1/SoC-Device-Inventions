@@ -1,0 +1,12 @@
+Reference, not sourced/assembled. All logic is 3.3 V.
+Ref,Qty,Description,Example part,Package/notes
+U1,1,Raspberry Pi Pico board,Raspberry Pi Pico,board; RP2040; USB micro-B
+DS1,1,Slotted optical interrupter,ITR9608,through-hole; verify module pinout/output conditioning
+DISP1,1,128x64 OLED SSD1306 module,SSD1306 I2C 0x3C,0.96-inch module; 3.3V-compatible
+SW1,1,Momentary normally-open button,Omron B3F-1000,through-hole
+Q1,1,NPN transistor,2N3904,TO-92
+R1,1,Base resistor 4.7k,1/4W resistor,0603 or through-hole
+R2,1,Base pull-down 100k,1/4W resistor,0603 or through-hole
+BZ1,1,Passive piezo disc,PKM13EPYH4000-A0,passive piezo; voltage suited to 3.3V
+C1,1,Bypass capacitor 100nF,X7R ceramic,0603
+JTP,4,Test points,loop test point,TP1-TP4
