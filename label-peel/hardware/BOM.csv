@@ -1,0 +1,6 @@
+Ref,Qty,Description,Example part,Package/footprint,Notes
+U1,1,Raspberry Pi Pico RP2040 board,Raspberry Pi Pico,Module headers,Use 3.3 V GPIO variant; board USB power/regulator
+U2,1,HX711 load-cell ADC module,Generic HX711 3.3 V-compatible module,Module headers,Verify module schematic and 3V3 bridge-excitation support
+LS1,1,5 kg bar strain-gauge load cell,Generic 5 kg 4-wire bridge,Mechanical mount,Wire colors vary; verify datasheet; overload protection is mechanical
+SW1,1,Momentary normally-open foot switch,Generic,Panel mount,GP14 to GND
+J1,1,USB micro-B cable,Data-capable cable,Cable,Host data and board power

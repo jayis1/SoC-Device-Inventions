@@ -152,6 +152,7 @@ Every device here is designed with these principles:
 | 132 | [Tide Tab](tide-tab/) | RP2040 (Raspberry Pi Pico) | Offline aquarium evaporation threshold-crossing logger using a dry-contact float switch, debounced event records, local LED, and USB CDC JSONL (reference design; hardware unverified) |
 | 133 | [Wick Watch](wick-watch/) | RP2040 (Raspberry Pi Pico) | Offline capillary-rise comparator logging wet-front arrival at five optical stations on paper or textile strips, with USB CDC CSV export (reference design; target and hardware unverified) |
 | 134 | [Splice Scout](splice-scout/) | RP2040 (Raspberry Pi Pico) | Offline cassette-tape optical transition recorder with manual mark/index buttons and USB CDC CSV reflectance samples (reference design; target and hardware unverified) |
+| 135 | [Label Peel](label-peel/) | RP2040 (Raspberry Pi Pico) | Comparative pressure-sensitive-label peel-force logger using an HX711 load-cell channel and USB CDC CSV export (reference design; target, calibration, and hardware unverified) |
 
 ## Structure
 
