@@ -1,0 +1,13 @@
+Reference,Qty,Part/value,Package/notes
+U1,1,Raspberry Pi Pico RP2040 board,Module,USB powered; board regulator onboard
+U2,1,TCS34725FN color sensor,3V3 I2C breakout,Verify breakout pull-ups/regulator are 3V3-safe; sensor address 0x29
+U3,1,DS18B20 temperature probe,3-wire probe,Waterproof encapsulation quality varies; not a food-contact claim
+Q1,1,2N7002,N-channel SOT-23 or through-hole adapter,Logic-level gate
+D1,1,White LED,5 mm,Select visible white LED; transmission geometry fixed
+R1,1,1 kΩ, axial 1/4 W,LED series resistor; approximate current depends on Vf
+R2,1,100 Ω, axial 1/4 W,Gate series resistor
+R3,1,100 kΩ, axial 1/4 W,Gate pulldown
+R4-R6,3,4.7 kΩ, axial 1/4 W,Two I2C pull-ups and one 1-Wire pull-up; omit duplicate I2C pull-ups if breakout supplies appropriate values
+C1,1,100 nF,ceramic,Sensor supply bypass if not present on breakout
+C2,1,10 µF,ceramic or electrolytic,Sensor supply bulk bypass
+J1,1,3-pin connector,2.54 mm,3V3 / data / GND; verify probe pinout
