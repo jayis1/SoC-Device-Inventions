@@ -1,0 +1,6 @@
+Item,Qty,Manufacturer/part,Description,Package/notes
+U1,1,Raspberry Pi Pico (RP2040),Pico board with USB connector,headered module
+U2,1,Maxim DS18B20+,Digital temperature sensor,waterproof probe assembly; verify genuine sensor
+R1,1,Generic 4.7k 1% resistor,One-wire pull-up,0603 or through-hole
+SW1,1,Generic momentary normally-open switch,Run control,panel/button
+J2,1,Generic 3-pin connector,Probe connection,keyed preferred
