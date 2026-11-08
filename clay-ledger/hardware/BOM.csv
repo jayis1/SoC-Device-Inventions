@@ -1,0 +1,9 @@
+Item,Reference,Qty,Description,Notes
+1,U1,1,Raspberry Pi Pico (RP2040),3.3 V GPIO; USB-powered module
+2,U2,1,AS5600L magnetic angle sensor breakout,3.3 V logic; address 0x36; verify pullups and VCC range
+3,U3,1,SHT31-D temperature/RH breakout,I2C address 0x44; 3.3 V logic
+4,M1,1,Diametrically magnetized two-pole magnet,Mount coaxially to pulley; magnet grade/size fixture-dependent
+5,R1-R2,2,4.7 kOhm 1% resistor 0603,Optional I2C pullups if modules have none
+6,C1-C2,2,100 nF ceramic capacitor X7R 0603,Local decoupling if not fitted to modules
+7,MECH,1,Low-force linear carriage and belt/pulley fixture,Custom mechanical assembly; guard moving parts
+8,USB1,1,USB data cable compatible with Pico,Power from current-limited USB source

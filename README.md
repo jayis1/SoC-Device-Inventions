@@ -156,6 +156,7 @@ Every device here is designed with these principles:
 | 136 | [Tea Steep](tea-steep/) | RP2040 (Raspberry Pi Pico) | Offline tea-infusion color time-series logger with TCS34725 transmission sensing and a DS18B20 probe design; reference firmware supports color bring-up only, temperature adapter incomplete and hardware unverified |
 | 137 | [Fret Meter](fret-meter/) | RP2040 (Raspberry Pi Pico) | Offline guitar-fretboard string-clearance comparator using a spring-return potentiometer probe, filtered ADC readings, and USB CDC output (reference design; hardware unbuilt and uncalibrated) |
 | 139 | [Cooldown Clerk](cooldown-clerk/) | RP2040 (Raspberry Pi Pico) | Offline drink-cooling curve logger using a DS18B20 probe, run button, and USB CDC CSV (reference design; target build and hardware unverified) |
+| 140 | [Clay Ledger](clay-ledger/) | RP2040 (Raspberry Pi Pico) | Offline ceramic test-bar drying-shrinkage logger using a magnetic carriage position sensor, SHT31-D environment context, and USB CDC CSV (reference design; calibration and hardware unverified) |
 
 ## Structure
 

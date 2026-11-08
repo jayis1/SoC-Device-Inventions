@@ -1,0 +1,10 @@
+#ifndef CLAY_LEDGER_CONFIG_H
+#define CLAY_LEDGER_CONFIG_H
+#define I2C_PORT i2c0
+#define PIN_SDA 4
+#define PIN_SCL 5
+#define SENSOR_AS5600 0x36
+#define SENSOR_SHT31 0x44
+#define SAMPLE_INTERVAL_MS 1000
+#define PULLEY_CIRCUMFERENCE_MM 50.0f
+#endif
