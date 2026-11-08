@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.13)
+include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+project(crease_stop C CXX ASM)
+pico_sdk_init()
+add_library(crease_stop_core src/crease_stop.c)
+target_include_directories(crease_stop_core PUBLIC src)
+target_compile_options(crease_stop_core PRIVATE -Wall -Wextra -Werror)

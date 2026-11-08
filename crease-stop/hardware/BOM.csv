@@ -1,0 +1,7 @@
+Reference,BOM name,Quantity,Specification,Notes
+U1,Raspberry Pi Pico,1,RP2040 module with USB,Use official Pico pinout; not bare MCU
+R1,Linear potentiometer,1,10 kΩ linear taper,Mechanical travel matched to fixture
+R2,Series resistor,1,10 kΩ 1%,ADC input protection/filter
+C1,Filter capacitor,1,100 nF ceramic,ADC low-pass with R2
+SW1,Momentary pushbutton,1,Normally open,Panel-mounted press event input
+J1,USB cable,1,USB data capable,Power and USB CDC

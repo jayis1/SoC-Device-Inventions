@@ -157,6 +157,7 @@ Every device here is designed with these principles:
 | 137 | [Fret Meter](fret-meter/) | RP2040 (Raspberry Pi Pico) | Offline guitar-fretboard string-clearance comparator using a spring-return potentiometer probe, filtered ADC readings, and USB CDC output (reference design; hardware unbuilt and uncalibrated) |
 | 139 | [Cooldown Clerk](cooldown-clerk/) | RP2040 (Raspberry Pi Pico) | Offline drink-cooling curve logger using a DS18B20 probe, run button, and USB CDC CSV (reference design; target build and hardware unverified) |
 | 140 | [Clay Ledger](clay-ledger/) | RP2040 (Raspberry Pi Pico) | Offline ceramic test-bar drying-shrinkage logger using a magnetic carriage position sensor, SHT31-D environment context, and USB CDC CSV (reference design; calibration and hardware unverified) |
+| 141 | [Crease Stop](crease-stop/) | RP2040 (Raspberry Pi Pico) | USB-powered bookbinding registration aid that logs paper-stack fence position on each press stroke; portable C event core, hardware unverified |
 
 ## Structure
 
