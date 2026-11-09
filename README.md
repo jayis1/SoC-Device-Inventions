@@ -161,6 +161,7 @@ Every device here is designed with these principles:
 | 142 | [Hinge Cycle](hinge-cycle/) | RP2040 (Raspberry Pi Pico) | USB-powered comparative hinge-motion logger using an AS5600 magnetic angle sensor and offline event core; firmware core host-tested, target and hardware unverified |
 | 143 | [Burette Witness](burette-witness/) | RP2040 (Raspberry Pi Pico) | Offline manual burette titration observer aid using reflectance color sensing and USB CDC event records; endpoint remains observer-confirmed (reference design; hardware unverified) |
 | 144 | [Leaf Press](leaf-press/) | RP2040 (Raspberry Pi Pico) | Offline herbarium pressing workflow logger with specimen-code sessions, debounced manual events, and USB CDC JSONL records (portable firmware core; target adapter and hardware unverified) |
+| 145 | [Ink Witness](ink-witness/) | RP2040 (Raspberry Pi Pico) | Offline fountain-pen ink line-continuity comparison fixture using reflective optical crossings and USB event records (reference design; target and hardware unverified) |
 
 ## Structure
 

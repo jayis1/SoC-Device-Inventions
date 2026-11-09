@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(ink_witness_core C)
+set(CMAKE_C_STANDARD 11)
+add_executable(ink_witness_test ink_witness.c test_ink_witness.c)
+target_compile_options(ink_witness_test PRIVATE -Wall -Wextra -Werror)
+enable_testing()
+add_test(NAME core COMMAND ink_witness_test)

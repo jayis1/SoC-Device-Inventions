@@ -1,0 +1,4 @@
+Item,Qty,Description,Example part,Notes
+U1,1,Raspberry Pi Pico RP2040 module,Raspberry Pi Pico,USB and regulator onboard
+J2,1,Reflective sensor module,TCRT5000 breakout,3.3 V compatible digital output required
+SW1,1,Normally-open tactile pushbutton,6x6 mm tactile switch,GP15 to ground
