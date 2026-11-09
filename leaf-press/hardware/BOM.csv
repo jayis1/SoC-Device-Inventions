@@ -1,0 +1,5 @@
+Reference BOM; board revision and supplier availability must be confirmed by builder.
+Item,Qty,Part,Package,Notes
+U1,1,Raspberry Pi Pico with RP2040,Module,USB-powered board with onboard regulator; exact revision not fixed
+SW1-SW2,2,Normally-open momentary pushbutton,THT or panel,Connect input GPIO to GND
+R1-R2,2,100k resistor 0603 or THT,Optional,Only required if internal pull-ups are not enabled

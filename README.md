@@ -160,6 +160,7 @@ Every device here is designed with these principles:
 | 141 | [Crease Stop](crease-stop/) | RP2040 (Raspberry Pi Pico) | USB-powered bookbinding registration aid that logs paper-stack fence position on each press stroke; portable C event core, hardware unverified |
 | 142 | [Hinge Cycle](hinge-cycle/) | RP2040 (Raspberry Pi Pico) | USB-powered comparative hinge-motion logger using an AS5600 magnetic angle sensor and offline event core; firmware core host-tested, target and hardware unverified |
 | 143 | [Burette Witness](burette-witness/) | RP2040 (Raspberry Pi Pico) | Offline manual burette titration observer aid using reflectance color sensing and USB CDC event records; endpoint remains observer-confirmed (reference design; hardware unverified) |
+| 144 | [Leaf Press](leaf-press/) | RP2040 (Raspberry Pi Pico) | Offline herbarium pressing workflow logger with specimen-code sessions, debounced manual events, and USB CDC JSONL records (portable firmware core; target adapter and hardware unverified) |
 
 ## Structure
 
