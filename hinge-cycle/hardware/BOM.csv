@@ -1,0 +1,10 @@
+Item,Qty,Reference/specification,Footprint/package,Notes
+Raspberry Pi Pico board,1,RP2040 Pico board with USB connector,Board module,Use 3V3 GPIO; exact board revision varies
+AS5600 magnetic angle sensor breakout,1,AS5600 with 3.3 V I2C-compatible breakout,Module,Confirm onboard pull-ups connect to 3V3 not 5V
+Diametrically magnetized disk,1,6 mm nominal diameter x 2.5 mm,Magnet,Select grade/size per breakout air-gap guidance
+Momentary pushbutton,1,Normally-open tactile switch,Through-hole or panel mount,GP14 to GND
+LED,1,Generic indicator LED,3 mm through-hole,GP15 status
+Resistor,1,1 kOhm 1/4 W,Axial THT,LED current limit
+Resistor,2,4.7 kOhm 1/4 W,Axial THT,I2C pull-ups to 3V3 (omit if breakout already has appropriate pull-ups)
+Clip fixture,1,Nonconductive adjustable clip,Printed or fabricated,Mounts sensor and magnet to opposite hinge leaves
+USB cable,1,USB data cable appropriate for Pico connector,Off-board,Host power and USB CDC

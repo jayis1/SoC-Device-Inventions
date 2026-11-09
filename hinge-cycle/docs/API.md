@@ -1,0 +1,3 @@
+# Firmware API
+
+`hinge_cycle_reset()` clears direction/cycle state. `hinge_cycle_update(raw, &event)` consumes an absolute 12-bit angle code (0–4095), returns true only when measured direction reverses, and writes event cycle, raw angle, tenths of degrees, and direction. Inputs above 4095 and null outputs are rejected. Jitter up to 8 counts per sample is ignored for direction decisions. This simple core does not unwrap the 0/4095 boundary, filter a long stationary noisy signal, or define cycle completion; callers must calibrate/unwrap and should treat its event stream as a prototype. At a full-wrap crossing it can report a false reversal.
