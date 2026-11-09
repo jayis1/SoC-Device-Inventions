@@ -159,6 +159,7 @@ Every device here is designed with these principles:
 | 140 | [Clay Ledger](clay-ledger/) | RP2040 (Raspberry Pi Pico) | Offline ceramic test-bar drying-shrinkage logger using a magnetic carriage position sensor, SHT31-D environment context, and USB CDC CSV (reference design; calibration and hardware unverified) |
 | 141 | [Crease Stop](crease-stop/) | RP2040 (Raspberry Pi Pico) | USB-powered bookbinding registration aid that logs paper-stack fence position on each press stroke; portable C event core, hardware unverified |
 | 142 | [Hinge Cycle](hinge-cycle/) | RP2040 (Raspberry Pi Pico) | USB-powered comparative hinge-motion logger using an AS5600 magnetic angle sensor and offline event core; firmware core host-tested, target and hardware unverified |
+| 143 | [Burette Witness](burette-witness/) | RP2040 (Raspberry Pi Pico) | Offline manual burette titration observer aid using reflectance color sensing and USB CDC event records; endpoint remains observer-confirmed (reference design; hardware unverified) |
 
 ## Structure
 

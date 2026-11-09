@@ -1,0 +1,7 @@
+Ref,Qty,Description,Example part/package,Notes
+U1,1,Raspberry Pi Pico,RP2040 module; 2.54 mm headers,Official Pico board; USB powered; not bare MCU design
+U2,1,RGBC sensor breakout,TCS34725 module; 2.54 mm header,Must support 3.3 V VIN and I2C pullups to 3.3 V; verify module before use
+R1-R2,2,I2C pull-ups,4.7 kOhm 0603,Optional only if breakout does not include pull-ups
+C1,1,Bypass capacitor,100 nF X7R 0603,Optional if sensor breakout has local decoupling
+J1-J2,2,Header,1x4 2.54 mm,Sensor and Pico interconnect
+HOOD,1,Opaque sensor shroud,Black nonconductive material,User fabricated; geometry and ambient light affect readings
