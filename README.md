@@ -162,7 +162,7 @@ Every device here is designed with these principles:
 | 143 | [Burette Witness](burette-witness/) | RP2040 (Raspberry Pi Pico) | Offline manual burette titration observer aid using reflectance color sensing and USB CDC event records; endpoint remains observer-confirmed (reference design; hardware unverified) |
 | 144 | [Leaf Press](leaf-press/) | RP2040 (Raspberry Pi Pico) | Offline herbarium pressing workflow logger with specimen-code sessions, debounced manual events, and USB CDC JSONL records (portable firmware core; target adapter and hardware unverified) |
 | 145 | [Ink Witness](ink-witness/) | RP2040 (Raspberry Pi Pico) | Offline fountain-pen ink line-continuity comparison fixture using reflective optical crossings and USB event records (reference design; target and hardware unverified) |
-| 146 | [Rain Scribe](rain-scribe/) | RP2040 (Raspberry Pi Pico) | Offline rain-garden infiltration logger using a five-level magnetic float/reed ladder and USB CDC JSONL event records (reference design; not fabricated) |
+| 146 | [Rain Scribe](rain-scribe/) | RP2040 (Raspberry Pi Pico) | Offline rain-garden infiltration logger using a five-level magnetic float/reed ladder and USB CDC JSONL event records (reference design; target and hardware unverified) |
 | 147 | [Patch Card](patch-card/) | RP2040 (Raspberry Pi Pico) | Comparative quilting seam/stitch checker concept using an encoder wheel and paired reflective stitch gates; measurement core host-tested, target firmware and hardware unverified |
 
 ## Structure
