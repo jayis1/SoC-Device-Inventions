@@ -1,0 +1,7 @@
+ref,qty,description,manufacturer_part_number,notes
+U1,1,Raspberry Pi Pico module,Raspberry Pi SC0915,Use genuine 3.3 V GPIO board with onboard USB/regulator
+S1-S5,5,Normally-open reed switch,Standex-Meder MK04-1A66B-500W,Mount externally at equal measured intervals; verify glass switch suitability
+S6,1,Momentary normally-open pushbutton,Omron B3F-1000,Button connects GP15 to GND
+F1,1,Small buoyant float with enclosed magnet,Generic,Magnet must actuate switches through standpipe wall; prototype part selection
+J1,1,USB cable for Pico,USB micro-B cable,Power/programming/CDC
+J2,1,Standpipe and mounting bracket,Generic transparent tube,Not electronic BOM; dimensions depend on application
