@@ -1,0 +1,9 @@
+Ref,Qty,Part,Notes
+U1,1,Raspberry Pi Pico (RP2040),USB-powered module
+U2,1,AS5600L breakout,3.3 V I2C; addr 0x36
+S1-S2,2,TCRT5000 reflective sensor module,Must accept 3.3 V and output 3.3 V logic
+D1-D2,2,3 mm LED,Status
+R1-R2,2,330 ohm resistor,LED limit
+R3-R4,2,4.7 kohm resistor,I2C pull-ups to 3V3 (omit if already fitted)
+C1-C3,3,100 nF ceramic,Local bypass; one per module
+M1,1,6 mm diametric magnet,Wheel hub target
