@@ -164,6 +164,7 @@ Every device here is designed with these principles:
 | 145 | [Ink Witness](ink-witness/) | RP2040 (Raspberry Pi Pico) | Offline fountain-pen ink line-continuity comparison fixture using reflective optical crossings and USB event records (reference design; target and hardware unverified) |
 | 146 | [Rain Scribe](rain-scribe/) | RP2040 (Raspberry Pi Pico) | Offline rain-garden infiltration logger using a five-level magnetic float/reed ladder and USB CDC JSONL event records (reference design; target and hardware unverified) |
 | 147 | [Patch Card](patch-card/) | RP2040 (Raspberry Pi Pico) | Comparative quilting seam/stitch checker concept using an encoder wheel and paired reflective stitch gates; measurement core host-tested, target firmware and hardware unverified |
+| 148 | [Shade Scout](shade-scout/) | RP2040 (Raspberry Pi Pico) | USB-powered blind-slat daylight comparison fixture combining TSL2591 lux and AS5600 angle sensing; target sensor drivers and hardware unverified |
 
 ## Structure
 

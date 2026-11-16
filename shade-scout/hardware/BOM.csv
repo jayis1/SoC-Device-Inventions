@@ -1,0 +1,6 @@
+Ref,Qty,Part,Notes
+U1,1,Raspberry Pi Pico,RP2040 USB development board
+U2,1,TSL2591 breakout,3.3 V I2C carrier
+U3,1,AS5600 breakout,3.3 V I2C carrier
+R1-R2,2,4.7 kOhm resistor,Optional shared I2C pull-ups; fit only if carriers lack pull-ups
+J1,1,USB cable,USB data and power to Pico
