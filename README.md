@@ -166,6 +166,8 @@ Every device here is designed with these principles:
 | 147 | [Patch Card](patch-card/) | RP2040 (Raspberry Pi Pico) | Comparative quilting seam/stitch checker concept using an encoder wheel and paired reflective stitch gates; measurement core host-tested, target firmware and hardware unverified |
 | 148 | [Shade Scout](shade-scout/) | RP2040 (Raspberry Pi Pico) | USB-powered blind-slat daylight comparison fixture combining TSL2591 lux and AS5600 angle sensing; target sensor drivers and hardware unverified |
 
+| 149 | [Hinge Witness](hinge-witness/) | RP2040 (Raspberry Pi Pico) | USB-powered comparative cabinet-door hinge alignment logger using an AS5600 magnetic angle sensor and paired manual captures; reference design, target build and calibration unverified |
+
 ## Structure
 
 Each device lives in its own subfolder:

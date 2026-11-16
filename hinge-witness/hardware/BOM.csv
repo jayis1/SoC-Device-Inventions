@@ -1,0 +1,9 @@
+Ref,Qty,Part,Package/format,Notes
+U1,1,Raspberry Pi Pico SC0915,module,RP2040; USB-powered
+U2,1,AS5600 I2C magnetic angle sensor breakout,module,Must be 3.3 V logic compatible
+SW1,1,Normally-open momentary pushbutton,through-hole,GP14 capture input
+D1,1,Green LED,through-hole,Status indicator
+R1,1,1 kOhm resistor,axial or 0603,LED current limiting
+R2-R3,2,4.7 kOhm resistors,axial or 0603,I2C pull-ups if breakout lacks them
+C1,1,100 nF ceramic capacitor,0603 or radial,Sensor decoupling
+J1,1,USB cable,USB,Power and CDC data
