@@ -167,6 +167,7 @@ Every device here is designed with these principles:
 | 148 | [Shade Scout](shade-scout/) | RP2040 (Raspberry Pi Pico) | USB-powered blind-slat daylight comparison fixture combining TSL2591 lux and AS5600 angle sensing; target sensor drivers and hardware unverified |
 
 | 149 | [Hinge Witness](hinge-witness/) | RP2040 (Raspberry Pi Pico) | USB-powered comparative cabinet-door hinge alignment logger using an AS5600 magnetic angle sensor and paired manual captures; reference design, target build and calibration unverified |
+| 150 | [Mate Trace](mate-trace/) | RP2040 (Raspberry Pi Pico) | USB-powered connector mating-force comparison fixture using a 20 N load cell and HX711; offline raw-peak capture core, target adapter and calibration unverified |
 
 ## Structure
 

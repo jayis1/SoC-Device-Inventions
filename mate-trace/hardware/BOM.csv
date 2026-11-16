@@ -1,0 +1,10 @@
+ref,qty,part,notes
+U1,1,"Raspberry Pi Pico SC0915",RP2040 USB board
+U2,1,"HX711 breakout 3.3V logic compatible",Verify breakout voltage and pin labels
+L1,1,"20 N strain gauge load cell",Bridge wiring per exact load-cell datasheet
+SW1,1,"Normally-open momentary pushbutton",Capture control to GND
+D1,1,"Green LED",Status indicator
+R1,1,"1 kohm resistor",LED series resistor
+C1,1,"100 nF ceramic capacitor",Local HX711 decoupling
+J1,1,"USB data cable",Pico power and CDC
+M1,1,"Manual slide fixture and clamps",Axial alignment and load-rated travel stop
