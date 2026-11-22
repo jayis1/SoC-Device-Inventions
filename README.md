@@ -168,6 +168,7 @@ Every device here is designed with these principles:
 
 | 149 | [Hinge Witness](hinge-witness/) | RP2040 (Raspberry Pi Pico) | USB-powered comparative cabinet-door hinge alignment logger using an AS5600 magnetic angle sensor and paired manual captures; reference design, target build and calibration unverified |
 | 150 | [Mate Trace](mate-trace/) | RP2040 (Raspberry Pi Pico) | USB-powered connector mating-force comparison fixture using a 20 N load cell and HX711; offline raw-peak capture core, target adapter and calibration unverified |
+| 151 | [Clock Rate Witness](clock-rate-witness/) | RP2040 (Raspberry Pi Pico) | Non-contact optical logger for comparative mechanical/quartz clock hand-rate intervals and drift; USB CDC raw timing export (reference design; target firmware and hardware unverified) |
 
 ## Structure
 

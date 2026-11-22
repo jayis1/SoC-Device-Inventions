@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(clock_rate_witness_core C)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+add_library(clock_rate src/clock_rate.c)
+target_include_directories(clock_rate PUBLIC include)
+target_compile_options(clock_rate PRIVATE -Wall -Wextra -Werror)

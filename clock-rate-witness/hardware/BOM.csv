@@ -1,0 +1,7 @@
+Ref | Qty | Part | Details
+U1 | 1 | Raspberry Pi Pico SC0915 | RP2040 module, onboard USB/regulator
+U2 | 1 | Vishay QRE1113GR | Reflective sensor; choose documented analog breakout
+R1 | 1 | 10 kΩ potentiometer | Breakout gain/threshold adjustment if not integrated
+C1 | 1 | 100 nF ceramic | Sensor bypass capacitor
+SW1 | 1 | Momentary normally-open pushbutton | Run-to-ground
+J1 | 1 | USB micro-B cable | Power and USB CDC
