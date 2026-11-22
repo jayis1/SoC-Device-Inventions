@@ -1,0 +1,6 @@
+Reference,Description,Manufacturer part / specification,Qty,Package,Notes
+J1,Raspberry Pi Pico RP2040 module,Raspberry Pi Pico SC0915,1,module,USB-powered; GP2 and GP25 available
+J2,Reflective sensor module,TCRT5000 module rated for 3.3 V logic,1,module,Verify open-collector output; exact module varies
+R1,Pull-up resistor,10 kOhm 1%,1,0603 or through-hole,3.3 V to SENSOR_N
+C1,Bypass capacitor,100 nF X7R 10%,1,0603,Only needed if module lacks local bypass
+M1,Reflective marker,Matte white removable label,1,10 x 10 mm,Place one marker on platter edge
