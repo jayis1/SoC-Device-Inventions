@@ -1,0 +1,8 @@
+Ref,Qty,Description,Manufacturer / MPN,Package / rating
+U1,1,Raspberry Pi Pico, Raspberry Pi, Pico module
+J1,1,2-pin sensor connector,Generic,2.54 mm header
+R1,1,1 kohm resistor,Generic,0603 or through-hole 1/8 W
+C1,1,100 nF ceramic capacitor,Generic,0603 X7R 10 V
+SW1-SW2,2,Momentary normally-open pushbutton,Generic,through-hole; logic-level
+S1,1,Normally-open reed switch,Generic,glass capsule; dry contact
+USB1,1,USB cable,Generic,USB data-capable cable
