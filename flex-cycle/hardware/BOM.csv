@@ -1,0 +1,10 @@
+Reference BOM; quantities per one prototype. Substitutions require matching electrical characteristics.
+Reference,Qty,Description,Part / specification,Package / footprint
+U1,1,Open-collector Hall switch,A3144E-compatible (verify vendor datasheet),TO-92
+R1,1,Pull-up resistor,10 kΩ 1%,0603 or through-hole
+C1,1,Input filter capacitor,100 nF X7R 16 V,0603
+C2,1,Sensor bypass capacitor,100 nF X7R 16 V,0603
+J1,1,Controller, Raspberry Pi Pico / RP2040 module,Module
+J2,1,3-pin sensor connector,2.54 mm keyed header and housing,Through-hole
+SW1-SW2,2,Momentary normally-open buttons,3.3 V logic compatible,Through-hole
+M1,1,Fixture marker magnet,Small permanent magnet; secure mechanically,User supplied

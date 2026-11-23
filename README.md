@@ -170,6 +170,7 @@ Every device here is designed with these principles:
 | 150 | [Mate Trace](mate-trace/) | RP2040 (Raspberry Pi Pico) | USB-powered connector mating-force comparison fixture using a 20 N load cell and HX711; offline raw-peak capture core, target adapter and calibration unverified |
 | 151 | [Clock Rate Witness](clock-rate-witness/) | RP2040 (Raspberry Pi Pico) | Non-contact optical logger for comparative mechanical/quartz clock hand-rate intervals and drift; USB CDC raw timing export (reference design; target firmware and hardware unverified) |
 | 152 | [Platter Meter](platter-meter/) | RP2040 (Raspberry Pi Pico) | Offline optical turntable speed and revolution-interval stability comparator with USB CDC JSONL output (reference design; target build and hardware unverified) |
+| 153 | [Flex Cycle](flex-cycle/) | RP2040 (Raspberry Pi Pico) | Offline magnetic cycle counter for comparative cable-flex endurance fixtures with USB CDC JSONL output (reference design; target build and hardware unverified) |
 
 ## Structure
 

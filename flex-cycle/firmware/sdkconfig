@@ -1,0 +1,2 @@
+# Pin assignments for Pico SDK 2.1.1
+PICO_BOARD=pico
