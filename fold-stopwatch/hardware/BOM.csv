@@ -1,0 +1,8 @@
+Ref,Qty,Part,Package,Notes
+U1,1,Raspberry Pi Pico SC0915,module,RP2040 board with USB and regulator
+Q1-Q2,2,Vishay TCST2103,through-hole slot sensor,Verify pin order and LED current from datasheet
+R1-R2,2,10 kOhm,through-hole,Phototransistor output pull-up to 3V3
+R3-R4,2,220 Ohm,through-hole,Starting value for IR emitter current limiting; calculate from supply and LED Vf/current spec
+C1-C2,2,100 nF ceramic,through-hole or 0603,Local sensor decoupling
+J2-J3,2,3-pin header,2.54 mm,3V3 OUT GND; verify connector orientation
+J1,1,USB cable,USB,Power and CDC
