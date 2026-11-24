@@ -196,3 +196,4 @@ MIT — build it, sell it, improve it.
 
 | 154 | [Reed Ranger](reed-ranger/) | RP2040 (Raspberry Pi Pico) | USB CDC dry-contact logger records reed-switch closure duration and cycle intervals for comparative manual mechanism testing (reference design; not fabricated or target-built) |
 | 155 | [Selvage Scout](selvage-scout/) | RP2040 (Raspberry Pi Pico) | Offline textile-edge shedding comparison aid using a reflective sensor, passive comb, and USB CDC event records (reference design; not fabricated or target-built) |
+| 156 | [Sky Glow](sky-glow/) | RP2040 (Raspberry Pi Pico) | Portable night-sky brightness comparison logger using a TSL2591 light sensor and USB CDC raw-count records (schematic-stage reference; not calibrated or physically tested) |

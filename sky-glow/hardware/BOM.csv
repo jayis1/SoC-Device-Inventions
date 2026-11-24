@@ -1,0 +1,7 @@
+Ref,Qty,Part,Specification,Package,Notes
+J1,1,Raspberry Pi Pico,RP2040 USB board,40-pin 2.54mm headers,USB powered
+J2,1,TSL2591 breakout,Ambient light sensor I2C 0x29,breakout,3.3V logic only
+J3,1,SSD1306 OLED breakout,128x64 I2C 0x3C,breakout,Optional; not firmware-enabled
+R1 R2,2,Resistor,4.7k 1%,0805,Optional pullups
+C1 C2,2,Capacitor,100nF X7R 10V,0805,Optional bypass
+M1,1,Matte-black baffle tube,approximate 20-degree field,mechanical,Not calibrated
