@@ -1,0 +1,2 @@
+# No ESP-IDF SDK configuration: this project targets RP2040/Pico SDK.
+# This file is an informational marker only; firmware is currently host-core only.

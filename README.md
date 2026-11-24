@@ -195,3 +195,4 @@ MIT — build it, sell it, improve it.
 *Invented and maintained by [jayis1](https://github.com/jayis1). New device every 24h.*
 
 | 154 | [Reed Ranger](reed-ranger/) | RP2040 (Raspberry Pi Pico) | USB CDC dry-contact logger records reed-switch closure duration and cycle intervals for comparative manual mechanism testing (reference design; not fabricated or target-built) |
+| 155 | [Selvage Scout](selvage-scout/) | RP2040 (Raspberry Pi Pico) | Offline textile-edge shedding comparison aid using a reflective sensor, passive comb, and USB CDC event records (reference design; not fabricated or target-built) |

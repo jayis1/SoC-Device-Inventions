@@ -1,0 +1,6 @@
+Ref,Qty,Description,Manufacturer part,Package/footprint,Notes
+U1,1,Raspberry Pi Pico RP2040 module,Raspberry Pi SC0915,Module,USB powered 3V3 GPIO
+J2,1,TCRT5000 reflective sensor module,Generic TCRT5000 analog module,Through-hole module,Must run at 3.3 V and output <=3.3 V; verify variant
+R1,1,Series resistor 1 kOhm,Yageo CFR-25JB-1K0,Axial THT,Input protection
+C1,1,Ceramic capacitor 100 nF, Murata GRM188R71H104KA93D,0603,Input filter
+SW1-SW2,2,Momentary normally-open pushbutton,Omron B3F-1000,THT,Button to GND
