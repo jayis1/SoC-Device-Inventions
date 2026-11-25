@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(fuse_scout_core C)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+add_library(fuse_scout_core STATIC src/fuse_scout.c)
+target_compile_options(fuse_scout_core PRIVATE -Wall -Wextra -Werror -pedantic)

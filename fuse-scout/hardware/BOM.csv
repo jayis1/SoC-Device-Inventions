@@ -1,0 +1,10 @@
+reference,designator,qty,description,manufacturer_part,notes
+U1,U1,1,Raspberry Pi Pico RP2040 board,Raspberry Pi Pico,USB-powered; headers optional
+Q1,Q1,1,NPN transistor,2N3904,TO-92; verify pinout for selected manufacturer
+R1,RTEST,1,47 ohm 1% resistor 0.25 W,Generic axial,Current-limiting stimulus resistor
+R2,RBASE,1,10 kohm resistor,Generic axial,GPIO2 base resistor
+R3,RPD,1,100 kohm resistor,Generic axial,Base-emitter pulldown
+R4-R5,RDIV,2,100 kohm 1% resistors,Generic axial,ADC divider; keep divider at 3.3 V domain
+C1,CADC,1,100 nF ceramic capacitor,Generic 0603,ADC input filter
+J1,JTEST,1,Insulated test clip pair,Generic,Red clip driven through RTEST; black switched to ground
+U2,OLED,1,Optional SSD1306 128x32 I2C display,Generic module,3.3 V-compatible I2C only; address 0x3C

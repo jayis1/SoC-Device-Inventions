@@ -194,6 +194,10 @@ MIT — build it, sell it, improve it.
 
 *Invented and maintained by [jayis1](https://github.com/jayis1). New device every 24h.*
 
+| # | Device | SoC | Description |
+|---|--------|-----|-------------|
+| 159 | [Fuse Scout](fuse-scout/) | RP2040 (Raspberry Pi Pico) | USB-powered, current-limited, offline fuse continuity screener with low-voltage stimulus and USB CDC status core (reference design; no target integration or physical validation) |
+
 | 154 | [Reed Ranger](reed-ranger/) | RP2040 (Raspberry Pi Pico) | USB CDC dry-contact logger records reed-switch closure duration and cycle intervals for comparative manual mechanism testing (reference design; not fabricated or target-built) |
 | 155 | [Selvage Scout](selvage-scout/) | RP2040 (Raspberry Pi Pico) | Offline textile-edge shedding comparison aid using a reflective sensor, passive comb, and USB CDC event records (reference design; not fabricated or target-built) |
 | 156 | [Sky Glow](sky-glow/) | RP2040 (Raspberry Pi Pico) | Portable night-sky brightness comparison logger using a TSL2591 light sensor and USB CDC raw-count records (schematic-stage reference; not calibrated or physically tested) |
