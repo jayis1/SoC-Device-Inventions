@@ -1,0 +1,8 @@
+Ref,Qty,Component,Example / specification,Notes
+U1,1,Raspberry Pi Pico,SC0915 (RP2040 module),USB powered; 3.3 V GPIO
+U2,1,MAX31855K thermocouple-to-digital converter,MAX31855KASA+ or breakout carrying this variant,Type-K; verify breakout voltage/pinout
+J1,1,USB cable,USB data + 5 V supply,host connection
+J2,1,Type-K miniature thermocouple connector,Type-K polarity keyed connector,Match probe and extension alloy
+P1,1,Type-K grounded or isolated-bead probe,Use electrically isolated tip for heater measurements,temperature range per probe datasheet
+R1,1,10 kOhm resistor,1 percent,CS pull-up to 3V3
+C1,1,100 nF ceramic capacitor,X7R 10 percent,local U2 decoupling
