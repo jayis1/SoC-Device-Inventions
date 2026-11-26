@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(contact_cycle_core C)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+add_library(contact_cycle STATIC src/contact_cycle.c)
+target_include_directories(contact_cycle PUBLIC src)
+target_compile_options(contact_cycle PRIVATE -Wall -Wextra -Werror -pedantic)

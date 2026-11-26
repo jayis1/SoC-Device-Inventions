@@ -1,0 +1,10 @@
+Reference,Item,Description,Qty,Footprint/Package,Notes
+U1,Raspberry Pi Pico,RP2040 module,1,2x20 2.54mm headers,Use module USB regulator
+J1,Generic 2-pin terminal block,5.08mm pitch,1,through-hole,Passive dry contact only
+R1,Yageo RC0603FR-0710KL,10 kOhm pull-up,1,0603,3V3 to input node
+R2,Yageo RC0603FR-071KL,1 kOhm series,1,0603,Input series element
+R3,Yageo RC0603FR-071KL,1 kOhm LED resistor,1,0603,GP14 output
+C1,Murata GRM188R71H104KA93D,100 nF ceramic,1,0603,Input filter to GND
+D1-D2,Nexperia BAT54,Schottky clamp pair,2,SOT-23,Check pin mapping before layout
+D3,Generic red LED,Status indicator,1,0603,Low-current type
+SW1,Generic tactile switch,Capture control,1,through-hole,Normally open
