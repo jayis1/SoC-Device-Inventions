@@ -172,6 +172,8 @@ Every device here is designed with these principles:
 | 152 | [Platter Meter](platter-meter/) | RP2040 (Raspberry Pi Pico) | Offline optical turntable speed and revolution-interval stability comparator with USB CDC JSONL output (reference design; target build and hardware unverified) |
 | 153 | [Flex Cycle](flex-cycle/) | RP2040 (Raspberry Pi Pico) | Offline magnetic cycle counter for comparative cable-flex endurance fixtures with USB CDC JSONL output (reference design; target build and hardware unverified) |
 
+| 161 | [Twist Index](twist-index/) | RP2040 (Raspberry Pi Pico) | Offline comparative yarn-twist counter using an optical spindle gate and manually measured specimen length, with USB CDC turns-per-kilometre records (reference design; target build and hardware unverified) |
+
 ## Structure
 
 Each device lives in its own subfolder:
